@@ -1,0 +1,725 @@
+---
+title: 'Federal Elections 2015: List Apparentments'
+subtitle: 'Preprocessing and analysis'
+author: "SRF Data, Timo Grossenbacher (timo.grossenbacher@srf.ch)" 
+date: "05/21/2015"
+output: html_document
+---
+
+## Notes
+
+This document illustrates the preprocessing of the dataset visualized in this [article on srf.ch](http://www.srf.ch/news/wahlen-15/wahlkampf/von-listenglueck-und-proporzpech).
+
+SRF Data attaches great importance to transparent and reproducible data preprocessing and -analysis. SRF Data believes in the principles of open data but also open and reproducible methods. Third parties should be empowered to build on the work of SRF Data and to generate new analyses and applications. 
+
+### R-Script & processed data
+
+The preprocessing and analysis of the data was conducted in the [R project for statistical computing](https://www.r-project.org/). The RMarkdown script used to generate this document and all the resulting data can be downloaded [under this link](http://srfdata.github.io/2015-06-elections-list-apparentments/rscript.zip). Through executing `main.Rmd`, the herein described process can be reproduced and this document can be generated. In the course of this, data from the folder `ìnput` will be processed and results will be written to `output`. 
+
+### GitHub
+
+The code for the herein described process can also be freely downloaded from [https://github.com/srfdata/2015-06-elections-list-apparentments](https://github.com/srfdata/2015-06-elections-list-apparentments). Criticism in the form of GitHub issues and pull requests are very welcome! 
+
+### License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">2015-06-elections-list-apparentments</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/srfdata/2015-06-elections-list-apparentments" property="cc:attributionName" rel="cc:attributionURL">SRF Data</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+### Exclusion of liability
+
+The published information has been collated carefully, but no guarantee is offered of its completeness, correctness or up-to-date nature. No liability is accepted for damage or loss incurred from the use of this script or the information drawn from it. This exclusion of liability also applies to third-party content that is accessible via this offer.
+
+### Other projects
+
+All code & data from [SRF Data](http://srf.ch/data) is available under [http://srfdata.github.io](http://srfdata.github.io).
+
+## Data description
+
+### Original data source
+
+* `input/lv9511n.csv` - Effects of list apparentments on the cantonal level, 1995-2011. Data source: [Daniel Bochsler, NCCR Democracy](http://www.bochsler.eu/index_de.html).
+* `input/nrwresultate_sim9511.xls` - Effects of list apparentments on the national level, 1995-2011. Data source: [Daniel Bochsler, NCCR Democracy](http://www.bochsler.eu/index_de.html).
+* `input/stimmen_der_wahllisten_nach_parteien_und_kantonen_clean.xls` - Party strengths and list definitions on the cantonal level, 2011. Data source: [BFS](http://www.bfs.admin.ch/bfs/portal/de/index/themen/17/02/blank/data/05/02.Document.149839.xls). The formatting was removed manually in order to make reading the data into R easier.
+* `input/listenverbindungen_bfs_others_unedited.csv` - intermediary file that was used because data needed to be corrected manually, not relevant.
+* `input/listenverbindungen_bfs_others_edited.csv` - intermediary file that was used because data needed to be corrected manually, not relevant. If you need to know what manual corrections were made, look at the diff between `*_unedited.csv` and `*_edited.csv`. 
+
+### Description of output
+
+The following sections describe the results of the data preprocessing as stored in the `output` folder. 
+
+#### `output/parties.csv`
+
+Contains party classifications made by SRF Data with the help of political scientists, used throughout all projects related to elections.
+
+| Attribute | Type | Description | 
+|-------|------|---------|
+| ID | Integer  | Unique identifier  |
+|  Abbr_*  |  String |  Abbreviation in German (D), French (F), English (E), Romansh (R), Italian (I), respectively  |
+|  Legend_*  |  String |  Abbreviation, but with slightly more information, used for frontend purposes  |
+|  Name_*  |  String |  Full name  |
+|  Sortorder  |  Integer | Used for frontend purposes solely |
+|  OLD_ID  |  String | "Official" ID as given in `input/parteienstaerke_mod_2.xlsx` (sheet "Parteien"), used for combining party strengths for party groupings  |
+
+#### `output/lv_2011.csv`
+
+Contains effects of list apparentments on the cantonal level, 2011, as derived from `input/lv9511n.csv`, with the help of `input/stimmen_der_wahllisten_nach_parteien_und_kantonen_clean.xls`. 
+
+| Attribute | Type | Description | 
+|-------|------|---------|
+| year | Integer  | Election year   |
+|  canton |  String |   Official cantonal abbreviation  |
+|    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
+|    party_id  |    Integer |  Party or party grouping, referencing ID in `output/parties.csv`  |
+|    party_strength  |    Double |    Party strength in percent  |
+|    seats_with  |    String |     Actual, resulting seats  |
+|    seat_difference  |    String |     `seats_with` - `seats_without` |
+|    seats_without  |    String |     Seats that would have resulted without the possibility of list apparentments  |
+|    list_id  |    String |     The cantonal list the party was on in 2011 |
+
+#### `output/lv_2011_national.csv`
+
+Contains effects of list apparentments on the national level, 2011, as derived from `input/nrwresultate_sim9511.xls`.
+
+| Attribute | Type | Description | 
+|-------|------|---------|
+| year | Integer  | Election year   |
+|    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
+|    party_id  |    Integer |  Party or party grouping, referencing ID in `output/parties.csv`  |
+|    party_strength  |    Double |    Party strength in percent  |
+|    seats_with  |    String |     Actual, resulting seats  |
+|    seats_without  |    String |     Seats that would have resulted without the possibility of list apparentments  |
+|    seat_difference  |    String |     `seats_with` - `seats_without` |
+
+#### `output/lv_historical.csv`
+
+Contains effects of list apparentments on the cantonal level, 1995 - 2007, as derived from `input/lv9511n.csv`.
+
+| Attribute | Type | Description | 
+|-------|------|---------|
+| year | Integer  | Election year   |
+|  canton |  String |   Official cantonal abbreviation  |
+|    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
+|    party_id  |    Integer |  Party or party grouping, referencing ID in `output/parties.csv`  |
+|    party_strength  |    Double |    Party strength in percent  |
+|    seats_with  |    String |     Actual, resulting seats  |
+|    seat_difference  |    String |     `seats_with` - `seats_without` |
+|    seats_without  |    String |     Seats that would have resulted without the possibility of list apparentments  |
+
+#### `output/lv_historical_national.csv`
+
+Contains effects of list apparentments on the national level, 1995 - 2007, as derived from `input/nrwresultate_sim9511.xls`.
+
+
+| Attribute | Type | Description | 
+|-------|------|---------|
+| year | Integer  | Election year   |
+|    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
+|    party_id  |    Integer |  Party or party grouping, referencing ID in `output/parties.csv`  |
+|    party_strength  |    Double |    Party strength in percent  |
+|    seats_with  |    String |     Actual, resulting seats  |
+|    seat_difference  |    String |     `seats_with` - `seats_without` |
+|    seats_without  |    String |     Seats that would have resulted without the possibility of list apparentments  |
+
+
+## Preparations
+
+### Install packages
+
+```{r, echo=FALSE}
+if(!require(readxl)) {
+  devtools::install_github("hadley/readxl")
+  require(readxl)
+}
+
+if(!require(dplyr)) {
+  install.packages("dplyr", repos="http://cran.us.r-project.org")
+  require(dplyr)
+}
+if(!require(tidyr)) {
+  install.packages("tidyr", repos="http://cran.us.r-project.org")
+  require(tidyr)
+}
+if(!require(ggplot2)) {
+  install.packages("ggplot2", repos="http://cran.us.r-project.org")
+  require(ggplot2)
+}
+if(!require(magrittr)) {
+  install.packages("magrittr", repos="http://cran.us.r-project.org")
+  require(magrittr)
+}
+```
+
+## Preprocessing
+
+### Basic data loading
+
+*The following comments are unfortunately in German*
+
+```{r}
+# 1 Listenverbindungen in den Nationalratswahlen in den Jahren 1995-2011, nach Kantonen und Parteien
+
+listenverbindungen_kantonal <- read.csv2(file = "input/lv9511n.csv", sep = ",", stringsAsFactors = F)
+# Es gibt zwei Fehler in den kantonalen Daten, gleich hier beheben
+listenverbindungen_kantonal[listenverbindungen_kantonal$party == "glp" & listenverbindungen_kantonal$year == 2011 & listenverbindungen_kantonal$kt == "TG",]$ap_s <- 1
+listenverbindungen_kantonal[listenverbindungen_kantonal$party == "fdp" & listenverbindungen_kantonal$year == 2011 & listenverbindungen_kantonal$kt == "TG",]$ap_s <- -1
+
+listenverbindungen_kantonal %<>% 
+  mutate(vote = as.double(vote))
+
+listenverbindungen_national <- read_excel(path = "input/nrwresultate_sim9511.xls")[1:140,]
+
+# Es gibt zwei Fehler in den nationalen Daten, gleich hier beheben
+listenverbindungen_national[listenverbindungen_national$year == 2011 & listenverbindungen_national$party == "GLP",]$ap_s <- 5
+listenverbindungen_national[listenverbindungen_national$year == 2011 & listenverbindungen_national$party == "GLP",]$s_noap <- 7
+listenverbindungen_national[listenverbindungen_national$year == 2011 & listenverbindungen_national$party == "FDP",]$ap_s <- -1
+listenverbindungen_national[listenverbindungen_national$year == 2011 & listenverbindungen_national$party == "FDP",]$s_noap <- 30
+
+# doublecheck
+listenverbindungen_kantonal %>% group_by(id_kt) %>% 
+  summarize(total_seats = sum(abs(ap_s))) %>% arrange(desc(total_seats))
+
+# check that sum is always 100
+rundungsfehler <- listenverbindungen_kantonal %>% 
+  group_by(year, kt) %>% 
+  summarize(total_vote = sum(vote)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_vote))
+# mostly ok
+
+```
+
+### Copy party data to output
+
+```{r}
+parties <- read.csv("input/parties.csv") # same here
+write.csv(parties, file = "output/parties.csv", row.names = F, na = "")
+```
+
+
+### 2011: Cantonal
+
+```{r}
+
+# neuer Approach: Daten aus BFS-Listen-Datensatz
+# Datensatz einlesen
+listenverbindungen_bfs <- read_excel(path = "input/stimmen_der_wahllisten_nach_parteien_und_kantonen_clean.xls", col_types = c("numeric", "text", "numeric", "text", "text", "text", "text", "text", "numeric"))[1:384,]
+
+# plausbilitätschecks
+rundungsfehler <- listenverbindungen_bfs %>% 
+  group_by(year, canton) %>% 
+  summarize(total_vote = sum(party_strength)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_vote))
+# always ok
+
+# party -> kleinschreiben und als faktor
+listenverbindungen_bfs %<>% 
+  mutate(party = as.factor(tolower(party)))
+
+# welche parties gibt es?
+unique(listenverbindungen_bfs$party)
+length(unique(listenverbindungen_bfs$party))
+
+
+# Datensatz in party == "Übrige" und restliche aufspalten
+listenverbindungen_bfs_parties <- as.data.frame(split(listenverbindungen_bfs, listenverbindungen_bfs$party == "übrige")[1]$`FALSE`)
+listenverbindungen_bfs_others <- as.data.frame(split(listenverbindungen_bfs, listenverbindungen_bfs$party == "übrige")[2]$`TRUE`)
+
+# Für parties: Summation der party_strength gruppiert nach partei
+listenverbindungen_bfs_parties_summed <- listenverbindungen_bfs_parties %>%
+  group_by(year, canton, party) %>% 
+  summarize(lv, party_strength = sum(party_strength)) %>% 
+  ungroup() 
+
+# Plausbilitätschecks
+listenverbindungen_bfs_parties_summed %>% filter(canton == "BE")
+listenverbindungen_kantonal %>% filter(kt == "BE" & year == 2011 & party != "uebrige")
+# ok
+
+# Zusätzliche Spalten hinzufügen
+listenverbindungen_bfs_parties_summed %<>% mutate(party_abbr = party, party = NA, party_id = NA, seats_with = NA, seats_without = NA, seat_difference = NA, list_id = ifelse(!is.na(lv), paste(canton, year, lv, sep = ""), ""))
+
+# Differenzen in den Partei-Bezeichnungen
+listenverbindungen_kantonal_2011 <- listenverbindungen_kantonal %>% filter(year == 2011)
+setdiff(unique(listenverbindungen_bfs_parties_summed$party_abbr), unique(listenverbindungen_kantonal_2011$party))
+setdiff(unique(listenverbindungen_kantonal_2011$party), unique(listenverbindungen_bfs_parties_summed$party_abbr))
+
+# welche sind fdp/lp in den BFS-Daten?
+listenverbindungen_bfs_parties_summed %>% 
+  filter(party_abbr == "fdp/lp" & party_strength > 0)
+
+# zu lps umbenennen, damit die Daten gematcht werden können
+listenverbindungen_bfs_parties_summed$party_abbr <-  factor(listenverbindungen_bfs_parties_summed$party_abbr, levels = c(levels(listenverbindungen_bfs_parties_summed$party_abbr), "lps"))
+listenverbindungen_bfs_parties_summed[listenverbindungen_bfs_parties_summed$party_abbr == "fdp/lp",]$party_abbr <- "lps"
+
+setdiff(unique(listenverbindungen_bfs_parties_summed$party_abbr), unique(listenverbindungen_kantonal_2011$party))
+setdiff(unique(listenverbindungen_kantonal_2011$party), unique(listenverbindungen_bfs_parties_summed$party_abbr))
+
+listenverbindungen_bfs_parties_summed %>% 
+  filter(party_abbr == "lps" & party_strength > 0)
+
+# welche sind LPS in den Bochsler-Daten? 
+listenverbindungen_kantonal_2011 %>% 
+  filter(party == "lps" & vote > 0)
+
+# Wikipedia: Die noch bestehenden kantonalen Parteien sind nun zusammen mit ihren freisinnigen Schwesterparteien Teil der neuen liberalen Bundespartei.
+listenverbindungen_kantonal_2011 %<>% 
+  select(year, kt, party, ap_s, s, ap_i, vote) %>% 
+  rename(party_bochsler = party) %>% 
+  mutate(party_bochsler = as.factor(party_bochsler))
+
+# Bochsler-Daten: Welche "uebrige" haben Sitze gewonnen? 
+listenverbindungen_kantonal_2011 %>% 
+  filter(party_bochsler == "uebrige" & s > 0)
+listenverbindungen_kantonal_2011 %>%
+  filter(party_bochsler == "uebrige" & ap_s != 0)
+# es handelt sich um die csp
+  
+# Bochsler-Daten: matchen (Gewonnene Sitze und LV-Auswirkungen)
+listenverbindungen_parties_combined <- listenverbindungen_bfs_parties_summed %>% left_join(listenverbindungen_kantonal_2011, by = c("year", "canton" = "kt", "party_abbr" = "party_bochsler"))
+
+## Plausibilitätschecks
+# Gesamtsumme Sitze
+sum(listenverbindungen_parties_combined$s, na.rm = T)
+# 199, der Sitz der CSP im Kanton OW fehlt noch
+
+# überprüfen, ob party_strength überall ungefähr gleich ist, sonst korrigieren
+which((listenverbindungen_parties_combined$party_strength >= listenverbindungen_parties_combined$vote - 0.1 & listenverbindungen_parties_combined$party_strength <= listenverbindungen_parties_combined$vote + 0.1) == F)
+listenverbindungen_parties_combined[c(129,130,131),]
+
+# Erklärung: 
+# 1. GPS + Atomfrei werden im BFS Datensatz als GPS gerechnet, im Bochsler-Datensatz als Übrige
+# 2. SP + Frischer Wind + Gewerkschaftsbund werden im BFS Datensatz als SP gerechnet, im Bochsler-Datensatz als Übrige
+# 3. SVP + Aktive Senioren werden im BFS Datensatz als als SVP gerechnet, im Bochsler-Datensatz Aktive Senioren als übrige
+
+# überprüfen, wo nicht in beiden Datensätzen von einer LV gesprochen wird
+a <- which(!is.na(listenverbindungen_parties_combined$lv) & listenverbindungen_parties_combined$ap_i == "")
+# und umgekehrt
+b <- which(is.na(listenverbindungen_parties_combined$lv) & listenverbindungen_parties_combined$ap_i != "") 
+
+# Fazit: Viele LV kommen bei Bochsler nicht vor (sind auch keine zwischenparteilichen LV)
+# Eine kommt bei Bochsler vor, aber im BFS-Datensatz nicht, überprüfen:
+listenverbindungen_parties_combined[c(b),]
+listenverbindungen_kantonal_2011 %>% filter(ap_i == "SO11A")
+listenverbindungen_kantonal_2011 %>% filter(kt == "SO"  & ap_s != 0)
+
+# Laut Bochsler sind EDU und SVP im Jahr 2011 in Solothurn eine LV eingegangen, es hat aber nichts gebracht, und die LV haben nur CVP und FDP beeinflusst
+
+# Beschluss: wir übernehmen die LV von Bochsler
+
+# variablen transformieren
+listenverbindungen_parties_combined %<>% 
+  mutate(list_id = ap_i, seats_with = s, seat_difference = ap_s, seats_without = seats_with - seat_difference)
+# unnötige variablen rausschmeissen
+listenverbindungen_parties_combined %<>%
+  select(-ap_s, -s, -ap_i, -vote)
+
+# LV brauchen wir noch für das Matching mit den übrigen
+
+# Übrige: Variablen hinzufügen + manuell bearbeiten
+listenverbindungen_bfs_others %<>%
+  select(-lnr, -lnroff, -ulv) %>%
+  mutate(party = name, party_abbr = NA, seats_with = 0, seats_without = 0, seat_difference = 0)
+
+# Der Sitz der CSP muss noch eingetragen werden 
+listenverbindungen_bfs_others[listenverbindungen_bfs_others$canton == "OW",]$seats_with <- 1
+listenverbindungen_bfs_others[listenverbindungen_bfs_others$canton == "OW",]$seats_without <- 1
+listenverbindungen_bfs_others[listenverbindungen_bfs_others$canton == "OW",]$party_abbr <- "csp"
+write.csv(listenverbindungen_bfs_others, file = "input/listenverbindungen_bfs_others_unedited.csv", na = "")
+
+# EDITIEREN
+# wieder einlesen
+listenverbindungen_bfs_others <- read.csv2(file = "input/listenverbindungen_bfs_others_edited.csv", sep = ",", stringsAsFactors = F)
+
+# transformieren
+listenverbindungen_bfs_others %<>%
+  mutate(party = name) %>%
+  mutate(year = as.numeric(year), party_strength = as.numeric(party_strength)) %>% 
+  mutate(list_id = NA, party_id = NA) %>%
+  select(year, canton, party, lv, party_strength, party_abbr, party_id, seats_with, seats_without, seat_difference, list_id)
+
+str(listenverbindungen_bfs_others)
+str(listenverbindungen_parties_combined)
+
+# anderer Datensatz auch noch einmal transformieren
+listenverbindungen_parties_combined %<>% mutate(party = as.character(party))
+# Datensätze wieder zusammenführen
+listenverbindungen_bfs_final <- rbind(listenverbindungen_parties_combined, listenverbindungen_bfs_others)
+
+# Plausibilitätschecks 
+# Summation zu 100%
+as.data.frame(listenverbindungen_bfs_final %>% 
+  group_by(year, canton) %>% 
+  summarize(total_vote = sum(party_strength)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_vote)))
+# 200 Sitze
+sum(listenverbindungen_bfs_final$seats_with)
+sum(listenverbindungen_bfs_final$seats_without)
+
+# party_id ermitteln
+listenverbindungen_bfs_final$party_id <- 8
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "bdp",]$party_id <- 32
+# listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "ldu",]$party_id <- 8
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "svp",]$party_id <- 4
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "cvp",]$party_id <- 2
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "fdp",]$party_id <- 1
+# listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "fga",]$party_id <- 9
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "gps",]$party_id <- 13
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "sp",]$party_id <- 3
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "CSP",]$party_id <- 8
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "pda",]$party_id <- 9
+# listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "fps",]$party_id <- 16
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "evp",]$party_id <- 7
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "sd",]$party_id <- 16
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "sol",]$party_id <- 9
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "lps",]$party_id <- 1
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "lega",]$party_id <- 18
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "edu",]$party_id <- 16
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$party_abbr == "glp",]$party_id <- 31
+
+# Listenverbindungs-Code neu berechnen 
+list_ids_per_canton <- listenverbindungen_bfs_final %>% 
+  filter(!is.na(lv) & lv != "") %>% 
+  group_by(canton, lv) %>% 
+  slice(1) %>% 
+  select(canton, lv, list_id) %>%
+  ungroup()
+
+computeListId <- function(row){
+  # party ist nur bei "übrigen" ausgefüllt
+  if(is.na(row$party)){
+    return(row$list_id)
+  } else {
+    # perform lookup
+    return(as.character(list_ids_per_canton[list_ids_per_canton$canton == row$canton & list_ids_per_canton$lv == row$lv,]$list_id))
+  }
+}
+
+list_ids <- as.character(by(listenverbindungen_bfs_final, 1:nrow(listenverbindungen_bfs_final), computeListId))
+list_ids[list_ids == "character(0)"] <- NA
+list_ids[list_ids == ""] <- NA
+
+# ersetzen
+listenverbindungen_bfs_final$list_id <- list_ids
+
+# letzte, manuelle korrekturen
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$canton == "BE" & listenverbindungen_bfs_final$lv == "E" & !is.na(listenverbindungen_bfs_final$party),]$list_id <- "BE11D"
+listenverbindungen_bfs_final[listenverbindungen_bfs_final$canton == "FR" & listenverbindungen_bfs_final$lv == "E",]$list_id <- "FR11E"
+
+# Abschluss
+listenverbindungen_bfs_final %<>% 
+  select(year, canton, party, party_abbr, party_id, party_strength, seats_with, seats_without, seat_difference, list_id)
+
+# LPS zu FDP rechnen
+listenverbindungen_bfs_final %<>%
+  mutate(lpsfdp = ifelse(party_abbr == "fdp" | party_abbr == "lps", "fdplps", party_abbr))
+
+
+listenverbindungen_bfs_final %<>% 
+  group_by(lpsfdp, year, canton) %>% 
+  summarise(party = first(party),  party_abbr = first(party_abbr), party_id = first(party_id),  party_strength = sum(party_strength),seats_with = sum(seats_with), seat_difference = sum(seat_difference), seats_without = sum(seats_without), list_id = first(list_id)) %>% 
+  ungroup() %>% 
+  select(-lpsfdp, -party_abbr)
+
+
+# Plausibilitätschecks
+as.data.frame(listenverbindungen_bfs_final %>% 
+  group_by(year, canton) %>% 
+  summarize(total_vote = sum(party_strength)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_vote)))
+# 200 Sitze
+sum(listenverbindungen_bfs_final$seats_with)
+sum(listenverbindungen_bfs_final$seats_without)
+# party_id ermitteln
+
+write.csv(listenverbindungen_bfs_final, file = "output/lv_2011.csv", na = "", row.names = F)
+```
+
+### 2011: National
+
+```{r}
+# Wie viele Sitze gehen an die CSP? 
+listenverbindungen_national %>% 
+    filter(party == "CSP")
+# Problem: Karl Vogler wird 2011 nicht als CSP aufgeführt, sondern bei den Übrigen, auch in den BFS-Daten
+
+# In den kantonalen Daten für 2011 wird er jedoch als CSP aufgeführt, jedoch ist OW sowieso ein Majorzkanton
+listenverbindungen2011_national <- listenverbindungen_national %>% 
+    filter(year == 2011) %>% 
+    mutate(party = tolower(party), party_abbr = party, party = NA, party_strength = v, seats_with = s, seats_without = s_noap, seat_difference = ap_s, canton = "CH", party_id = NA, list_id = NA) %>% 
+    select(-apdummy, -voteap)
+
+# Problem: LPS hat 1 Sitz, aber national wurde die Parteistärke der FDP zugerechnet. Deshalb: LPS entfernen und der FDP einen Sitz gutschreiben
+# der fdp einen zurechnen
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fdp",]$seats_with <- listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fdp",]$seats_with + 1
+
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fdp",]$seats_without <- listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fdp",]$seats_without + 1
+
+# Plausibilitätschecks
+# Summiert zu 100%
+sum(listenverbindungen2011_national$v)
+# Nicht genau 100%
+# Originaldaten matchen
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "svp",]$party_strength <- 26.5562298833
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "cvp",]$party_strength <- 12.3040121429
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fdp",]$party_strength <- 15.1045453764
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "gps",]$party_strength <- 8.4328061825
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sp",]$party_strength <- 18.7221778605
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "csp",]$party_strength <- 0.2557743755
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "pda",]$party_strength <- 0.5409966352
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "evp",]$party_strength <- 1.9973982108
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sd",]$party_strength <- 0.2003102175
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sol",]$party_strength <- 0.3384668779
+
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "lega",]$party_strength <- 0.8047605286
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "edu",]$party_strength <- 1.2714234639
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "glp",]$party_strength <- 5.3808907415
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "uebrige",]$party_strength <- 2.2361843879
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "bdp",]$party_strength <- 5.4154010371
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "mcr",]$party_strength <- 0.4386220785
+# nochmals überprüfen
+sum(listenverbindungen2011_national$party_strength)
+# 200 Sitze
+sum(listenverbindungen2011_national$seats_with)
+sum(listenverbindungen2011_national$seats_without)
+
+
+# solche mit party_strength == 0 entfernen
+listenverbindungen2011_national %<>% filter(party_strength > 0)
+sum(listenverbindungen2011_national$party_strength)
+sum(listenverbindungen2011_national$seats_with)
+sum(listenverbindungen2011_national$seats_without)
+sum(listenverbindungen2011_national$seat_difference)
+# 
+
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "bdp",]$party_id <- 32
+# listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "ldu",]$party_id <- 8
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "svp",]$party_id <- 4
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "cvp",]$party_id <- 2
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fdp",]$party_id <- 1
+# listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fga",]$party_id <- 9
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "gps",]$party_id <- 13
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sp",]$party_id <- 3
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "csp",]$party_id <- 8
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "pda",]$party_id <- 9
+# listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "fps",]$party_id <- 16
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "evp",]$party_id <- 7
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sd",]$party_id <- 16
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sol",]$party_id <- 9
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "lega",]$party_id <- 18
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "edu",]$party_id <- 16
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "glp",]$party_id <- 31
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "csp",]$party_id <- 8
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "mcr",]$party_id <- 8
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "uebrige",]$party_id <- 99
+
+# Volle Namen hinzufügen
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sd",]$party <- "SD"
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "sol",]$party <- "Sol."
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "edu",]$party <- "EDU"
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "csp",]$party <- "CSP"
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "mcr",]$party <- "MCR"
+listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "pda",]$party <- "PdA"
+# listenverbindungen2011_national[listenverbindungen2011_national$party_abbr == "uebrige",]$party <- ""
+# select variables
+listenverbindungen2011_national %<>% select(year, party, party_id, party_strength, seats_with, seats_without, seat_difference)
+
+write.csv(listenverbindungen2011_national,file = "output/lv_2011_national.csv", na = "", row.names = F)
+
+```
+
+### Historical: National
+
+```{r}
+# Plausibilitätscheck
+listenverbindungen_national %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(s))
+# gleiches Problem wie bei kantonalen Daten: 1995 hat zwei Sitze zu viel
+lv_historisch <- listenverbindungen_national %>% 
+  filter(year < 2011)
+# die FGA hat einen zu viel
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$party == "FGA",]$s <- 2
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$party == "FGA",]$ap_s <- 1
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$party == "FGA",]$s_noap <- 1
+# die FDP hat einen zu viel
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$party == "FDP",]$s <- 45
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$party == "FDP",]$s_noap <- 48
+
+lv_historisch %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(s))
+
+# Plausibilitätscheck
+lv_historisch %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(ap_s))
+# gibt überall null, gut
+
+# nur die nehmen, die mindestens einen Sitz gemacht haben
+lv_historisch %<>%
+    filter(s > 0)
+
+lv_historisch %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(s))
+lv_historisch %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(s_noap))
+lv_historisch %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(ap_s))
+# gut
+
+# variablen transformieren
+lv_historisch %<>% 
+    mutate(party = tolower(party), party_abbr = party, party = NA, party_strength = v, seats_with = s, seats_without = s_noap, seat_difference = ap_s, canton = "CH", party_id = NA, list_id = NA) %>% 
+    select(-apdummy, -voteap)
+
+lv_historisch[lv_historisch$party_abbr == "ldu",]$party_id <- 8
+lv_historisch[lv_historisch$party_abbr == "svp",]$party_id <- 4
+lv_historisch[lv_historisch$party_abbr == "cvp",]$party_id <- 2
+lv_historisch[lv_historisch$party_abbr == "fps",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "fdp",]$party_id <- 1
+lv_historisch[lv_historisch$party_abbr == "fga",]$party_id <- 9
+lv_historisch[lv_historisch$party_abbr == "gps",]$party_id <- 13
+lv_historisch[lv_historisch$party_abbr == "sp",]$party_id <- 3
+lv_historisch[lv_historisch$party_abbr == "csp",]$party_id <- 8
+lv_historisch[lv_historisch$party_abbr == "pda",]$party_id <- 9
+lv_historisch[lv_historisch$party_abbr == "fps",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "evp",]$party_id <- 7
+lv_historisch[lv_historisch$party_abbr == "sd",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "sol",]$party_id <- 9
+lv_historisch[lv_historisch$party_abbr == "lps",]$party_id <- 1
+lv_historisch[lv_historisch$party_abbr == "lega",]$party_id <- 18
+lv_historisch[lv_historisch$party_abbr == "edu",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "glp",]$party_id <- 31
+
+# select variables
+lv_historisch %<>% select(year, canton, party, seats_with, seat_difference, seats_without, party_abbr, party_id)
+
+# LPS zu FDP rechnen
+lv_historisch %<>%
+  mutate(lpsfdp = ifelse(party_abbr == "fdp" | party_abbr == "lps", "fdplps", party_abbr))
+
+
+lv_historisch %<>% 
+  group_by(lpsfdp, year, canton) %>% 
+  summarise(party = first(party),  party_abbr = first(party_abbr), party_id = first(party_id),seats_with = sum(seats_with), seat_difference = sum(seat_difference), seats_without = sum(seats_without)) %>% 
+  ungroup() %>% 
+  select(-lpsfdp, -canton, -party_abbr)
+
+# Plausibilitätschecks
+
+# 800 Sitze
+sum(lv_historisch$seats_with)
+sum(lv_historisch$seats_without)
+sum(lv_historisch$seat_difference)
+write.csv(lv_historisch,file = "output/lv_historical_national.csv", na = "", row.names = F)
+```
+
+### Historical: Cantonal
+
+```{r}
+
+lv_historisch <- listenverbindungen_kantonal %>% 
+  filter(year < 2011)
+sum(lv_historisch$s)
+# Summe sollte 800 sein
+lv_historisch %>% 
+  group_by(year) %>% 
+  summarize(total_sitze = sum(s))
+# im Jahr 1995 ist die Summe nicht 200
+as.data.frame(lv_historisch %>% 
+  filter(year == 1995) %>% 
+  group_by(kt) %>% 
+  summarize(total_sitze = sum(s)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_sitze)))
+# Zürich scheint einen zu viel zu haben
+as.data.frame(lv_historisch %>% 
+  filter(year == 1995 & kt == "ZH") %>% 
+  group_by(party) %>% 
+  summarize(total_sitze = sum(s)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_sitze)))
+# die FGA hat einen zu viel
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$kt == "ZH" & lv_historisch$party == "fga" & lv_historisch$vote < 1,]$s <- 0
+# BL ebenfalls
+as.data.frame(lv_historisch %>% 
+  filter(year == 1995 & kt == "BL") %>% 
+  group_by(party) %>% 
+  summarize(total_sitze = sum(s)) %>% 
+  ungroup() %>% 
+  arrange(desc(total_sitze)))
+# die FDP hat einen zu viel
+lv_historisch[lv_historisch$year == 1995 & lv_historisch$kt == "BL" & lv_historisch$party == "fdp"  & lv_historisch$vote < 2,]$s <- 0
+
+sum(lv_historisch$s)
+# nun ist es gut
+
+lv_historisch %<>% 
+  group_by(year, kt, party) %>% 
+  summarize(seats_with = sum(s), seat_difference = sum(ap_s)) %>% 
+  ungroup() %>% 
+  mutate(seats_without = seats_with - seat_difference)
+
+sum(lv_historisch$seats_without)
+
+# die entfernen, die weder mit oder ohne LV keine sitze gemacht hätten
+lv_historisch %<>% 
+  filter(seats_with > 0 | seats_without > 0)
+# transformieren
+lv_historisch %<>%
+  rename(canton = kt) %>% 
+  mutate(party_abbr = party, party = NA, party_id = NA)
+
+unique(lv_historisch$party_abbr)
+
+# party_id reinholen 
+
+# lv_historisch[lv_historisch$party_abbr == "bdp",]$party_id <- 32
+lv_historisch[lv_historisch$party_abbr == "ldu",]$party_id <- 8
+lv_historisch[lv_historisch$party_abbr == "svp",]$party_id <- 4
+lv_historisch[lv_historisch$party_abbr == "cvp",]$party_id <- 2
+lv_historisch[lv_historisch$party_abbr == "fps",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "fdp",]$party_id <- 1
+lv_historisch[lv_historisch$party_abbr == "fga",]$party_id <- 9
+lv_historisch[lv_historisch$party_abbr == "gps",]$party_id <- 13
+lv_historisch[lv_historisch$party_abbr == "sp",]$party_id <- 3
+lv_historisch[lv_historisch$party_abbr == "csp",]$party_id <- 8
+lv_historisch[lv_historisch$party_abbr == "pda",]$party_id <- 9
+lv_historisch[lv_historisch$party_abbr == "fps",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "evp",]$party_id <- 7
+lv_historisch[lv_historisch$party_abbr == "sd",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "sol",]$party_id <- 9
+lv_historisch[lv_historisch$party_abbr == "lps",]$party_id <- 1
+lv_historisch[lv_historisch$party_abbr == "lega",]$party_id <- 18
+lv_historisch[lv_historisch$party_abbr == "edu",]$party_id <- 16
+lv_historisch[lv_historisch$party_abbr == "glp",]$party_id <- 31
+
+
+# LPS zu FDP rechnen
+lv_historisch %<>%
+  mutate(lpsfdp = ifelse(party_abbr == "fdp" | party_abbr == "lps", "fdplps", party_abbr))
+
+
+lv_historisch %<>% 
+  group_by(lpsfdp, year, canton) %>% 
+  summarise(party = first(party),  party_abbr = first(party_abbr), party_id = first(party_id), seats_with = sum(seats_with), seat_difference = sum(seat_difference), seats_without = sum(seats_without)) %>% 
+  ungroup() %>% 
+  select(-lpsfdp, -party_abbr)
+
+
+# Plausibilitätschecks
+
+# 200 Sitze
+sum(lv_historisch$seats_with)
+sum(lv_historisch$seats_without)
+sum(lv_historisch$seat_difference)
+# party_id ermitteln
+
+write.csv(lv_historisch, file = "output/lv_historical.csv", na = "", row.names = F)
+```
+

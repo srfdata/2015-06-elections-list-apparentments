@@ -1,0 +1,2653 @@
+year,kt,party,id_kt,vote,seats,others_name,ap_s,ap_i,kname,s
+2011,AG,bdp,AG2011,6.0999999,,,0,AG11B,Aargau,1
+2011,AI,bdp,AI2011,0,,,0,,Appenzell I. Rh. ,0
+2011,AR,bdp,AR2011,0,,,0,,Appenzell A. Rh.,0
+2011,BE,bdp,BE2011,14.9,,,0,,Bern,4
+2011,BL,bdp,BL2011,6.4000001,,,0,BL11B,Basel-Landschaft ,0
+2011,BS,bdp,BS2011,2.2,,,0,BS11B,Basel-Stadt,0
+2011,FR,bdp,FR2011,1.9,,,0,FR11D,Freiburg,0
+2011,GE,bdp,GE2011,0,,,0,,Genf,0
+2011,GL,bdp,GL2011,61.700001,,,0,,Glarus,1
+2011,GR,bdp,GR2011,20.5,,,0,,Graubünden,1
+2011,JU,bdp,JU2011,0,,,0,,Jura,0
+2011,LU,bdp,LU2011,2.0999999,,,0,LU11C,Luzern,0
+2011,NE,bdp,NE2011,1.5,,,0,NE11A,Neuenburg,0
+2011,NW,bdp,NW2011,0,,,0,,Nidwalden,0
+2011,OW,bdp,OW2011,0,,,0,,Obwalden ,0
+2011,SG,bdp,SG2011,3.8,,,0,SG11D,St. Gallen,0
+2011,SH,bdp,SH2011,0,,,0,,Schaffhausen,0
+2011,SO,bdp,SO2011,4.4000001,,,0,SO11B,Solothurn,0
+2011,SZ,bdp,SZ2011,3.4000001,,,0,SZ11C,Schwyz,0
+2011,TG,bdp,TG2011,5,,,0,TG11B,Thurgau,0
+2011,TI,bdp,TI2011,0,,,0,,Tessin,0
+2011,UR,bdp,UR2011,0,,,0,,Uri,0
+2011,VD,bdp,VD2011,.80000001,,,0,VD11C,Waadt,0
+2011,VS,bdp,VS2011,.60000002,,,0,,Wallis,0
+2011,ZG,bdp,ZG2011,0,,,0,,Zug,0
+2011,ZH,bdp,ZH2011,5.3000002,,,0,ZH11C,Zürich,2
+1995,AG,csp,AG1995,0,,,0,,Aargau,0
+1999,AG,csp,AG1999,0,,,0,,Aargau,0
+2003,AG,csp,AG2003,0,,,0,,Aargau,0
+2007,AG,csp,AG2007,0,,,0,,Aargau,0
+2011,AG,csp,AG2011,0,,,0,,Aargau,0
+1995,AI,csp,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,csp,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,csp,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,csp,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,csp,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,csp,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,csp,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,csp,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,csp,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,csp,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,csp,BE1995,0,,,0,,Bern,0
+1999,BE,csp,BE1999,0,,,0,,Bern,0
+2003,BE,csp,BE2003,0,,,0,,Bern,0
+2007,BE,csp,BE2007,0,,,0,,Bern,0
+2011,BE,csp,BE2011,0,,,0,,Bern,0
+1995,BL,csp,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,csp,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,csp,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,csp,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,csp,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,csp,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,csp,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,csp,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,csp,BS2007,0,,,0,,Basel-Stadt,0
+2011,BS,csp,BS2011,0,,,0,,Basel-Stadt,0
+1995,FR,csp,FR1995,8.6999998,,,1,FR95D,Freiburg,1
+1999,FR,csp,FR1999,10.9,,,1,FR99B,Freiburg,1
+2003,FR,csp,FR2003,10.444548,,,1,FR03B,Freiburg,1
+2007,FR,csp,FR2007,7.0999999,,,1,FR07B,Freiburg,1
+2011,FR,csp,FR2011,5.5,,,0,FR11A,Freiburg,0
+1995,GE,csp,GE1995,0,,,0,,Genf,0
+1999,GE,csp,GE1999,0,,,0,,Genf,0
+2003,GE,csp,GE2003,0,,,0,,Genf,0
+2007,GE,csp,GE2007,0,,,0,,Genf,0
+2011,GE,csp,GE2011,0,,,0,,Genf,0
+1995,GL,csp,GL1995,0,,,0,,Glarus,0
+1999,GL,csp,GL1999,0,,,0,,Glarus,0
+2003,GL,csp,GL2003,0,,,0,,Glarus,0
+2007,GL,csp,GL2007,0,,,0,,Glarus,0
+2011,GL,csp,GL2011,0,,,0,,Glarus,0
+1995,GR,csp,GR1995,0,,,0,,Graubünden,0
+1999,GR,csp,GR1999,0,,,0,,Graubünden,0
+2003,GR,csp,GR2003,0,,,0,,Graubünden,0
+2007,GR,csp,GR2007,0,,,0,,Graubünden,0
+2011,GR,csp,GR2011,0,,,0,,Graubünden,0
+1995,JU,csp,JU1995,0,,,0,,Jura,0
+1999,JU,csp,JU1999,0,,,0,,Jura,0
+2003,JU,csp,JU2003,0,,,0,,Jura,0
+2007,JU,csp,JU2007,11,,,0,,Jura,0
+2011,JU,csp,JU2011,0,,,0,,Jura,0
+1995,LU,csp,LU1995,0,,,0,,Luzern,0
+1999,LU,csp,LU1999,.5,,,0,LU99B,Luzern,0
+2003,LU,csp,LU2003,0,,,0,,Luzern,0
+2007,LU,csp,LU2007,0,,,0,,Luzern,0
+2011,LU,csp,LU2011,0,,,0,,Luzern,0
+1995,NE,csp,NE1995,0,,,0,,Neuenburg,0
+1999,NE,csp,NE1999,0,,,0,,Neuenburg,0
+2003,NE,csp,NE2003,0,,,0,,Neuenburg,0
+2007,NE,csp,NE2007,0,,,0,,Neuenburg,0
+2011,NE,csp,NE2011,0,,,0,,Neuenburg,0
+1995,NW,csp,NW1995,0,,,0,,Nidwalden,0
+1999,NW,csp,NW1999,0,,,0,,Nidwalden,0
+2003,NW,csp,NW2003,0,,,0,,Nidwalden,0
+2007,NW,csp,NW2007,0,,,0,,Nidwalden,0
+2011,NW,csp,NW2011,0,,,0,,Nidwalden,0
+1995,OW,csp,OW1995,0,,,0,,Obwalden ,0
+1999,OW,csp,OW1999,0,,,0,,Obwalden ,0
+2003,OW,csp,OW2003,0,,,0,,Obwalden ,0
+2007,OW,csp,OW2007,0,,,0,,Obwalden ,0
+2011,OW,csp,OW2011,0,,,0,,Obwalden ,0
+1995,SG,csp,SG1995,0,,,0,,St. Gallen,0
+1999,SG,csp,SG1999,0,,,0,,St. Gallen,0
+2003,SG,csp,SG2003,0,,,0,,St. Gallen,0
+2007,SG,csp,SG2007,0,,,0,,St. Gallen,0
+2011,SG,csp,SG2011,0,,,0,,St. Gallen,0
+1995,SH,csp,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,csp,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,csp,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,csp,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,csp,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,csp,SO1995,0,,,0,,Solothurn,0
+1999,SO,csp,SO1999,0,,,0,,Solothurn,0
+2003,SO,csp,SO2003,0,,,0,,Solothurn,0
+2007,SO,csp,SO2007,0,,,0,,Solothurn,0
+2011,SO,csp,SO2011,0,,,0,,Solothurn,0
+1995,SZ,csp,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,csp,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,csp,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,csp,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,csp,SZ2011,0,,,0,,Schwyz,0
+1995,TG,csp,TG1995,0,,,0,,Thurgau,0
+1999,TG,csp,TG1999,0,,,0,,Thurgau,0
+2003,TG,csp,TG2003,0,,,0,,Thurgau,0
+2007,TG,csp,TG2007,0,,,0,,Thurgau,0
+2011,TG,csp,TG2011,0,,,0,,Thurgau,0
+1995,TI,csp,TI1995,0,,,0,,Tessin,0
+1999,TI,csp,TI1999,0,,,0,,Tessin,0
+2003,TI,csp,TI2003,0,,,0,,Tessin,0
+2007,TI,csp,TI2007,0,,,0,,Tessin,0
+2011,TI,csp,TI2011,0,,,0,,Tessin,0
+1995,UR,csp,UR1995,0,,,0,,Uri,0
+1999,UR,csp,UR1999,0,,,0,,Uri,0
+2003,UR,csp,UR2003,0,,,0,,Uri,0
+2007,UR,csp,UR2007,0,,,0,,Uri,0
+2011,UR,csp,UR2011,0,,,0,,Uri,0
+1995,VD,csp,VD1995,0,,,0,,Waadt,0
+1999,VD,csp,VD1999,0,,,0,,Waadt,0
+2003,VD,csp,VD2003,0,,,0,,Waadt,0
+2007,VD,csp,VD2007,0,,,0,,Waadt,0
+2011,VD,csp,VD2011,0,,,0,,Waadt,0
+1995,VS,csp,VS1995,0,,,0,,Wallis,0
+1999,VS,csp,VS1999,0,,,0,,Wallis,0
+2003,VS,csp,VS2003,0,,,0,,Wallis,0
+2007,VS,csp,VS2007,1.1,,,0,VS07C,Wallis,0
+2011,VS,csp,VS2011,.69999999,,,0,VS11A,Wallis,0
+1995,ZG,csp,ZG1995,0,,,0,,Zug,0
+1999,ZG,csp,ZG1999,0,,,0,,Zug,0
+2003,ZG,csp,ZG2003,0,,,0,,Zug,0
+2007,ZG,csp,ZG2007,0,,,0,,Zug,0
+2011,ZG,csp,ZG2011,0,,,0,ZG11A,Zug,0
+1995,ZH,csp,ZH1995,.2,,,0,ZH95C,Zürich,0
+1999,ZH,csp,ZH1999,.2,,,0,ZH99C,Zürich,0
+2003,ZH,csp,ZH2003,0,,,0,,Zürich,0
+2007,ZH,csp,ZH2007,.1,,,0,ZH07B,Zürich,0
+2011,ZH,csp,ZH2011,.2,,,0,ZH11B,Zürich,0
+1995,AG,cvp,AG1995,14.2,,,0,AG95A,Aargau,2
+1999,AG,cvp,AG1999,16.299999,,,0,AG99A,Aargau,3
+2003,AG,cvp,AG2003,15.59608,,,0,AG03B,Aargau,2
+2007,AG,cvp,AG2007,13.5,,,1,AG07B,Aargau,3
+2011,AG,cvp,AG2011,10.6,,,0,AG11B,Aargau,1
+1995,AI,cvp,AI1995,85.400002,,,0,,Appenzell I. Rh. ,1
+1999,AI,cvp,AI1999,73.5,,,0,,Appenzell I. Rh. ,1
+2003,AI,cvp,AI2003,69.161674,,,0,,Appenzell I. Rh. ,1
+2007,AI,cvp,AI2007,84.599998,,,0,,Appenzell I. Rh. ,1
+2011,AI,cvp,AI2011,76.099998,,,0,,Appenzell I. Rh. ,1
+1995,AR,cvp,AR1995,9.5,,,0,,Appenzell A. Rh.,0
+1999,AR,cvp,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,cvp,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,cvp,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,cvp,AR2011,10.6,,,0,,Appenzell A. Rh.,0
+1995,BE,cvp,BE1995,1.8,,,1,BE95B,Bern,1
+1999,BE,cvp,BE1999,2.4000001,,,1,BE99B,Bern,1
+2003,BE,cvp,BE2003,2.3425274,,,1,BE03B,Bern,1
+2007,BE,cvp,BE2007,4.6999998,,,0,BE07C,Bern,1
+2011,BE,cvp,BE2011,2.0999999,,,0,BE11C,Bern,0
+1995,BL,cvp,BL1995,11.7,,,0,BL95A,Basel-Landschaft ,1
+1999,BL,cvp,BL1999,12,,,0,BL99A,Basel-Landschaft ,1
+2003,BL,cvp,BL2003,10.033159,,,0,BL03A,Basel-Landschaft ,1
+2007,BL,cvp,BL2007,11.4,,,0,BL07A,Basel-Landschaft ,1
+2011,BL,cvp,BL2011,8.1999998,,,1,BL11B,Basel-Landschaft ,1
+1995,BS,cvp,BS1995,9.6999998,,,-1,BS95A,Basel-Stadt,0
+1999,BS,cvp,BS1999,8.6000004,,,0,BS99A,Basel-Stadt,0
+2003,BS,cvp,BS2003,6.5942464,,,0,BS03A,Basel-Stadt,0
+2007,BS,cvp,BS2007,7.4000001,,,0,BS07A,Basel-Stadt,0
+2011,BS,cvp,BS2011,6.5,,,1,BS11B,Basel-Stadt,1
+1995,FR,cvp,FR1995,36,,,-1,FR95A,Freiburg,3
+1999,FR,cvp,FR1999,33.700001,,,-1,FR99A,Freiburg,2
+2003,FR,cvp,FR2003,25.381187,,,0,FR03A,Freiburg,2
+2007,FR,cvp,FR2007,24.799999,,,0,FR07A,Freiburg,2
+2011,FR,cvp,FR2011,20.299999,,,0,FR11D,Freiburg,2
+1995,GE,cvp,GE1995,13.4,,,-1,GE95A,Genf,1
+1999,GE,cvp,GE1999,14.1,,,0,GE99A,Genf,2
+2003,GE,cvp,GE2003,11.827843,,,0,GE03A,Genf,1
+2007,GE,cvp,GE2007,9.6999998,,,0,GE07A,Genf,1
+2011,GE,cvp,GE2011,9.8000002,,,0,GE11B,Genf,1
+1995,GL,cvp,GL1995,0,,,0,,Glarus,0
+1999,GL,cvp,GL1999,0,,,0,,Glarus,0
+2003,GL,cvp,GL2003,0,,,0,,Glarus,0
+2007,GL,cvp,GL2007,0,,,0,,Glarus,0
+2011,GL,cvp,GL2011,0,,,0,,Glarus,0
+1995,GR,cvp,GR1995,26.9,,,0,,Graubünden,1
+1999,GR,cvp,GR1999,25.6,,,0,GR99A,Graubünden,1
+2003,GR,cvp,GR2003,23.710377,,,0,,Graubünden,1
+2007,GR,cvp,GR2007,20.299999,,,0,,Graubünden,1
+2011,GR,cvp,GR2011,16.6,,,0,,Graubünden,1
+1995,JU,cvp,JU1995,38.200001,,,0,,Jura,1
+1999,JU,cvp,JU1999,39.200001,,,0,,Jura,1
+2003,JU,cvp,JU2003,39.454559,,,0,,Jura,1
+2007,JU,cvp,JU2007,25,,,-1,,Jura,0
+2011,JU,cvp,JU2011,33.200001,,,0,,Jura,1
+1995,LU,cvp,LU1995,37.299999,,,0,,Luzern,4
+1999,LU,cvp,LU1999,33.799999,,,0,LU99B,Luzern,4
+2003,LU,cvp,LU2003,29.453754,,,0,,Luzern,3
+2007,LU,cvp,LU2007,31.299999,,,0,,Luzern,3
+2011,LU,cvp,LU2011,27.1,,,0,LU11A,Luzern,3
+1995,NE,cvp,NE1995,0,,,0,,Neuenburg,0
+1999,NE,cvp,NE1999,0,,,0,,Neuenburg,0
+2003,NE,cvp,NE2003,0,,,0,,Neuenburg,0
+2007,NE,cvp,NE2007,3.3,,,0,,Neuenburg,0
+2011,NE,cvp,NE2011,3.5,,,0,NE11A,Neuenburg,0
+1995,NW,cvp,NW1995,32.099998,,,0,,Nidwalden,0
+1999,NW,cvp,NW1999,0,,,0,,Nidwalden,0
+2003,NW,cvp,NW2003,0,,,0,,Nidwalden,0
+2007,NW,cvp,NW2007,0,,,0,,Nidwalden,0
+2011,NW,cvp,NW2011,0,,,0,,Nidwalden,0
+1995,OW,cvp,OW1995,94.199997,,,0,,Obwalden ,1
+1999,OW,cvp,OW1999,0,,,0,,Obwalden ,1
+2003,OW,cvp,OW2003,66.397011,,,0,,Obwalden ,1
+2007,OW,cvp,OW2007,32.5,,,0,,Obwalden ,0
+2011,OW,cvp,OW2011,0,,,0,,Obwalden ,0
+1995,SG,cvp,SG1995,31,,,-1,,St. Gallen,4
+1999,SG,cvp,SG1999,26.200001,,,0,SG99A,St. Gallen,4
+2003,SG,cvp,SG2003,22.174179,,,0,,St. Gallen,3
+2007,SG,cvp,SG2007,21.4,,,0,,St. Gallen,3
+2011,SG,cvp,SG2011,20.299999,,,0,SG11A,St. Gallen,3
+1995,SH,cvp,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,cvp,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,cvp,SH2003,2.6515889,,,0,SH03A,Schaffhausen,0
+2007,SH,cvp,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,cvp,SH2011,5.1999998,,,0,SH11B,Schaffhausen,0
+1995,SO,cvp,SO1995,21.5,,,0,,Solothurn,2
+1999,SO,cvp,SO1999,21.4,,,0,,Solothurn,2
+2003,SO,cvp,SO2003,21.022299,,,0,,Solothurn,1
+2007,SO,cvp,SO2007,20.4,,,0,SO07B,Solothurn,2
+2011,SO,cvp,SO2011,17.9,,,1,SO11C,Solothurn,2
+1995,SZ,cvp,SZ1995,27.4,,,0,,Schwyz,1
+1999,SZ,cvp,SZ1999,27.299999,,,0,,Schwyz,1
+2003,SZ,cvp,SZ2003,23.442228,,,0,,Schwyz,1
+2007,SZ,cvp,SZ2007,20.1,,,0,,Schwyz,1
+2011,SZ,cvp,SZ2011,20.6,,,0,,Schwyz,1
+1995,TG,cvp,TG1995,13,,,0,TG95A,Thurgau,1
+1999,TG,cvp,TG1999,15.7,,,0,TG99A,Thurgau,1
+2003,TG,cvp,TG2003,16.450649,,,0,TG03B,Thurgau,1
+2007,TG,cvp,TG2007,15.2,,,0,TG07B,Thurgau,1
+2011,TG,cvp,TG2011,14.4,,,0,,Thurgau,1
+1995,TI,cvp,TI1995,28.4,,,-1,,Tessin,2
+1999,TI,cvp,TI1999,25.9,,,0,,Tessin,2
+2003,TI,cvp,TI2003,24.559307,,,0,,Tessin,2
+2007,TI,cvp,TI2007,24.1,,,0,,Tessin,2
+2011,TI,cvp,TI2011,20,,,0,,Tessin,2
+1995,UR,cvp,UR1995,0,,,0,,Uri,0
+1999,UR,cvp,UR1999,0,,,0,,Uri,0
+2003,UR,cvp,UR2003,0,,,0,,Uri,0
+2007,UR,cvp,UR2007,0,,,0,,Uri,0
+2011,UR,cvp,UR2011,0,,,0,,Uri,0
+1995,VD,cvp,VD1995,5.5999999,,,0,VD95A,Waadt,1
+1999,VD,cvp,VD1999,4.5,,,0,VD99A,Waadt,1
+2003,VD,cvp,VD2003,4.4426508,,,-1,VD03A,Waadt,0
+2007,VD,cvp,VD2007,5.5999999,,,0,VD07B,Waadt,1
+2011,VD,cvp,VD2011,4.5999999,,,0,VD11C,Waadt,1
+1995,VS,cvp,VS1995,54.799999,,,0,,Wallis,4
+1999,VS,cvp,VS1999,51.400002,,,0,,Wallis,4
+2003,VS,cvp,VS2003,47.850716,,,-1,,Wallis,3
+2007,VS,cvp,VS2007,44.900002,,,0,,Wallis,4
+2011,VS,cvp,VS2011,39.900002,,,-1,,Wallis,3
+1995,ZG,cvp,ZG1995,27.1,,,0,,Zug,1
+1999,ZG,cvp,ZG1999,26.4,,,0,,Zug,1
+2003,ZG,cvp,ZG2003,22.895842,,,0,,Zug,1
+2007,ZG,cvp,ZG2007,23.299999,,,0,,Zug,1
+2011,ZG,cvp,ZG2011,24.299999,,,0,ZG11B,Zug,1
+1995,ZH,cvp,ZH1995,4.9000001,,,1,ZH95B,Zürich,2
+1999,ZH,cvp,ZH1999,5.0999999,,,0,ZH99B,Zürich,2
+2003,ZH,cvp,ZH2003,5.4300299,,,0,ZH03B,Zürich,2
+2007,ZH,cvp,ZH2007,7.5999999,,,1,ZH07C,Zürich,3
+2011,ZH,cvp,ZH2011,5,,,0,ZH11C,Zürich,2
+1995,AG,edu,AG1995,1.3,,,0,AG95C,Aargau,0
+1999,AG,edu,AG1999,1.4,,,0,AG99C,Aargau,0
+2003,AG,edu,AG2003,0,,,0,,Aargau,0
+2007,AG,edu,AG2007,1.2,,,0,AG07D,Aargau,0
+2011,AG,edu,AG2011,1.2,,,0,AG11A,Aargau,0
+1995,AI,edu,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,edu,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,edu,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,edu,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,edu,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,edu,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,edu,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,edu,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,edu,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,edu,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,edu,BE1995,4.1999998,,,0,,Bern,1
+1999,BE,edu,BE1999,4,,,0,BE99F,Bern,1
+2003,BE,edu,BE2003,4.1070333,,,0,,Bern,1
+2007,BE,edu,BE2007,3.5999999,,,0,,Bern,1
+2011,BE,edu,BE2011,3.0999999,,,0,,Bern,0
+1995,BL,edu,BL1995,.60000002,,,0,BL95B,Basel-Landschaft ,0
+1999,BL,edu,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,edu,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,edu,BL2007,.5,,,0,,Basel-Landschaft ,0
+2011,BL,edu,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,edu,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,edu,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,edu,BS2003,.73911315,,,0,,Basel-Stadt,0
+2007,BS,edu,BS2007,.5,,,0,BS07C,Basel-Stadt,0
+2011,BS,edu,BS2011,.5,,,0,BS11D,Basel-Stadt,0
+1995,FR,edu,FR1995,0,,,0,,Freiburg,0
+1999,FR,edu,FR1999,0,,,0,,Freiburg,0
+2003,FR,edu,FR2003,.71822262,,,0,,Freiburg,0
+2007,FR,edu,FR2007,.89999998,,,0,FR07C,Freiburg,0
+2011,FR,edu,FR2011,.69999999,,,0,FR11C,Freiburg,0
+1995,GE,edu,GE1995,0,,,0,,Genf,0
+1999,GE,edu,GE1999,0,,,0,,Genf,0
+2003,GE,edu,GE2003,0,,,0,,Genf,0
+2007,GE,edu,GE2007,0,,,0,,Genf,0
+2011,GE,edu,GE2011,0,,,0,,Genf,0
+1995,GL,edu,GL1995,0,,,0,,Glarus,0
+1999,GL,edu,GL1999,0,,,0,,Glarus,0
+2003,GL,edu,GL2003,0,,,0,,Glarus,0
+2007,GL,edu,GL2007,0,,,0,,Glarus,0
+2011,GL,edu,GL2011,0,,,0,,Glarus,0
+1995,GR,edu,GR1995,0,,,0,,Graubünden,0
+1999,GR,edu,GR1999,0,,,0,,Graubünden,0
+2003,GR,edu,GR2003,1.8704633,,,0,,Graubünden,0
+2007,GR,edu,GR2007,1.6,,,0,,Graubünden,0
+2011,GR,edu,GR2011,.5,,,0,GR11B,Graubünden,0
+1995,JU,edu,JU1995,0,,,0,,Jura,0
+1999,JU,edu,JU1999,0,,,0,,Jura,0
+2003,JU,edu,JU2003,1.7871054,,,0,,Jura,0
+2007,JU,edu,JU2007,0,,,0,,Jura,0
+2011,JU,edu,JU2011,0,,,0,,Jura,0
+1995,LU,edu,LU1995,0,,,0,,Luzern,0
+1999,LU,edu,LU1999,0,,,0,,Luzern,0
+2003,LU,edu,LU2003,0,,,0,,Luzern,0
+2007,LU,edu,LU2007,0,,,0,,Luzern,0
+2011,LU,edu,LU2011,0,,,0,,Luzern,0
+1995,NE,edu,NE1995,2.3,,,0,,Neuenburg,0
+1999,NE,edu,NE1999,0,,,0,,Neuenburg,0
+2003,NE,edu,NE2003,0,,,0,,Neuenburg,0
+2007,NE,edu,NE2007,0,,,0,,Neuenburg,0
+2011,NE,edu,NE2011,0,,,0,,Neuenburg,0
+1995,NW,edu,NW1995,0,,,0,,Nidwalden,0
+1999,NW,edu,NW1999,0,,,0,,Nidwalden,0
+2003,NW,edu,NW2003,0,,,0,,Nidwalden,0
+2007,NW,edu,NW2007,0,,,0,,Nidwalden,0
+2011,NW,edu,NW2011,0,,,0,,Nidwalden,0
+1995,OW,edu,OW1995,0,,,0,,Obwalden ,0
+1999,OW,edu,OW1999,0,,,0,,Obwalden ,0
+2003,OW,edu,OW2003,0,,,0,,Obwalden ,0
+2007,OW,edu,OW2007,0,,,0,,Obwalden ,0
+2011,OW,edu,OW2011,0,,,0,,Obwalden ,0
+1995,SG,edu,SG1995,1,,,0,,St. Gallen,0
+1999,SG,edu,SG1999,1,,,0,SG99D,St. Gallen,0
+2003,SG,edu,SG2003,1.1186615,,,0,SG03D,St. Gallen,0
+2007,SG,edu,SG2007,1,,,0,SG07B,St. Gallen,0
+2011,SG,edu,SG2011,1.2,,,0,SG11B,St. Gallen,0
+1995,SH,edu,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,edu,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,edu,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,edu,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,edu,SH2011,3.8,,,0,SH11C,Schaffhausen,0
+1995,SO,edu,SO1995,0,,,0,,Solothurn,0
+1999,SO,edu,SO1999,0,,,0,,Solothurn,0
+2003,SO,edu,SO2003,0,,,0,,Solothurn,0
+2007,SO,edu,SO2007,0,,,0,,Solothurn,0
+2011,SO,edu,SO2011,.5,,,0,SO11A,Solothurn,0
+1995,SZ,edu,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,edu,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,edu,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,edu,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,edu,SZ2011,0,,,0,,Schwyz,0
+1995,TG,edu,TG1995,0,,,0,,Thurgau,0
+1999,TG,edu,TG1999,1.9,,,0,TG99C,Thurgau,0
+2003,TG,edu,TG2003,1.9347452,,,0,,Thurgau,0
+2007,TG,edu,TG2007,2.5999999,,,0,TG07B,Thurgau,0
+2011,TG,edu,TG2011,3.5,,,0,TG11B,Thurgau,0
+1995,TI,edu,TI1995,0,,,0,,Tessin,0
+1999,TI,edu,TI1999,0,,,0,,Tessin,0
+2003,TI,edu,TI2003,0,,,0,,Tessin,0
+2007,TI,edu,TI2007,0,,,0,,Tessin,0
+2011,TI,edu,TI2011,0,,,0,,Tessin,0
+1995,UR,edu,UR1995,0,,,0,,Uri,0
+1999,UR,edu,UR1999,0,,,0,,Uri,0
+2003,UR,edu,UR2003,0,,,0,,Uri,0
+2007,UR,edu,UR2007,0,,,0,,Uri,0
+2011,UR,edu,UR2011,0,,,0,,Uri,0
+1995,VD,edu,VD1995,2.7,,,0,,Waadt,0
+1999,VD,edu,VD1999,2.7,,,0,,Waadt,0
+2003,VD,edu,VD2003,1.7666905,,,0,VD03C,Waadt,0
+2007,VD,edu,VD2007,1.3,,,0,VD07B,Waadt,0
+2011,VD,edu,VD2011,1.1,,,0,VD11C,Waadt,0
+1995,VS,edu,VS1995,0,,,0,,Wallis,0
+1999,VS,edu,VS1999,0,,,0,,Wallis,0
+2003,VS,edu,VS2003,0,,,0,,Wallis,0
+2007,VS,edu,VS2007,0,,,0,,Wallis,0
+2011,VS,edu,VS2011,0,,,0,,Wallis,0
+1995,ZG,edu,ZG1995,0,,,0,,Zug,0
+1999,ZG,edu,ZG1999,0,,,0,,Zug,0
+2003,ZG,edu,ZG2003,0,,,0,,Zug,0
+2007,ZG,edu,ZG2007,0,,,0,,Zug,0
+2011,ZG,edu,ZG2011,0,,,0,,Zug,0
+1995,ZH,edu,ZH1995,1.9,,,0,ZH95E,Zürich,0
+1999,ZH,edu,ZH1999,1.8,,,0,ZH99E,Zürich,0
+2003,ZH,edu,ZH2003,2.0614119,,,1,ZH03D,Zürich,1
+2007,ZH,edu,ZH2007,2.0999999,,,0,ZH07C,Zürich,0
+2011,ZH,edu,ZH2011,2.2,,,0,ZH11A,Zürich,0
+1995,AG,evp,AG1995,3,,,0,AG95C,Aargau,0
+1999,AG,evp,AG1999,3.8,,,1,AG99C,Aargau,1
+2003,AG,evp,AG2003,5.22965,,,0,AG03B,Aargau,1
+2007,AG,evp,AG2007,4.1999998,,,0,AG07D,Aargau,0
+2011,AG,evp,AG2011,3.2,,,0,AG11C,Aargau,0
+1995,AI,evp,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,evp,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,evp,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,evp,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,evp,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,evp,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,evp,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,evp,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,evp,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,evp,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,evp,BE1995,3.8,,,0,,Bern,1
+1999,BE,evp,BE1999,4,,,0,,Bern,1
+2003,BE,evp,BE2003,5.1507802,,,0,,Bern,1
+2007,BE,evp,BE2007,5.4000001,,,0,BE07C,Bern,1
+2011,BE,evp,BE2011,4.1999998,,,0,BE11C,Bern,1
+1995,BL,evp,BL1995,1.7,,,0,,Basel-Landschaft ,0
+1999,BL,evp,BL1999,2.4000001,,,0,,Basel-Landschaft ,0
+2003,BL,evp,BL2003,2.6657913,,,0,,Basel-Landschaft ,0
+2007,BL,evp,BL2007,2.8,,,0,,Basel-Landschaft ,0
+2011,BL,evp,BL2011,3.3,,,0,BL11B,Basel-Landschaft ,0
+1995,BS,evp,BS1995,4.0999999,,,0,,Basel-Stadt,0
+1999,BS,evp,BS1999,3.8,,,0,BS99C,Basel-Stadt,0
+2003,BS,evp,BS2003,2.8630805,,,0,,Basel-Stadt,0
+2007,BS,evp,BS2007,3.5999999,,,0,,Basel-Stadt,0
+2011,BS,evp,BS2011,2.5,,,0,BS11B,Basel-Stadt,0
+1995,FR,evp,FR1995,0,,,0,,Freiburg,0
+1999,FR,evp,FR1999,0,,,0,,Freiburg,0
+2003,FR,evp,FR2003,.71299011,,,0,FR03B,Freiburg,0
+2007,FR,evp,FR2007,.80000001,,,0,FR07B,Freiburg,0
+2011,FR,evp,FR2011,.69999999,,,0,FR11A,Freiburg,0
+1995,GE,evp,GE1995,0,,,0,,Genf,0
+1999,GE,evp,GE1999,0,,,0,,Genf,0
+2003,GE,evp,GE2003,0,,,0,,Genf,0
+2007,GE,evp,GE2007,1.2,,,0,,Genf,0
+2011,GE,evp,GE2011,1,,,0,,Genf,0
+1995,GL,evp,GL1995,0,,,0,,Glarus,0
+1999,GL,evp,GL1999,0,,,0,,Glarus,0
+2003,GL,evp,GL2003,0,,,0,,Glarus,0
+2007,GL,evp,GL2007,0,,,0,,Glarus,0
+2011,GL,evp,GL2011,0,,,0,,Glarus,0
+1995,GR,evp,GR1995,0,,,0,,Graubünden,0
+1999,GR,evp,GR1999,0,,,0,,Graubünden,0
+2003,GR,evp,GR2003,0,,,0,,Graubünden,0
+2007,GR,evp,GR2007,0,,,0,,Graubünden,0
+2011,GR,evp,GR2011,0,,,0,,Graubünden,0
+1995,JU,evp,JU1995,0,,,0,,Jura,0
+1999,JU,evp,JU1999,0,,,0,,Jura,0
+2003,JU,evp,JU2003,0,,,0,,Jura,0
+2007,JU,evp,JU2007,0,,,0,,Jura,0
+2011,JU,evp,JU2011,0,,,0,,Jura,0
+1995,LU,evp,LU1995,0,,,0,,Luzern,0
+1999,LU,evp,LU1999,0,,,0,,Luzern,0
+2003,LU,evp,LU2003,.80804461,,,0,,Luzern,0
+2007,LU,evp,LU2007,.80000001,,,0,,Luzern,0
+2011,LU,evp,LU2011,.69999999,,,0,LU11C,Luzern,0
+1995,NE,evp,NE1995,0,,,0,,Neuenburg,0
+1999,NE,evp,NE1999,0,,,0,,Neuenburg,0
+2003,NE,evp,NE2003,0,,,0,,Neuenburg,0
+2007,NE,evp,NE2007,1.2,,,0,,Neuenburg,0
+2011,NE,evp,NE2011,0,,,0,,Neuenburg,0
+1995,NW,evp,NW1995,0,,,0,,Nidwalden,0
+1999,NW,evp,NW1999,0,,,0,,Nidwalden,0
+2003,NW,evp,NW2003,0,,,0,,Nidwalden,0
+2007,NW,evp,NW2007,0,,,0,,Nidwalden,0
+2011,NW,evp,NW2011,0,,,0,,Nidwalden,0
+1995,OW,evp,OW1995,0,,,0,,Obwalden ,0
+1999,OW,evp,OW1999,0,,,0,,Obwalden ,0
+2003,OW,evp,OW2003,0,,,0,,Obwalden ,0
+2007,OW,evp,OW2007,0,,,0,,Obwalden ,0
+2011,OW,evp,OW2011,0,,,0,,Obwalden ,0
+1995,SG,evp,SG1995,1.7,,,0,,St. Gallen,0
+1999,SG,evp,SG1999,1.3,,,0,,St. Gallen,0
+2003,SG,evp,SG2003,1.5036889,,,0,,St. Gallen,0
+2007,SG,evp,SG2007,2,,,0,SG07C,St. Gallen,0
+2011,SG,evp,SG2011,1.8,,,0,SG11A,St. Gallen,0
+1995,SH,evp,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,evp,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,evp,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,evp,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,evp,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,evp,SO1995,0,,,0,,Solothurn,0
+1999,SO,evp,SO1999,0,,,0,,Solothurn,0
+2003,SO,evp,SO2003,1.195924,,,0,,Solothurn,0
+2007,SO,evp,SO2007,1.8,,,0,SO07B,Solothurn,0
+2011,SO,evp,SO2011,1.5,,,0,SO11C,Solothurn,0
+1995,SZ,evp,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,evp,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,evp,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,evp,SZ2007,.89999998,,,0,,Schwyz,0
+2011,SZ,evp,SZ2011,1.1,,,0,SZ11A,Schwyz,0
+1995,TG,evp,TG1995,2.7,,,0,,Thurgau,0
+1999,TG,evp,TG1999,2.8,,,0,TG99A,Thurgau,0
+2003,TG,evp,TG2003,2.7130811,,,0,TG03B,Thurgau,0
+2007,TG,evp,TG2007,2.8,,,0,TG07B,Thurgau,0
+2011,TG,evp,TG2011,2.9000001,,,0,TG11B,Thurgau,0
+1995,TI,evp,TI1995,0,,,0,,Tessin,0
+1999,TI,evp,TI1999,.2,,,0,,Tessin,0
+2003,TI,evp,TI2003,0,,,0,,Tessin,0
+2007,TI,evp,TI2007,0,,,0,,Tessin,0
+2011,TI,evp,TI2011,0,,,0,,Tessin,0
+1995,UR,evp,UR1995,0,,,0,,Uri,0
+1999,UR,evp,UR1999,0,,,0,,Uri,0
+2003,UR,evp,UR2003,0,,,0,,Uri,0
+2007,UR,evp,UR2007,0,,,0,,Uri,0
+2011,UR,evp,UR2011,0,,,0,,Uri,0
+1995,VD,evp,VD1995,0,,,0,,Waadt,0
+1999,VD,evp,VD1999,0,,,0,,Waadt,0
+2003,VD,evp,VD2003,.65874273,,,0,VD03C,Waadt,0
+2007,VD,evp,VD2007,1.1,,,0,VD07B,Waadt,0
+2011,VD,evp,VD2011,1.1,,,0,VD11C,Waadt,0
+1995,VS,evp,VS1995,0,,,0,,Wallis,0
+1999,VS,evp,VS1999,0,,,0,,Wallis,0
+2003,VS,evp,VS2003,0,,,0,,Wallis,0
+2007,VS,evp,VS2007,0,,,0,,Wallis,0
+2011,VS,evp,VS2011,0,,,0,,Wallis,0
+1995,ZG,evp,ZG1995,0,,,0,,Zug,0
+1999,ZG,evp,ZG1999,0,,,0,,Zug,0
+2003,ZG,evp,ZG2003,0,,,0,,Zug,0
+2007,ZG,evp,ZG2007,0,,,0,,Zug,0
+2011,ZG,evp,ZG2011,0,,,0,,Zug,0
+1995,ZH,evp,ZH1995,3.7,,,0,ZH95B,Zürich,1
+1999,ZH,evp,ZH1999,3.4000001,,,0,ZH99B,Zürich,1
+2003,ZH,evp,ZH2003,4.1088128,,,0,ZH03B,Zürich,1
+2007,ZH,evp,ZH2007,3.7,,,0,ZH07C,Zürich,1
+2011,ZH,evp,ZH2011,3.0999999,,,0,ZH11C,Zürich,1
+1995,AG,fdp,AG1995,15.8,,,0,AG95A,Aargau,3
+1999,AG,fdp,AG1999,17.200001,,,0,AG99A,Aargau,3
+2003,AG,fdp,AG2003,15.330295,,,0,AG03A,Aargau,2
+2007,AG,fdp,AG2007,13.6,,,0,AG07A,Aargau,2
+2011,AG,fdp,AG2011,11.5,,,0,,Aargau,2
+1995,AI,fdp,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,fdp,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,fdp,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,fdp,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,fdp,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,fdp,AR1995,36.400002,,,0,,Appenzell A. Rh.,1
+1999,AR,fdp,AR1999,32.799999,,,0,,Appenzell A. Rh.,1
+2003,AR,fdp,AR2003,41.06078,,,0,,Appenzell A. Rh.,1
+2007,AR,fdp,AR2007,67.699997,,,0,,Appenzell A. Rh.,1
+2011,AR,fdp,AR2011,51.5,,,0,,Appenzell A. Rh.,1
+1995,BE,fdp,BE1995,15.6,,,-1,BE95A,Bern,4
+1999,BE,fdp,BE1999,17.200001,,,0,BE99A,Bern,5
+2003,BE,fdp,BE2003,14.796335,,,0,BE03A,Bern,4
+2007,BE,fdp,BE2007,15.1,,,0,BE07A,Bern,4
+2011,BE,fdp,BE2011,8.6999998,,,0,,Bern,2
+1995,BL,fdp,BL1995,1.9,,,0,BL95B,Basel-Landschaft ,1
+1995,BL,fdp,BL1995,17.5,,,0,BL95A,Basel-Landschaft ,1
+1999,BL,fdp,BL1999,22.1,,,0,BL99A,Basel-Landschaft ,2
+2003,BL,fdp,BL2003,19.885593,,,0,BL03A,Basel-Landschaft ,1
+2007,BL,fdp,BL2007,17,,,0,BL07A,Basel-Landschaft ,1
+2011,BL,fdp,BL2011,11.5,,,0,,Basel-Landschaft ,1
+1995,BS,fdp,BS1995,12.2,,,0,BS95A,Basel-Stadt,1
+1999,BS,fdp,BS1999,12.1,,,0,BS99A,Basel-Stadt,1
+2003,BS,fdp,BS2003,9.9118271,,,1,BS03A,Basel-Stadt,1
+2007,BS,fdp,BS2007,11.3,,,1,BS07A,Basel-Stadt,1
+2011,BS,fdp,BS2011,12.3,,,0,BS11A,Basel-Stadt,1
+1995,FR,fdp,FR1995,15.9,,,0,FR95A,Freiburg,1
+1999,FR,fdp,FR1999,14.8,,,0,FR99A,Freiburg,1
+2003,FR,fdp,FR2003,12.763659,,,0,FR03A,Freiburg,1
+2007,FR,fdp,FR2007,13.8,,,0,FR07A,Freiburg,1
+2011,FR,fdp,FR2011,12.8,,,0,,Freiburg,1
+1995,GE,fdp,GE1995,13.5,,,0,GE95A,Genf,2
+1999,GE,fdp,GE1999,12.7,,,1,GE99A,Genf,2
+2003,GE,fdp,GE2003,7.2871814,,,0,GE03A,Genf,1
+2007,GE,fdp,GE2007,7.6999998,,,0,GE07A,Genf,1
+2011,GE,fdp,GE2011,18.6,,,0,GE11B,Genf,2
+1995,GL,fdp,GL1995,0,,,0,,Glarus,0
+1999,GL,fdp,GL1999,0,,,0,,Glarus,0
+2003,GL,fdp,GL2003,0,,,0,,Glarus,0
+2007,GL,fdp,GL2007,0,,,0,,Glarus,0
+2011,GL,fdp,GL2011,0,,,0,,Glarus,0
+1995,GR,fdp,GR1995,16.5,,,0,,Graubünden,1
+1999,GR,fdp,GR1999,15.1,,,0,GR99A,Graubünden,1
+2003,GR,fdp,GR2003,15.785098,,,0,,Graubünden,1
+2007,GR,fdp,GR2007,19.1,,,0,,Graubünden,1
+2011,GR,fdp,GR2011,11.9,,,0,,Graubünden,0
+1995,JU,fdp,JU1995,29.5,,,0,,Jura,0
+1999,JU,fdp,JU1999,19.5,,,0,JU99A,Jura,0
+2003,JU,fdp,JU2003,16.289183,,,0,,Jura,0
+2007,JU,fdp,JU2007,13.4,,,0,JU07A,Jura,0
+2011,JU,fdp,JU2011,9.5,,,0,,Jura,0
+1995,LU,fdp,LU1995,25.5,,,0,,Luzern,3
+1999,LU,fdp,LU1999,22.6,,,0,,Luzern,2
+2003,LU,fdp,LU2003,23.079811,,,-1,,Luzern,2
+2007,LU,fdp,LU2007,19.5,,,0,,Luzern,2
+2011,LU,fdp,LU2011,18.4,,,0,,Luzern,2
+1995,NE,fdp,NE1995,25.700001,,,0,NE95A,Neuenburg,2
+1999,NE,fdp,NE1999,20.5,,,0,NE99A,Neuenburg,1
+2003,NE,fdp,NE2003,14.808145,,,0,NE03A,Neuenburg,1
+2007,NE,fdp,NE2007,12.7,,,0,NE07A,Neuenburg,1
+2011,NE,fdp,NE2011,26.9,,,0,NE11A,Neuenburg,2
+1995,NW,fdp,NW1995,48.099998,,,0,,Nidwalden,1
+1999,NW,fdp,NW1999,90.400002,,,0,,Nidwalden,1
+2003,NW,fdp,NW2003,88.519806,,,0,,Nidwalden,1
+2007,NW,fdp,NW2007,0,,,0,,Nidwalden,1
+2011,NW,fdp,NW2011,35.200001,,,0,,Nidwalden,0
+1995,OW,fdp,OW1995,0,,,0,,Obwalden ,0
+1999,OW,fdp,OW1999,0,,,0,,Obwalden ,0
+2003,OW,fdp,OW2003,0,,,0,,Obwalden ,0
+2007,OW,fdp,OW2007,0,,,0,,Obwalden ,0
+2011,OW,fdp,OW2011,0,,,0,,Obwalden ,0
+1995,SG,fdp,SG1995,17,,,-1,SG95A,St. Gallen,2
+1999,SG,fdp,SG1999,16.9,,,0,SG99A,St. Gallen,2
+2003,SG,fdp,SG2003,14.660469,,,0,,St. Gallen,2
+2007,SG,fdp,SG2007,13.6,,,-1,,St. Gallen,1
+2011,SG,fdp,SG2011,12.3,,,0,,St. Gallen,1
+1995,SH,fdp,SH1995,31.9,,,0,SH95A,Schaffhausen,1
+1999,SH,fdp,SH1999,40.400002,,,0,SH99A,Schaffhausen,1
+2003,SH,fdp,SH2003,29.13632,,,0,SH03A,Schaffhausen,1
+2007,SH,fdp,SH2007,26.700001,,,0,,Schaffhausen,0
+2011,SH,fdp,SH2011,12.3,,,0,SH11B,Schaffhausen,0
+1995,SO,fdp,SO1995,25.4,,,0,,Solothurn,2
+1999,SO,fdp,SO1999,25.4,,,0,,Solothurn,2
+2003,SO,fdp,SO2003,23.967014,,,0,,Solothurn,2
+2007,SO,fdp,SO2007,21,,,-1,,Solothurn,1
+2011,SO,fdp,SO2011,18.4,,,-1,SO11B,Solothurn,1
+1995,SZ,fdp,SZ1995,24,,,0,,Schwyz,1
+1999,SZ,fdp,SZ1999,19.1,,,0,,Schwyz,1
+2003,SZ,fdp,SZ2003,15.351016,,,0,,Schwyz,0
+2007,SZ,fdp,SZ2007,16.799999,,,-1,,Schwyz,0
+2011,SZ,fdp,SZ2011,15.5,,,1,SZ11C,Schwyz,1
+1995,TG,fdp,TG1995,15.3,,,0,TG95A,Thurgau,1
+1999,TG,fdp,TG1999,14.7,,,0,TG99A,Thurgau,1
+2003,TG,fdp,TG2003,11.88747,,,0,TG03A,Thurgau,1
+2007,TG,fdp,TG2007,12.1,,,0,TG07A,Thurgau,1
+2011,TG,fdp,TG2011,11.2,,,0,,Thurgau,0
+1995,TI,fdp,TI1995,30.5,,,0,,Tessin,3
+1999,TI,fdp,TI1999,27.700001,,,0,,Tessin,2
+2003,TI,fdp,TI2003,29.792643,,,0,,Tessin,3
+2007,TI,fdp,TI2007,28.1,,,0,,Tessin,3
+2011,TI,fdp,TI2011,24.799999,,,0,,Tessin,2
+1995,UR,fdp,UR1995,86,,,0,,Uri,1
+1999,UR,fdp,UR1999,81.699997,,,0,,Uri,1
+2003,UR,fdp,UR2003,36.63586,,,0,,Uri,1
+2007,UR,fdp,UR2007,87.300003,,,0,,Uri,1
+2011,UR,fdp,UR2011,74.300003,,,0,,Uri,1
+1995,VD,fdp,VD1995,23.5,,,0,VD95A,Waadt,5
+1999,VD,fdp,VD1999,25,,,0,VD99A,Waadt,5
+2003,VD,fdp,VD2003,18.509716,,,0,VD03A,Waadt,4
+2007,VD,fdp,VD2007,14.6,,,0,VD07A,Waadt,3
+2011,VD,fdp,VD2011,16.299999,,,0,VD11B,Waadt,3
+1995,VS,fdp,VS1995,24.200001,,,0,VS95A,Wallis,2
+1999,VS,fdp,VS1999,18.799999,,,-1,,Wallis,1
+2003,VS,fdp,VS2003,17.106812,,,0,,Wallis,1
+2007,VS,fdp,VS2007,16,,,0,VS07A,Wallis,1
+2011,VS,fdp,VS2011,18.799999,,,0,,Wallis,1
+1995,ZG,fdp,ZG1995,22.5,,,0,,Zug,1
+1999,ZG,fdp,ZG1999,25.700001,,,0,,Zug,1
+2003,ZG,fdp,ZG2003,22.362148,,,-1,,Zug,0
+2007,ZG,fdp,ZG2007,21.5,,,-1,,Zug,0
+2011,ZG,fdp,ZG2011,19.200001,,,0,ZG11B,Zug,1
+1995,ZH,fdp,ZH1995,18.1,,,-1,,Zürich,6
+1999,ZH,fdp,ZH1999,17.799999,,,-1,ZH99A,Zürich,6
+2003,ZH,fdp,ZH2003,16.24637,,,-1,ZH03A,Zürich,5
+2007,ZH,fdp,ZH2007,13.2,,,-1,ZH07A,Zürich,4
+2011,ZH,fdp,ZH2011,11.6,,,0,,Zürich,4
+1995,AG,fga,AG1995,1,,,0,,Aargau,0
+1999,AG,fga,AG1999,0,,,0,,Aargau,0
+2003,AG,fga,AG2003,.8465082,,,0,AG03C,Aargau,0
+2007,AG,fga,AG2007,0,,,0,,Aargau,0
+1995,AI,fga,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,fga,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,fga,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,fga,AI2007,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,fga,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,fga,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,fga,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,fga,AR2007,0,,,0,,Appenzell A. Rh.,0
+1995,BE,fga,BE1995,2.5,,,1,BE95C,Bern,1
+1999,BE,fga,BE1999,0,,,0,,Bern,1
+2003,BE,fga,BE2003,0,,,0,,Bern,0
+2007,BE,fga,BE2007,0,,,0,,Bern,0
+1995,BL,fga,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,fga,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,fga,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,fga,BL2007,0,,,0,,Basel-Landschaft ,0
+1995,BS,fga,BS1995,3.2,,,0,BS95B,Basel-Stadt,0
+1995,BS,fga,BS1995,2.8,,,0,BS95B,Basel-Stadt,0
+1999,BS,fga,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,fga,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,fga,BS2007,0,,,0,,Basel-Stadt,0
+1995,FR,fga,FR1995,0,,,0,,Freiburg,0
+1999,FR,fga,FR1999,0,,,0,,Freiburg,0
+2003,FR,fga,FR2003,0,,,0,,Freiburg,0
+2007,FR,fga,FR2007,0,,,0,,Freiburg,0
+1995,GE,fga,GE1995,0,,,0,,Genf,0
+1999,GE,fga,GE1999,0,,,0,,Genf,0
+2003,GE,fga,GE2003,0,,,0,,Genf,0
+2007,GE,fga,GE2007,0,,,0,,Genf,0
+1995,GL,fga,GL1995,0,,,0,,Glarus,0
+1999,GL,fga,GL1999,0,,,0,,Glarus,0
+2003,GL,fga,GL2003,0,,,0,,Glarus,0
+2007,GL,fga,GL2007,0,,,0,,Glarus,0
+1995,GR,fga,GR1995,1.9,,,0,GR95B,Graubünden,0
+1999,GR,fga,GR1999,0,,,0,,Graubünden,0
+2003,GR,fga,GR2003,0,,,0,,Graubünden,0
+2007,GR,fga,GR2007,0,,,0,,Graubünden,0
+1995,JU,fga,JU1995,0,,,0,,Jura,0
+1999,JU,fga,JU1999,0,,,0,,Jura,0
+2003,JU,fga,JU2003,0,,,0,,Jura,0
+2007,JU,fga,JU2007,0,,,0,,Jura,0
+1995,LU,fga,LU1995,.80000001,,,0,LU95A,Luzern,0
+1999,LU,fga,LU1999,0,,,0,,Luzern,0
+2003,LU,fga,LU2003,0,,,0,,Luzern,0
+2007,LU,fga,LU2007,0,,,0,,Luzern,0
+1995,NE,fga,NE1995,0,,,0,,Neuenburg,0
+1999,NE,fga,NE1999,0,,,0,,Neuenburg,0
+2003,NE,fga,NE2003,0,,,0,,Neuenburg,0
+2007,NE,fga,NE2007,0,,,0,,Neuenburg,0
+1995,NW,fga,NW1995,0,,,0,,Nidwalden,0
+1999,NW,fga,NW1999,0,,,0,,Nidwalden,0
+2003,NW,fga,NW2003,0,,,0,,Nidwalden,0
+2007,NW,fga,NW2007,0,,,0,,Nidwalden,0
+1995,OW,fga,OW1995,0,,,0,,Obwalden ,0
+1999,OW,fga,OW1999,0,,,0,,Obwalden ,0
+2003,OW,fga,OW2003,0,,,0,,Obwalden ,0
+2007,OW,fga,OW2007,0,,,0,,Obwalden ,0
+1995,SG,fga,SG1995,0,,,0,,St. Gallen,0
+1999,SG,fga,SG1999,0,,,0,,St. Gallen,0
+2003,SG,fga,SG2003,0,,,0,,St. Gallen,0
+2007,SG,fga,SG2007,0,,,0,,St. Gallen,0
+1995,SH,fga,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,fga,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,fga,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,fga,SH2007,0,,,0,,Schaffhausen,0
+1995,SO,fga,SO1995,0,,,0,,Solothurn,0
+1999,SO,fga,SO1999,0,,,0,,Solothurn,0
+2003,SO,fga,SO2003,0,,,0,,Solothurn,0
+2007,SO,fga,SO2007,0,,,0,,Solothurn,0
+1995,SZ,fga,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,fga,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,fga,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,fga,SZ2007,0,,,0,,Schwyz,0
+1995,TG,fga,TG1995,0,,,0,,Thurgau,0
+1999,TG,fga,TG1999,0,,,0,,Thurgau,0
+2003,TG,fga,TG2003,0,,,0,,Thurgau,0
+2007,TG,fga,TG2007,0,,,0,,Thurgau,0
+1995,TI,fga,TI1995,0,,,0,,Tessin,0
+1999,TI,fga,TI1999,0,,,0,,Tessin,0
+2003,TI,fga,TI2003,0,,,0,,Tessin,0
+2007,TI,fga,TI2007,0,,,0,,Tessin,0
+1995,UR,fga,UR1995,0,,,0,,Uri,0
+1999,UR,fga,UR1999,0,,,0,,Uri,0
+2003,UR,fga,UR2003,0,,,0,,Uri,0
+2007,UR,fga,UR2007,0,,,0,,Uri,0
+1995,VD,fga,VD1995,2.5999999,,,0,VD95B,Waadt,0
+1999,VD,fga,VD1999,0,,,0,,Waadt,0
+2003,VD,fga,VD2003,0,,,0,,Waadt,0
+2007,VD,fga,VD2007,0,,,0,,Waadt,0
+1995,VS,fga,VS1995,0,,,0,,Wallis,0
+1999,VS,fga,VS1999,0,,,0,,Wallis,0
+2003,VS,fga,VS2003,0,,,0,,Wallis,0
+2007,VS,fga,VS2007,0,,,0,,Wallis,0
+1995,ZG,fga,ZG1995,10.4,,,0,ZG95A,Zug,0
+1999,ZG,fga,ZG1999,0,,,0,,Zug,0
+2003,ZG,fga,ZG2003,13.598639,,,1,ZG03C,Zug,1
+2007,ZG,fga,ZG2007,0,,,0,,Zug,0
+1995,ZH,fga,ZH1995,2.0999999,,,0,ZH95C,Zürich,1
+1995,ZH,fga,ZH1995,.60000002,,,0,ZH95C,Zürich,1
+1999,ZH,fga,ZH1999,.80000001,,,0,ZH99C,Zürich,0
+1999,ZH,fga,ZH1999,.89999998,,,0,ZH99C,Zürich,0
+2003,ZH,fga,ZH2003,1.4359975,,,0,ZH03C,Zürich,0
+2007,ZH,fga,ZH2007,1.1,,,0,ZH07B,Zürich,0
+1995,AG,fps,AG1995,11.3,,,0,AG95D,Aargau,2
+1999,AG,fps,AG1999,1.4,,,0,AG99D,Aargau,0
+2003,AG,fps,AG2003,.22713317,,,0,AG03D,Aargau,0
+2007,AG,fps,AG2007,0,,,0,,Aargau,0
+1995,AI,fps,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,fps,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,fps,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,fps,AI2007,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,fps,AR1995,8.8999996,,,0,,Appenzell A. Rh.,0
+1999,AR,fps,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,fps,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,fps,AR2007,0,,,0,,Appenzell A. Rh.,0
+1995,BE,fps,BE1995,5.9000001,,,0,,Bern,1
+1999,BE,fps,BE1999,2.7,,,0,BE99E,Bern,0
+2003,BE,fps,BE2003,1.0507488,,,0,BE03E,Bern,0
+2007,BE,fps,BE2007,.60000002,,,0,BE07E,Bern,0
+1995,BL,fps,BL1995,1.3,,,0,BL95D,Basel-Landschaft ,0
+1999,BL,fps,BL1999,.30000001,,,0,BL99C,Basel-Landschaft ,0
+2003,BL,fps,BL2003,.20282391,,,0,BL03C,Basel-Landschaft ,0
+2007,BL,fps,BL2007,0,,,0,,Basel-Landschaft ,0
+1995,BS,fps,BS1995,2.5,,,0,BS95C,Basel-Stadt,0
+1999,BS,fps,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,fps,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,fps,BS2007,0,,,0,,Basel-Stadt,0
+1995,FR,fps,FR1995,0,,,0,,Freiburg,0
+1999,FR,fps,FR1999,0,,,0,,Freiburg,0
+2003,FR,fps,FR2003,0,,,0,,Freiburg,0
+2007,FR,fps,FR2007,0,,,0,,Freiburg,0
+1995,GE,fps,GE1995,0,,,0,,Genf,0
+1999,GE,fps,GE1999,0,,,0,,Genf,0
+2003,GE,fps,GE2003,0,,,0,,Genf,0
+2007,GE,fps,GE2007,0,,,0,,Genf,0
+1995,GL,fps,GL1995,0,,,0,,Glarus,0
+1999,GL,fps,GL1999,0,,,0,,Glarus,0
+2003,GL,fps,GL2003,0,,,0,,Glarus,0
+2007,GL,fps,GL2007,0,,,0,,Glarus,0
+1995,GR,fps,GR1995,0,,,0,,Graubünden,0
+1999,GR,fps,GR1999,0,,,0,,Graubünden,0
+2003,GR,fps,GR2003,0,,,0,,Graubünden,0
+2007,GR,fps,GR2007,0,,,0,,Graubünden,0
+1995,JU,fps,JU1995,0,,,0,,Jura,0
+1999,JU,fps,JU1999,0,,,0,,Jura,0
+2003,JU,fps,JU2003,0,,,0,,Jura,0
+2007,JU,fps,JU2007,0,,,0,,Jura,0
+1995,LU,fps,LU1995,0,,,0,,Luzern,0
+1999,LU,fps,LU1999,.30000001,,,0,LU99D,Luzern,0
+2003,LU,fps,LU2003,0,,,0,,Luzern,0
+2007,LU,fps,LU2007,0,,,0,,Luzern,0
+1995,NE,fps,NE1995,0,,,0,,Neuenburg,0
+1999,NE,fps,NE1999,0,,,0,,Neuenburg,0
+2003,NE,fps,NE2003,0,,,0,,Neuenburg,0
+2007,NE,fps,NE2007,0,,,0,,Neuenburg,0
+1995,NW,fps,NW1995,0,,,0,,Nidwalden,0
+1999,NW,fps,NW1999,0,,,0,,Nidwalden,0
+2003,NW,fps,NW2003,0,,,0,,Nidwalden,0
+2007,NW,fps,NW2007,0,,,0,,Nidwalden,0
+1995,OW,fps,OW1995,3.8,,,0,,Obwalden ,0
+1999,OW,fps,OW1999,0,,,0,,Obwalden ,0
+2003,OW,fps,OW2003,0,,,0,,Obwalden ,0
+2007,OW,fps,OW2007,0,,,0,,Obwalden ,0
+1995,SG,fps,SG1995,10.2,,,0,SG95D,St. Gallen,1
+1999,SG,fps,SG1999,1,,,0,SG99D,St. Gallen,0
+2003,SG,fps,SG2003,0,,,0,,St. Gallen,0
+2007,SG,fps,SG2007,0,,,0,,St. Gallen,0
+1995,SH,fps,SH1995,8.6000004,,,0,SH95A,Schaffhausen,0
+1999,SH,fps,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,fps,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,fps,SH2007,0,,,0,,Schaffhausen,0
+1995,SO,fps,SO1995,10.6,,,0,SO95B,Solothurn,1
+1999,SO,fps,SO1999,1.3,,,0,SO99E,Solothurn,0
+2003,SO,fps,SO2003,0,,,0,,Solothurn,0
+2007,SO,fps,SO2007,0,,,0,,Solothurn,0
+1995,SZ,fps,SZ1995,2.8,,,0,SZ95A,Schwyz,0
+1999,SZ,fps,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,fps,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,fps,SZ2007,0,,,0,,Schwyz,0
+1995,TG,fps,TG1995,8,,,1,TG95C,Thurgau,1
+1999,TG,fps,TG1999,2.7,,,0,TG99C,Thurgau,0
+2003,TG,fps,TG2003,.31059268,,,0,TG03D,Thurgau,0
+2007,TG,fps,TG2007,0,,,0,,Thurgau,0
+1995,TI,fps,TI1995,0,,,0,,Tessin,0
+1999,TI,fps,TI1999,0,,,0,,Tessin,0
+2003,TI,fps,TI2003,0,,,0,,Tessin,0
+2007,TI,fps,TI2007,0,,,0,,Tessin,0
+1995,UR,fps,UR1995,0,,,0,,Uri,0
+1999,UR,fps,UR1999,0,,,0,,Uri,0
+2003,UR,fps,UR2003,0,,,0,,Uri,0
+2007,UR,fps,UR2007,0,,,0,,Uri,0
+1995,VD,fps,VD1995,0,,,0,,Waadt,0
+1999,VD,fps,VD1999,0,,,0,,Waadt,0
+2003,VD,fps,VD2003,0,,,0,,Waadt,0
+2007,VD,fps,VD2007,0,,,0,,Waadt,0
+1995,VS,fps,VS1995,0,,,0,,Wallis,0
+1999,VS,fps,VS1999,0,,,0,,Wallis,0
+2003,VS,fps,VS2003,0,,,0,,Wallis,0
+2007,VS,fps,VS2007,0,,,0,,Wallis,0
+1995,ZG,fps,ZG1995,0,,,0,,Zug,0
+1999,ZG,fps,ZG1999,0,,,0,,Zug,0
+2003,ZG,fps,ZG2003,0,,,0,,Zug,0
+2007,ZG,fps,ZG2007,0,,,0,,Zug,0
+1995,ZH,fps,ZH1995,3.5,,,0,ZH95D,Zürich,1
+1999,ZH,fps,ZH1999,.80000001,,,0,ZH99D,Zürich,0
+2003,ZH,fps,ZH2003,.0925138,,,0,ZH03D,Zürich,0
+2007,ZH,fps,ZH2007,.1,,,0,ZH07D,Zürich,0
+1995,AG,glp,AG1995,0,,,0,,Aargau,0
+1999,AG,glp,AG1999,0,,,0,,Aargau,0
+2003,AG,glp,AG2003,0,,,0,,Aargau,0
+2007,AG,glp,AG2007,0,,,0,,Aargau,0
+2011,AG,glp,AG2011,5.6999998,,,0,AG11C,Aargau,1
+1995,AI,glp,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,glp,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,glp,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,glp,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,glp,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,glp,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,glp,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,glp,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,glp,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,glp,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,glp,BE1995,0,,,0,,Bern,0
+1999,BE,glp,BE1999,0,,,0,,Bern,0
+2003,BE,glp,BE2003,0,,,0,,Bern,0
+2007,BE,glp,BE2007,0,,,0,,Bern,0
+2011,BE,glp,BE2011,5.3000002,,,1,BE11C,Bern,2
+1995,BL,glp,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,glp,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,glp,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,glp,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,glp,BL2011,5,,,0,BL11B,Basel-Landschaft ,0
+1995,BS,glp,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,glp,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,glp,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,glp,BS2007,0,,,0,,Basel-Stadt,0
+2011,BS,glp,BS2011,5.8000002,,,0,BS11B,Basel-Stadt,0
+1995,FR,glp,FR1995,0,,,0,,Freiburg,0
+1999,FR,glp,FR1999,0,,,0,,Freiburg,0
+2003,FR,glp,FR2003,0,,,0,,Freiburg,0
+2007,FR,glp,FR2007,0,,,0,,Freiburg,0
+2011,FR,glp,FR2011,3.5,,,0,FR11D,Freiburg,0
+1995,GE,glp,GE1995,0,,,0,,Genf,0
+1999,GE,glp,GE1999,0,,,0,,Genf,0
+2003,GE,glp,GE2003,0,,,0,,Genf,0
+2007,GE,glp,GE2007,0,,,0,,Genf,0
+2011,GE,glp,GE2011,3.2,,,0,GE11B,Genf,0
+1995,GL,glp,GL1995,0,,,0,,Glarus,0
+1999,GL,glp,GL1999,0,,,0,,Glarus,0
+2003,GL,glp,GL2003,0,,,0,,Glarus,0
+2007,GL,glp,GL2007,0,,,0,,Glarus,0
+2011,GL,glp,GL2011,0,,,0,,Glarus,0
+1995,GR,glp,GR1995,0,,,0,,Graubünden,0
+1999,GR,glp,GR1999,0,,,0,,Graubünden,0
+2003,GR,glp,GR2003,0,,,0,,Graubünden,0
+2007,GR,glp,GR2007,0,,,0,,Graubünden,0
+2011,GR,glp,GR2011,8.3000002,,,1,GR11A,Graubünden,1
+1995,JU,glp,JU1995,0,,,0,,Jura,0
+1999,JU,glp,JU1999,0,,,0,,Jura,0
+2003,JU,glp,JU2003,0,,,0,,Jura,0
+2007,JU,glp,JU2007,0,,,0,,Jura,0
+2011,JU,glp,JU2011,0,,,0,,Jura,0
+1995,LU,glp,LU1995,0,,,0,,Luzern,0
+1999,LU,glp,LU1999,0,,,0,,Luzern,0
+2003,LU,glp,LU2003,0,,,0,,Luzern,0
+2007,LU,glp,LU2007,0,,,0,,Luzern,0
+2011,LU,glp,LU2011,6.0999999,,,1,LU11C,Luzern,1
+1995,NE,glp,NE1995,0,,,0,,Neuenburg,0
+1999,NE,glp,NE1999,0,,,0,,Neuenburg,0
+2003,NE,glp,NE2003,0,,,0,,Neuenburg,0
+2007,NE,glp,NE2007,0,,,0,,Neuenburg,0
+2011,NE,glp,NE2011,0,,,0,,Neuenburg,0
+1995,NW,glp,NW1995,0,,,0,,Nidwalden,0
+1999,NW,glp,NW1999,0,,,0,,Nidwalden,0
+2003,NW,glp,NW2003,0,,,0,,Nidwalden,0
+2007,NW,glp,NW2007,0,,,0,,Nidwalden,0
+2011,NW,glp,NW2011,0,,,0,,Nidwalden,0
+1995,OW,glp,OW1995,0,,,0,,Obwalden ,0
+1999,OW,glp,OW1999,0,,,0,,Obwalden ,0
+2003,OW,glp,OW2003,0,,,0,,Obwalden ,0
+2007,OW,glp,OW2007,0,,,0,,Obwalden ,0
+2011,OW,glp,OW2011,0,,,0,,Obwalden ,0
+1995,SG,glp,SG1995,0,,,0,,St. Gallen,0
+1999,SG,glp,SG1999,0,,,0,,St. Gallen,0
+2003,SG,glp,SG2003,0,,,0,,St. Gallen,0
+2007,SG,glp,SG2007,3.0999999,,,0,SG07C,St. Gallen,0
+2011,SG,glp,SG2011,6,,,1,SG11D,St. Gallen,1
+1995,SH,glp,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,glp,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,glp,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,glp,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,glp,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,glp,SO1995,0,,,0,,Solothurn,0
+1999,SO,glp,SO1999,0,,,0,,Solothurn,0
+2003,SO,glp,SO2003,0,,,0,,Solothurn,0
+2007,SO,glp,SO2007,0,,,0,,Solothurn,0
+2011,SO,glp,SO2011,5,,,0,SO11C,Solothurn,0
+1995,SZ,glp,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,glp,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,glp,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,glp,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,glp,SZ2011,0,,,0,,Schwyz,0
+1995,TG,glp,TG1995,0,,,0,,Thurgau,0
+1999,TG,glp,TG1999,0,,,0,,Thurgau,0
+2003,TG,glp,TG2003,0,,,0,,Thurgau,0
+2007,TG,glp,TG2007,0,,,0,,Thurgau,0
+2011,TG,glp,TG2011,5.1999998,,,0,TG11B,Thurgau,1
+1995,TI,glp,TI1995,0,,,0,,Tessin,0
+1999,TI,glp,TI1999,0,,,0,,Tessin,0
+2003,TI,glp,TI2003,0,,,0,,Tessin,0
+2007,TI,glp,TI2007,0,,,0,,Tessin,0
+2011,TI,glp,TI2011,0,,,0,,Tessin,0
+1995,UR,glp,UR1995,0,,,0,,Uri,0
+1999,UR,glp,UR1999,0,,,0,,Uri,0
+2003,UR,glp,UR2003,0,,,0,,Uri,0
+2007,UR,glp,UR2007,0,,,0,,Uri,0
+2011,UR,glp,UR2011,0,,,0,,Uri,0
+1995,VD,glp,VD1995,0,,,0,,Waadt,0
+1999,VD,glp,VD1999,0,,,0,,Waadt,0
+2003,VD,glp,VD2003,0,,,0,,Waadt,0
+2007,VD,glp,VD2007,0,,,0,,Waadt,0
+2011,VD,glp,VD2011,5.0999999,,,0,VD11C,Waadt,1
+1995,VS,glp,VS1995,0,,,0,,Wallis,0
+1999,VS,glp,VS1999,0,,,0,,Wallis,0
+2003,VS,glp,VS2003,0,,,0,,Wallis,0
+2007,VS,glp,VS2007,0,,,0,,Wallis,0
+2011,VS,glp,VS2011,0,,,0,,Wallis,0
+1995,ZG,glp,ZG1995,0,,,0,,Zug,0
+1999,ZG,glp,ZG1999,0,,,0,,Zug,0
+2003,ZG,glp,ZG2003,0,,,0,,Zug,0
+2007,ZG,glp,ZG2007,0,,,0,,Zug,0
+2011,ZG,glp,ZG2011,6.8000002,,,0,,Zug,0
+1995,ZH,glp,ZH1995,0,,,0,,Zürich,0
+1999,ZH,glp,ZH1999,0,,,0,,Zürich,0
+2003,ZH,glp,ZH2003,0,,,0,,Zürich,0
+2007,ZH,glp,ZH2007,7,,,1,ZH07C,Zürich,3
+2011,ZH,glp,ZH2011,11.5,,,0,ZH11C,Zürich,4
+1995,AG,gps,AG1995,5.3000002,,,0,AG95B,Aargau,1
+1999,AG,gps,AG1999,4.4000001,,,0,AG99B,Aargau,0
+2003,AG,gps,AG2003,5.1121702,,,1,AG03C,Aargau,1
+2007,AG,gps,AG2007,8.1000004,,,0,AG07C,Aargau,1
+2011,AG,gps,AG2011,7.3000002,,,0,AG11C,Aargau,1
+1995,AI,gps,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,gps,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,gps,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,gps,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,gps,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,gps,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,gps,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,gps,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,gps,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,gps,AR2011,6.4000001,,,0,,Appenzell A. Rh.,0
+1995,BE,gps,BE1995,5.9000001,,,-1,BE95C,Bern,1
+1999,BE,gps,BE1999,7.5,,,0,BE99C,Bern,1
+2003,BE,gps,BE2003,9.2680683,,,0,BE03C,Bern,2
+2007,BE,gps,BE2007,12.9,,,0,BE07B,Bern,3
+2011,BE,gps,BE2011,9.3999996,,,0,BE11B,Bern,3
+1995,BL,gps,BL1995,9.5,,,0,BL95C,Basel-Landschaft ,1
+1999,BL,gps,BL1999,9.1999998,,,1,BL99B,Basel-Landschaft ,1
+2003,BL,gps,BL2003,12.575871,,,0,BL03B,Basel-Landschaft ,1
+2007,BL,gps,BL2007,13.8,,,0,BL07B,Basel-Landschaft ,1
+2011,BL,gps,BL2011,13.6,,,0,BL11A,Basel-Landschaft ,1
+1995,BS,gps,BS1995,5.5999999,,,0,BS95B,Basel-Stadt,0
+1999,BS,gps,BS1999,8.6999998,,,0,BS99B,Basel-Stadt,0
+2003,BS,gps,BS2003,9.2134027,,,0,BS03B,Basel-Stadt,0
+2007,BS,gps,BS2007,12.1,,,0,BS07B,Basel-Stadt,1
+2011,BS,gps,BS2011,13.4,,,-1,BS11C,Basel-Stadt,0
+1995,FR,gps,FR1995,2.3,,,0,FR95B,Freiburg,0
+1999,FR,gps,FR1999,0,,,0,,Freiburg,0
+2003,FR,gps,FR2003,4.0197606,,,0,FR03B,Freiburg,0
+2007,FR,gps,FR2007,6.3000002,,,0,FR07B,Freiburg,0
+2011,FR,gps,FR2011,5,,,0,FR11A,Freiburg,0
+1995,GE,gps,GE1995,5.5999999,,,0,GE95B,Genf,0
+1999,GE,gps,GE1999,8.1999998,,,0,GE99B,Genf,1
+2003,GE,gps,GE2003,11.218843,,,0,GE03B,Genf,1
+2007,GE,gps,GE2007,16.4,,,0,GE07B,Genf,2
+2011,GE,gps,GE2011,14,,,0,GE11A,Genf,2
+1995,GL,gps,GL1995,0,,,0,,Glarus,0
+1999,GL,gps,GL1999,0,,,0,,Glarus,0
+2003,GL,gps,GL2003,0,,,0,,Glarus,0
+2007,GL,gps,GL2007,0,,,0,,Glarus,0
+2011,GL,gps,GL2011,0,,,0,,Glarus,0
+1995,GR,gps,GR1995,3.5,,,0,GR95B,Graubünden,0
+1999,GR,gps,GR1999,0,,,0,,Graubünden,0
+2003,GR,gps,GR2003,0,,,0,,Graubünden,0
+2007,GR,gps,GR2007,0,,,0,,Graubünden,0
+2011,GR,gps,GR2011,2.2,,,0,GR11A,Graubünden,0
+1995,JU,gps,JU1995,0,,,0,,Jura,0
+1999,JU,gps,JU1999,0,,,0,,Jura,0
+2003,JU,gps,JU2003,0,,,0,,Jura,0
+2007,JU,gps,JU2007,0,,,0,,Jura,0
+2011,JU,gps,JU2011,11,,,0,JU11A,Jura,0
+1995,LU,gps,LU1995,8.1000004,,,0,LU95A,Luzern,1
+1999,LU,gps,LU1999,8,,,0,LU99C,Luzern,1
+2003,LU,gps,LU2003,9.777998,,,0,LU03C,Luzern,1
+2007,LU,gps,LU2007,9,,,0,LU07A,Luzern,1
+2011,LU,gps,LU2011,8.3000002,,,0,LU11B,Luzern,1
+1995,NE,gps,NE1995,5.9000001,,,0,NE95B,Neuenburg,0
+1999,NE,gps,NE1999,14.7,,,0,NE99B,Neuenburg,1
+2003,NE,gps,NE2003,13.825467,,,1,NE03B,Neuenburg,1
+2007,NE,gps,NE2007,9.3999996,,,1,NE07B,Neuenburg,1
+2011,NE,gps,NE2011,11.7,,,1,NE11B,Neuenburg,1
+1995,NW,gps,NW1995,0,,,0,,Nidwalden,0
+1999,NW,gps,NW1999,0,,,0,,Nidwalden,0
+2003,NW,gps,NW2003,0,,,0,,Nidwalden,0
+2007,NW,gps,NW2007,0,,,0,,Nidwalden,0
+2011,NW,gps,NW2011,19.6,,,0,,Nidwalden,0
+1995,OW,gps,OW1995,0,,,0,,Obwalden ,0
+1999,OW,gps,OW1999,0,,,0,,Obwalden ,0
+2003,OW,gps,OW2003,0,,,0,,Obwalden ,0
+2007,OW,gps,OW2007,0,,,0,,Obwalden ,0
+2011,OW,gps,OW2011,0,,,0,,Obwalden ,0
+1995,SG,gps,SG1995,4.9000001,,,1,SG95C,St. Gallen,1
+1999,SG,gps,SG1999,4,,,1,SG99B,St. Gallen,1
+2003,SG,gps,SG2003,7.0626993,,,0,SG03C,St. Gallen,1
+2007,SG,gps,SG2007,6.4000001,,,1,SG07C,St. Gallen,1
+2011,SG,gps,SG2011,6.4000001,,,0,SG11C,St. Gallen,1
+1995,SH,gps,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,gps,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,gps,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,gps,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,gps,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,gps,SO1995,5.8000002,,,0,SO95A,Solothurn,0
+1999,SO,gps,SO1999,4.9000001,,,0,SO99C,Solothurn,0
+2003,SO,gps,SO2003,5.9908714,,,0,SO03C,Solothurn,0
+2007,SO,gps,SO2007,10,,,1,SO07A,Solothurn,1
+2011,SO,gps,SO2011,7.5,,,0,SO11D,Solothurn,0
+1995,SZ,gps,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,gps,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,gps,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,gps,SZ2007,3.4000001,,,0,SZ07A,Schwyz,0
+2011,SZ,gps,SZ2011,2,,,0,SZ11A,Schwyz,0
+1995,TG,gps,TG1995,9.3000002,,,-1,TG95B,Thurgau,0
+1999,TG,gps,TG1999,6.1999998,,,0,TG99B,Thurgau,0
+2003,TG,gps,TG2003,7.9276013,,,0,TG03C,Thurgau,0
+2007,TG,gps,TG2007,10.2,,,0,TG07C,Thurgau,0
+2011,TG,gps,TG2011,7,,,0,TG11A,Thurgau,0
+1995,TI,gps,TI1995,1.7,,,0,TI95A,Tessin,0
+1999,TI,gps,TI1999,1.4,,,0,TI99A,Tessin,0
+2003,TI,gps,TI2003,2.9685276,,,0,TI03A,Tessin,0
+2007,TI,gps,TI2007,4.8000002,,,0,TI07C,Tessin,0
+2011,TI,gps,TI2011,6.6999998,,,0,,Tessin,0
+1995,UR,gps,UR1995,0,,,0,,Uri,0
+1999,UR,gps,UR1999,0,,,0,,Uri,0
+2003,UR,gps,UR2003,30.609982,,,0,,Uri,0
+2007,UR,gps,UR2007,0,,,0,,Uri,0
+2011,UR,gps,UR2011,0,,,0,,Uri,0
+1995,VD,gps,VD1995,4.0999999,,,1,VD95B,Waadt,1
+1999,VD,gps,VD1999,7.0999999,,,0,VD99B,Waadt,1
+2003,VD,gps,VD2003,11.31224,,,0,VD03B,Waadt,2
+2007,VD,gps,VD2007,14.3,,,0,VD07C,Waadt,3
+2011,VD,gps,VD2011,11.6,,,0,VD11A,Waadt,2
+1995,VS,gps,VS1995,1.3,,,0,VS95C,Wallis,0
+1999,VS,gps,VS1999,2.0999999,,,0,VS99D,Wallis,0
+2003,VS,gps,VS2003,2.5951312,,,0,VS03D,Wallis,0
+2007,VS,gps,VS2007,3.9000001,,,0,VS07C,Wallis,0
+2011,VS,gps,VS2011,5,,,0,VS11A,Wallis,0
+1995,ZG,gps,ZG1995,0,,,0,,Zug,0
+1999,ZG,gps,ZG1999,0,,,0,,Zug,0
+2003,ZG,gps,ZG2003,0,,,0,,Zug,0
+2007,ZG,gps,ZG2007,17,,,1,ZG07A,Zug,1
+2011,ZG,gps,ZG2011,15.4,,,0,ZG11A,Zug,0
+1995,ZH,gps,ZH1995,6.5,,,0,ZH95C,Zürich,2
+1999,ZH,gps,ZH1999,4.0999999,,,0,ZH99C,Zürich,1
+2003,ZH,gps,ZH2003,8.4677973,,,0,ZH03B,Zürich,3
+2007,ZH,gps,ZH2007,10.4,,,0,ZH07B,Zürich,4
+2011,ZH,gps,ZH2011,8.3999996,,,0,ZH11B,Zürich,3
+1995,AG,ldu,AG1995,3.3,,,1,AG95C,Aargau,1
+1999,AG,ldu,AG1999,2,,,0,AG99C,Aargau,0
+2003,AG,ldu,AG2003,0,,,0,,Aargau,0
+2007,AG,ldu,AG2007,0,,,0,,Aargau,0
+1995,AI,ldu,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,ldu,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,ldu,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,ldu,AI2007,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,ldu,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,ldu,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,ldu,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,ldu,AR2007,0,,,0,,Appenzell A. Rh.,0
+1995,BE,ldu,BE1995,1.9,,,0,BE95C,Bern,0
+1999,BE,ldu,BE1999,.80000001,,,0,BE99B,Bern,0
+2003,BE,ldu,BE2003,0,,,0,,Bern,0
+2007,BE,ldu,BE2007,0,,,0,,Bern,0
+1995,BL,ldu,BL1995,1.3,,,0,,Basel-Landschaft ,0
+1999,BL,ldu,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,ldu,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,ldu,BL2007,0,,,0,,Basel-Landschaft ,0
+1995,BS,ldu,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,ldu,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,ldu,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,ldu,BS2007,0,,,0,,Basel-Stadt,0
+1995,FR,ldu,FR1995,0,,,0,,Freiburg,0
+1999,FR,ldu,FR1999,0,,,0,,Freiburg,0
+2003,FR,ldu,FR2003,0,,,0,,Freiburg,0
+2007,FR,ldu,FR2007,0,,,0,,Freiburg,0
+1995,GE,ldu,GE1995,0,,,0,,Genf,0
+1999,GE,ldu,GE1999,0,,,0,,Genf,0
+2003,GE,ldu,GE2003,0,,,0,,Genf,0
+2007,GE,ldu,GE2007,0,,,0,,Genf,0
+1995,GL,ldu,GL1995,0,,,0,,Glarus,0
+1999,GL,ldu,GL1999,0,,,0,,Glarus,0
+2003,GL,ldu,GL2003,0,,,0,,Glarus,0
+2007,GL,ldu,GL2007,0,,,0,,Glarus,0
+1995,GR,ldu,GR1995,1.1,,,0,,Graubünden,0
+1999,GR,ldu,GR1999,0,,,0,,Graubünden,0
+2003,GR,ldu,GR2003,0,,,0,,Graubünden,0
+2007,GR,ldu,GR2007,0,,,0,,Graubünden,0
+1995,JU,ldu,JU1995,0,,,0,,Jura,0
+1999,JU,ldu,JU1999,0,,,0,,Jura,0
+2003,JU,ldu,JU2003,0,,,0,,Jura,0
+2007,JU,ldu,JU2007,0,,,0,,Jura,0
+1995,LU,ldu,LU1995,0,,,0,,Luzern,0
+1999,LU,ldu,LU1999,0,,,0,,Luzern,0
+2003,LU,ldu,LU2003,0,,,0,,Luzern,0
+2007,LU,ldu,LU2007,0,,,0,,Luzern,0
+1995,NE,ldu,NE1995,0,,,0,,Neuenburg,0
+1999,NE,ldu,NE1999,0,,,0,,Neuenburg,0
+2003,NE,ldu,NE2003,0,,,0,,Neuenburg,0
+2007,NE,ldu,NE2007,0,,,0,,Neuenburg,0
+1995,NW,ldu,NW1995,0,,,0,,Nidwalden,0
+1999,NW,ldu,NW1999,0,,,0,,Nidwalden,0
+2003,NW,ldu,NW2003,0,,,0,,Nidwalden,0
+2007,NW,ldu,NW2007,0,,,0,,Nidwalden,0
+1995,OW,ldu,OW1995,0,,,0,,Obwalden ,0
+1999,OW,ldu,OW1999,0,,,0,,Obwalden ,0
+2003,OW,ldu,OW2003,0,,,0,,Obwalden ,0
+2007,OW,ldu,OW2007,0,,,0,,Obwalden ,0
+1995,SG,ldu,SG1995,4.0999999,,,0,SG95C,St. Gallen,0
+1999,SG,ldu,SG1999,1.9,,,0,SG99B,St. Gallen,0
+2003,SG,ldu,SG2003,0,,,0,,St. Gallen,0
+2007,SG,ldu,SG2007,0,,,0,,St. Gallen,0
+1995,SH,ldu,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,ldu,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,ldu,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,ldu,SH2007,0,,,0,,Schaffhausen,0
+1995,SO,ldu,SO1995,1.6,,,0,SO95A,Solothurn,0
+1999,SO,ldu,SO1999,0,,,0,,Solothurn,0
+2003,SO,ldu,SO2003,0,,,0,,Solothurn,0
+2007,SO,ldu,SO2007,0,,,0,,Solothurn,0
+1995,SZ,ldu,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,ldu,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,ldu,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,ldu,SZ2007,0,,,0,,Schwyz,0
+1995,TG,ldu,TG1995,0,,,0,,Thurgau,0
+1999,TG,ldu,TG1999,0,,,0,,Thurgau,0
+2003,TG,ldu,TG2003,0,,,0,,Thurgau,0
+2007,TG,ldu,TG2007,0,,,0,,Thurgau,0
+1995,TI,ldu,TI1995,0,,,0,,Tessin,0
+1999,TI,ldu,TI1999,0,,,0,,Tessin,0
+2003,TI,ldu,TI2003,0,,,0,,Tessin,0
+2007,TI,ldu,TI2007,0,,,0,,Tessin,0
+1995,UR,ldu,UR1995,0,,,0,,Uri,0
+1999,UR,ldu,UR1999,0,,,0,,Uri,0
+2003,UR,ldu,UR2003,0,,,0,,Uri,0
+2007,UR,ldu,UR2007,0,,,0,,Uri,0
+1995,VD,ldu,VD1995,0,,,0,,Waadt,0
+1999,VD,ldu,VD1999,0,,,0,,Waadt,0
+2003,VD,ldu,VD2003,0,,,0,,Waadt,0
+2007,VD,ldu,VD2007,0,,,0,,Waadt,0
+1995,VS,ldu,VS1995,0,,,0,,Wallis,0
+1999,VS,ldu,VS1999,0,,,0,,Wallis,0
+2003,VS,ldu,VS2003,0,,,0,,Wallis,0
+2007,VS,ldu,VS2007,0,,,0,,Wallis,0
+1995,ZG,ldu,ZG1995,0,,,0,,Zug,0
+1999,ZG,ldu,ZG1999,0,,,0,,Zug,0
+2003,ZG,ldu,ZG2003,0,,,0,,Zug,0
+2007,ZG,ldu,ZG2007,0,,,0,,Zug,0
+1995,ZH,ldu,ZH1995,5.3000002,,,0,ZH95B,Zürich,2
+1999,ZH,ldu,ZH1999,2.0999999,,,1,ZH99B,Zürich,1
+2003,ZH,ldu,ZH2003,0,,,0,,Zürich,0
+2007,ZH,ldu,ZH2007,0,,,0,,Zürich,0
+1995,AG,lega,AG1995,0,,,0,,Aargau,0
+1999,AG,lega,AG1999,0,,,0,,Aargau,0
+2003,AG,lega,AG2003,0,,,0,,Aargau,0
+2007,AG,lega,AG2007,0,,,0,,Aargau,0
+2011,AG,lega,AG2011,0,,,0,,Aargau,0
+1995,AI,lega,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,lega,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,lega,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,lega,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,lega,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,lega,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,lega,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,lega,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,lega,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,lega,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,lega,BE1995,0,,,0,,Bern,0
+1999,BE,lega,BE1999,0,,,0,,Bern,0
+2003,BE,lega,BE2003,0,,,0,,Bern,0
+2007,BE,lega,BE2007,0,,,0,,Bern,0
+2011,BE,lega,BE2011,0,,,0,,Bern,0
+1995,BL,lega,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,lega,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,lega,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,lega,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,lega,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,lega,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,lega,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,lega,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,lega,BS2007,0,,,0,,Basel-Stadt,0
+2011,BS,lega,BS2011,0,,,0,,Basel-Stadt,0
+1995,FR,lega,FR1995,0,,,0,,Freiburg,0
+1999,FR,lega,FR1999,0,,,0,,Freiburg,0
+2003,FR,lega,FR2003,0,,,0,,Freiburg,0
+2007,FR,lega,FR2007,0,,,0,,Freiburg,0
+2011,FR,lega,FR2011,0,,,0,,Freiburg,0
+1995,GE,lega,GE1995,0,,,0,,Genf,0
+1999,GE,lega,GE1999,0,,,0,,Genf,0
+2003,GE,lega,GE2003,0,,,0,,Genf,0
+2007,GE,lega,GE2007,0,,,0,,Genf,0
+2011,GE,lega,GE2011,0,,,0,,Genf,0
+1995,GL,lega,GL1995,0,,,0,,Glarus,0
+1999,GL,lega,GL1999,0,,,0,,Glarus,0
+2003,GL,lega,GL2003,0,,,0,,Glarus,0
+2007,GL,lega,GL2007,0,,,0,,Glarus,0
+2011,GL,lega,GL2011,0,,,0,,Glarus,0
+1995,GR,lega,GR1995,0,,,0,,Graubünden,0
+1999,GR,lega,GR1999,0,,,0,,Graubünden,0
+2003,GR,lega,GR2003,0,,,0,,Graubünden,0
+2007,GR,lega,GR2007,0,,,0,,Graubünden,0
+2011,GR,lega,GR2011,0,,,0,,Graubünden,0
+1995,JU,lega,JU1995,0,,,0,,Jura,0
+1999,JU,lega,JU1999,0,,,0,,Jura,0
+2003,JU,lega,JU2003,0,,,0,,Jura,0
+2007,JU,lega,JU2007,0,,,0,,Jura,0
+2011,JU,lega,JU2011,0,,,0,,Jura,0
+1995,LU,lega,LU1995,0,,,0,,Luzern,0
+1999,LU,lega,LU1999,0,,,0,,Luzern,0
+2003,LU,lega,LU2003,0,,,0,,Luzern,0
+2007,LU,lega,LU2007,0,,,0,,Luzern,0
+2011,LU,lega,LU2011,0,,,0,,Luzern,0
+1995,NE,lega,NE1995,0,,,0,,Neuenburg,0
+1999,NE,lega,NE1999,0,,,0,,Neuenburg,0
+2003,NE,lega,NE2003,0,,,0,,Neuenburg,0
+2007,NE,lega,NE2007,0,,,0,,Neuenburg,0
+2011,NE,lega,NE2011,0,,,0,,Neuenburg,0
+1995,NW,lega,NW1995,0,,,0,,Nidwalden,0
+1999,NW,lega,NW1999,0,,,0,,Nidwalden,0
+2003,NW,lega,NW2003,0,,,0,,Nidwalden,0
+2007,NW,lega,NW2007,0,,,0,,Nidwalden,0
+2011,NW,lega,NW2011,0,,,0,,Nidwalden,0
+1995,OW,lega,OW1995,0,,,0,,Obwalden ,0
+1999,OW,lega,OW1999,0,,,0,,Obwalden ,0
+2003,OW,lega,OW2003,0,,,0,,Obwalden ,0
+2007,OW,lega,OW2007,0,,,0,,Obwalden ,0
+2011,OW,lega,OW2011,0,,,0,,Obwalden ,0
+1995,SG,lega,SG1995,0,,,0,,St. Gallen,0
+1999,SG,lega,SG1999,0,,,0,,St. Gallen,0
+2003,SG,lega,SG2003,0,,,0,,St. Gallen,0
+2007,SG,lega,SG2007,0,,,0,,St. Gallen,0
+2011,SG,lega,SG2011,0,,,0,,St. Gallen,0
+1995,SH,lega,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,lega,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,lega,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,lega,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,lega,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,lega,SO1995,0,,,0,,Solothurn,0
+1999,SO,lega,SO1999,0,,,0,,Solothurn,0
+2003,SO,lega,SO2003,0,,,0,,Solothurn,0
+2007,SO,lega,SO2007,0,,,0,,Solothurn,0
+2011,SO,lega,SO2011,0,,,0,,Solothurn,0
+1995,SZ,lega,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,lega,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,lega,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,lega,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,lega,SZ2011,0,,,0,,Schwyz,0
+1995,TG,lega,TG1995,0,,,0,,Thurgau,0
+1999,TG,lega,TG1999,0,,,0,,Thurgau,0
+2003,TG,lega,TG2003,0,,,0,,Thurgau,0
+2007,TG,lega,TG2007,0,,,0,,Thurgau,0
+2011,TG,lega,TG2011,0,,,0,,Thurgau,0
+1995,TI,lega,TI1995,18.6,,,0,,Tessin,1
+1999,TI,lega,TI1999,18.5,,,0,TI99B,Tessin,2
+2003,TI,lega,TI2003,7.9673209,,,1,TI03B,Tessin,1
+2007,TI,lega,TI2007,14,,,0,,Tessin,1
+2011,TI,lega,TI2011,17.5,,,0,TI11A,Tessin,2
+1995,UR,lega,UR1995,0,,,0,,Uri,0
+1999,UR,lega,UR1999,0,,,0,,Uri,0
+2003,UR,lega,UR2003,0,,,0,,Uri,0
+2007,UR,lega,UR2007,0,,,0,,Uri,0
+2011,UR,lega,UR2011,0,,,0,,Uri,0
+1995,VD,lega,VD1995,0,,,0,,Waadt,0
+1999,VD,lega,VD1999,0,,,0,,Waadt,0
+2003,VD,lega,VD2003,0,,,0,,Waadt,0
+2007,VD,lega,VD2007,0,,,0,,Waadt,0
+2011,VD,lega,VD2011,0,,,0,,Waadt,0
+1995,VS,lega,VS1995,0,,,0,,Wallis,0
+1999,VS,lega,VS1999,0,,,0,,Wallis,0
+2003,VS,lega,VS2003,0,,,0,,Wallis,0
+2007,VS,lega,VS2007,0,,,0,,Wallis,0
+2011,VS,lega,VS2011,0,,,0,,Wallis,0
+1995,ZG,lega,ZG1995,0,,,0,,Zug,0
+1999,ZG,lega,ZG1999,0,,,0,,Zug,0
+2003,ZG,lega,ZG2003,0,,,0,,Zug,0
+2007,ZG,lega,ZG2007,0,,,0,,Zug,0
+2011,ZG,lega,ZG2011,0,,,0,,Zug,0
+1995,ZH,lega,ZH1995,0,,,0,,Zürich,0
+1999,ZH,lega,ZH1999,0,,,0,,Zürich,0
+2003,ZH,lega,ZH2003,0,,,0,,Zürich,0
+2007,ZH,lega,ZH2007,0,,,0,,Zürich,0
+2011,ZH,lega,ZH2011,0,,,0,,Zürich,0
+1995,AG,lps,AG1995,0,,,0,,Aargau,0
+1999,AG,lps,AG1999,0,,,0,,Aargau,0
+2003,AG,lps,AG2003,0,,,0,,Aargau,0
+2007,AG,lps,AG2007,0,,,0,,Aargau,0
+2011,AG,lps,AG2011,0,,,0,,Aargau,0
+1995,AI,lps,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,lps,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,lps,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,lps,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,lps,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,lps,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,lps,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,lps,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,lps,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,lps,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,lps,BE1995,.30000001,,,0,BE95A,Bern,0
+1999,BE,lps,BE1999,0,,,0,,Bern,0
+2003,BE,lps,BE2003,0,,,0,,Bern,0
+2007,BE,lps,BE2007,0,,,0,,Bern,0
+2011,BE,lps,BE2011,0,,,0,,Bern,0
+1995,BL,lps,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,lps,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,lps,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,lps,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,lps,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,lps,BS1995,14.9,,,0,BS95A,Basel-Stadt,1
+1999,BS,lps,BS1999,10.7,,,0,BS99A,Basel-Stadt,1
+2003,BS,lps,BS2003,8.4586973,,,0,BS03A,Basel-Stadt,0
+2007,BS,lps,BS2007,9.1999998,,,0,BS07A,Basel-Stadt,0
+2011,BS,lps,BS2011,6.8000002,,,0,BS11A,Basel-Stadt,0
+1995,FR,lps,FR1995,0,,,0,,Freiburg,0
+1999,FR,lps,FR1999,0,,,0,,Freiburg,0
+2003,FR,lps,FR2003,0,,,0,,Freiburg,0
+2007,FR,lps,FR2007,0,,,0,,Freiburg,0
+2011,FR,lps,FR2011,0,,,0,,Freiburg,0
+1995,GE,lps,GE1995,17.700001,,,0,GE95A,Genf,2
+1999,GE,lps,GE1999,18.5,,,0,GE99A,Genf,2
+2003,GE,lps,GE2003,16.814957,,,0,GE03A,Genf,2
+2007,GE,lps,GE2007,14.8,,,0,GE07A,Genf,2
+2011,GE,lps,GE2011,0,,,0,,Genf,0
+1995,GL,lps,GL1995,0,,,0,,Glarus,0
+1999,GL,lps,GL1999,0,,,0,,Glarus,0
+2003,GL,lps,GL2003,0,,,0,,Glarus,0
+2007,GL,lps,GL2007,0,,,0,,Glarus,0
+2011,GL,lps,GL2011,0,,,0,,Glarus,0
+1995,GR,lps,GR1995,0,,,0,,Graubünden,0
+1999,GR,lps,GR1999,0,,,0,,Graubünden,0
+2003,GR,lps,GR2003,0,,,0,,Graubünden,0
+2007,GR,lps,GR2007,0,,,0,,Graubünden,0
+2011,GR,lps,GR2011,0,,,0,,Graubünden,0
+1995,JU,lps,JU1995,0,,,0,,Jura,0
+1999,JU,lps,JU1999,0,,,0,,Jura,0
+2003,JU,lps,JU2003,0,,,0,,Jura,0
+2007,JU,lps,JU2007,0,,,0,,Jura,0
+2011,JU,lps,JU2011,0,,,0,,Jura,0
+1995,LU,lps,LU1995,0,,,0,,Luzern,0
+1999,LU,lps,LU1999,0,,,0,,Luzern,0
+2003,LU,lps,LU2003,0,,,0,,Luzern,0
+2007,LU,lps,LU2007,0,,,0,,Luzern,0
+2011,LU,lps,LU2011,0,,,0,,Luzern,0
+1995,NE,lps,NE1995,25.200001,,,0,NE95A,Neuenburg,1
+1999,NE,lps,NE1999,24,,,0,NE99A,Neuenburg,1
+2003,NE,lps,NE2003,14.434744,,,-1,NE03A,Neuenburg,0
+2007,NE,lps,NE2007,13.2,,,0,NE07A,Neuenburg,1
+2011,NE,lps,NE2011,0,,,0,,Neuenburg,0
+1995,NW,lps,NW1995,0,,,0,,Nidwalden,0
+1999,NW,lps,NW1999,0,,,0,,Nidwalden,0
+2003,NW,lps,NW2003,0,,,0,,Nidwalden,0
+2007,NW,lps,NW2007,0,,,0,,Nidwalden,0
+2011,NW,lps,NW2011,0,,,0,,Nidwalden,0
+1995,OW,lps,OW1995,0,,,0,,Obwalden ,0
+1999,OW,lps,OW1999,0,,,0,,Obwalden ,0
+2003,OW,lps,OW2003,0,,,0,,Obwalden ,0
+2007,OW,lps,OW2007,0,,,0,,Obwalden ,0
+2011,OW,lps,OW2011,0,,,0,,Obwalden ,0
+1995,SG,lps,SG1995,0,,,0,,St. Gallen,0
+1999,SG,lps,SG1999,0,,,0,,St. Gallen,0
+2003,SG,lps,SG2003,0,,,0,,St. Gallen,0
+2007,SG,lps,SG2007,0,,,0,,St. Gallen,0
+2011,SG,lps,SG2011,0,,,0,,St. Gallen,0
+1995,SH,lps,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,lps,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,lps,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,lps,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,lps,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,lps,SO1995,0,,,0,,Solothurn,0
+1999,SO,lps,SO1999,0,,,0,,Solothurn,0
+2003,SO,lps,SO2003,0,,,0,,Solothurn,0
+2007,SO,lps,SO2007,0,,,0,,Solothurn,0
+2011,SO,lps,SO2011,0,,,0,,Solothurn,0
+1995,SZ,lps,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,lps,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,lps,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,lps,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,lps,SZ2011,0,,,0,,Schwyz,0
+1995,TG,lps,TG1995,0,,,0,,Thurgau,0
+1999,TG,lps,TG1999,0,,,0,,Thurgau,0
+2003,TG,lps,TG2003,0,,,0,,Thurgau,0
+2007,TG,lps,TG2007,0,,,0,,Thurgau,0
+2011,TG,lps,TG2011,0,,,0,,Thurgau,0
+1995,TI,lps,TI1995,0,,,0,,Tessin,0
+1999,TI,lps,TI1999,0,,,0,,Tessin,0
+2003,TI,lps,TI2003,0,,,0,,Tessin,0
+2007,TI,lps,TI2007,0,,,0,,Tessin,0
+2011,TI,lps,TI2011,0,,,0,,Tessin,0
+1995,UR,lps,UR1995,0,,,0,,Uri,0
+1999,UR,lps,UR1999,0,,,0,,Uri,0
+2003,UR,lps,UR2003,0,,,0,,Uri,0
+2007,UR,lps,UR2007,0,,,0,,Uri,0
+2011,UR,lps,UR2011,0,,,0,,Uri,0
+1995,VD,lps,VD1995,14.7,,,0,VD95A,Waadt,3
+1999,VD,lps,VD1999,12.6,,,0,VD99A,Waadt,2
+2003,VD,lps,VD2003,11.074405,,,0,VD03A,Waadt,2
+2007,VD,lps,VD2007,8.1000004,,,0,VD07A,Waadt,1
+2011,VD,lps,VD2011,5.6999998,,,0,VD11B,Waadt,1
+1995,VS,lps,VS1995,2.2,,,0,VS95A,Wallis,0
+1999,VS,lps,VS1999,1.8,,,0,,Wallis,0
+2003,VS,lps,VS2003,0,,,0,,Wallis,0
+2007,VS,lps,VS2007,1,,,0,VS07A,Wallis,0
+2011,VS,lps,VS2011,0,,,0,,Wallis,0
+1995,ZG,lps,ZG1995,0,,,0,,Zug,0
+1999,ZG,lps,ZG1999,0,,,0,,Zug,0
+2003,ZG,lps,ZG2003,0,,,0,,Zug,0
+2007,ZG,lps,ZG2007,0,,,0,,Zug,0
+2011,ZG,lps,ZG2011,0,,,0,,Zug,0
+1995,ZH,lps,ZH1995,.5,,,0,,Zürich,0
+1999,ZH,lps,ZH1999,.2,,,0,ZH99E,Zürich,0
+2003,ZH,lps,ZH2003,0,,,0,,Zürich,0
+2007,ZH,lps,ZH2007,0,,,0,,Zürich,0
+2011,ZH,lps,ZH2011,0,,,0,,Zürich,0
+2011,AG,mcr,AG2011,0,,,0,,Aargau,0
+2011,AI,mcr,AI2011,0,,,0,,Appenzell I. Rh. ,0
+2011,AR,mcr,AR2011,0,,,0,,Appenzell A. Rh.,0
+2011,BE,mcr,BE2011,0,,,0,,Bern,0
+2011,BL,mcr,BL2011,0,,,0,,Basel-Landschaft ,0
+2011,BS,mcr,BS2011,0,,,0,,Basel-Stadt,0
+2011,FR,mcr,FR2011,0,,,0,,Freiburg,0
+2011,GE,mcr,GE2011,9.8000002,,,0,,Genf,1
+2011,GL,mcr,GL2011,0,,,0,,Glarus,0
+2011,GR,mcr,GR2011,0,,,0,,Graubünden,0
+2011,JU,mcr,JU2011,0,,,0,,Jura,0
+2011,LU,mcr,LU2011,0,,,0,,Luzern,0
+2011,NE,mcr,NE2011,0,,,0,,Neuenburg,0
+2011,NW,mcr,NW2011,0,,,0,,Nidwalden,0
+2011,OW,mcr,OW2011,0,,,0,,Obwalden ,0
+2011,SG,mcr,SG2011,0,,,0,,St. Gallen,0
+2011,SH,mcr,SH2011,0,,,0,,Schaffhausen,0
+2011,SO,mcr,SO2011,0,,,0,,Solothurn,0
+2011,SZ,mcr,SZ2011,0,,,0,,Schwyz,0
+2011,TG,mcr,TG2011,0,,,0,,Thurgau,0
+2011,TI,mcr,TI2011,0,,,0,,Tessin,0
+2011,UR,mcr,UR2011,0,,,0,,Uri,0
+2011,VD,mcr,VD2011,.5,,,0,,Waadt,0
+2011,VS,mcr,VS2011,0,,,0,,Wallis,0
+2011,ZG,mcr,ZG2011,0,,,0,,Zug,0
+2011,ZH,mcr,ZH2011,0,,,0,,Zürich,0
+1995,AG,pda,AG1995,0,,,0,,Aargau,0
+1999,AG,pda,AG1999,0,,,0,,Aargau,0
+2003,AG,pda,AG2003,0,,,0,,Aargau,0
+2007,AG,pda,AG2007,0,,,0,,Aargau,0
+2011,AG,pda,AG2011,0,,,0,,Aargau,0
+1995,AI,pda,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,pda,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,pda,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,pda,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,pda,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,pda,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,pda,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,pda,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,pda,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,pda,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,pda,BE1995,0,,,0,,Bern,0
+1999,BE,pda,BE1999,0,,,0,,Bern,0
+2003,BE,pda,BE2003,0,,,0,,Bern,0
+2007,BE,pda,BE2007,0,,,0,,Bern,0
+2011,BE,pda,BE2011,.30000001,,,0,BE11B,Bern,0
+1995,BL,pda,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,pda,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,pda,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,pda,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,pda,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,pda,BS1995,1.3,,,0,BS95B,Basel-Stadt,0
+1999,BS,pda,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,pda,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,pda,BS2007,0,,,0,,Basel-Stadt,0
+2011,BS,pda,BS2011,0,,,0,,Basel-Stadt,0
+1995,FR,pda,FR1995,.89999998,,,0,FR95B,Freiburg,0
+1999,FR,pda,FR1999,0,,,0,,Freiburg,0
+2003,FR,pda,FR2003,0,,,0,,Freiburg,0
+2007,FR,pda,FR2007,0,,,0,,Freiburg,0
+2011,FR,pda,FR2011,0,,,0,,Freiburg,0
+1995,GE,pda,GE1995,9.3999996,,,1,GE95B,Genf,2
+1999,GE,pda,GE1999,8.6999998,,,0,GE99B,Genf,1
+2003,GE,pda,GE2003,2.6893632,,,0,GE03C,Genf,0
+2007,GE,pda,GE2007,1.9,,,0,GE07B,Genf,0
+2011,GE,pda,GE2011,1.3,,,0,GE11A,Genf,0
+1995,GL,pda,GL1995,0,,,0,,Glarus,0
+1999,GL,pda,GL1999,0,,,0,,Glarus,0
+2003,GL,pda,GL2003,0,,,0,,Glarus,0
+2007,GL,pda,GL2007,0,,,0,,Glarus,0
+2011,GL,pda,GL2011,0,,,0,,Glarus,0
+1995,GR,pda,GR1995,0,,,0,,Graubünden,0
+1999,GR,pda,GR1999,0,,,0,,Graubünden,0
+2003,GR,pda,GR2003,0,,,0,,Graubünden,0
+2007,GR,pda,GR2007,0,,,0,,Graubünden,0
+2011,GR,pda,GR2011,0,,,0,,Graubünden,0
+1995,JU,pda,JU1995,0,,,0,,Jura,0
+1999,JU,pda,JU1999,0,,,0,,Jura,0
+2003,JU,pda,JU2003,0,,,0,,Jura,0
+2007,JU,pda,JU2007,0,,,0,,Jura,0
+2011,JU,pda,JU2011,0,,,0,,Jura,0
+1995,LU,pda,LU1995,0,,,0,,Luzern,0
+1999,LU,pda,LU1999,0,,,0,,Luzern,0
+2003,LU,pda,LU2003,0,,,0,,Luzern,0
+2007,LU,pda,LU2007,0,,,0,,Luzern,0
+2011,LU,pda,LU2011,0,,,0,,Luzern,0
+1995,NE,pda,NE1995,7.0999999,,,0,NE95B,Neuenburg,0
+1999,NE,pda,NE1999,6.9000001,,,0,NE99B,Neuenburg,0
+2003,NE,pda,NE2003,3.0080667,,,0,NE03B,Neuenburg,0
+2007,NE,pda,NE2007,9.1999998,,,0,NE07B,Neuenburg,0
+2011,NE,pda,NE2011,10.4,,,0,NE11B,Neuenburg,0
+1995,NW,pda,NW1995,0,,,0,,Nidwalden,0
+1999,NW,pda,NW1999,0,,,0,,Nidwalden,0
+2003,NW,pda,NW2003,0,,,0,,Nidwalden,0
+2007,NW,pda,NW2007,0,,,0,,Nidwalden,0
+2011,NW,pda,NW2011,0,,,0,,Nidwalden,0
+1995,OW,pda,OW1995,0,,,0,,Obwalden ,0
+1999,OW,pda,OW1999,0,,,0,,Obwalden ,0
+2003,OW,pda,OW2003,0,,,0,,Obwalden ,0
+2007,OW,pda,OW2007,0,,,0,,Obwalden ,0
+2011,OW,pda,OW2011,0,,,0,,Obwalden ,0
+1995,SG,pda,SG1995,0,,,0,,St. Gallen,0
+1999,SG,pda,SG1999,0,,,0,,St. Gallen,0
+2003,SG,pda,SG2003,0,,,0,,St. Gallen,0
+2007,SG,pda,SG2007,0,,,0,,St. Gallen,0
+2011,SG,pda,SG2011,0,,,0,,St. Gallen,0
+1995,SH,pda,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,pda,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,pda,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,pda,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,pda,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,pda,SO1995,0,,,0,,Solothurn,0
+1999,SO,pda,SO1999,0,,,0,,Solothurn,0
+2003,SO,pda,SO2003,0,,,0,,Solothurn,0
+2007,SO,pda,SO2007,0,,,0,,Solothurn,0
+2011,SO,pda,SO2011,0,,,0,,Solothurn,0
+1995,SZ,pda,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,pda,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,pda,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,pda,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,pda,SZ2011,0,,,0,,Schwyz,0
+1995,TG,pda,TG1995,0,,,0,,Thurgau,0
+1999,TG,pda,TG1999,0,,,0,,Thurgau,0
+2003,TG,pda,TG2003,0,,,0,,Thurgau,0
+2007,TG,pda,TG2007,0,,,0,,Thurgau,0
+2011,TG,pda,TG2011,0,,,0,,Thurgau,0
+1995,TI,pda,TI1995,1.3,,,0,TI95A,Tessin,0
+1999,TI,pda,TI1999,1.3,,,0,TI99A,Tessin,0
+2003,TI,pda,TI2003,0,,,0,,Tessin,0
+2007,TI,pda,TI2007,1.3,,,0,TI07C,Tessin,0
+2011,TI,pda,TI2011,1.2,,,0,TI11B,Tessin,0
+1995,UR,pda,UR1995,0,,,0,,Uri,0
+1999,UR,pda,UR1999,0,,,0,,Uri,0
+2003,UR,pda,UR2003,0,,,0,,Uri,0
+2007,UR,pda,UR2007,0,,,0,,Uri,0
+2011,UR,pda,UR2011,0,,,0,,Uri,0
+1995,VD,pda,VD1995,8.8999996,,,-1,,Waadt,1
+1999,VD,pda,VD1999,7.8000002,,,0,VD99B,Waadt,1
+2003,VD,pda,VD2003,6.717566,,,1,VD03B,Waadt,2
+2007,VD,pda,VD2007,4.6999998,,,0,VD07C,Waadt,1
+2011,VD,pda,VD2011,2.0999999,,,0,VD11A,Waadt,0
+1995,VS,pda,VS1995,.89999998,,,0,VS95C,Wallis,0
+1999,VS,pda,VS1999,0,,,0,,Wallis,0
+2003,VS,pda,VS2003,0,,,0,,Wallis,0
+2007,VS,pda,VS2007,0,,,0,,Wallis,0
+2011,VS,pda,VS2011,0,,,0,,Wallis,0
+1995,ZG,pda,ZG1995,0,,,0,,Zug,0
+1999,ZG,pda,ZG1999,0,,,0,,Zug,0
+2003,ZG,pda,ZG2003,0,,,0,,Zug,0
+2007,ZG,pda,ZG2007,0,,,0,,Zug,0
+2011,ZG,pda,ZG2011,0,,,0,,Zug,0
+1995,ZH,pda,ZH1995,0,,,0,,Zürich,0
+1999,ZH,pda,ZH1999,0,,,0,,Zürich,0
+2003,ZH,pda,ZH2003,0,,,0,,Zürich,0
+2007,ZH,pda,ZH2007,.2,,,0,ZH07B,Zürich,0
+2011,ZH,pda,ZH2011,.2,,,0,ZH11D,Zürich,0
+1995,AG,sd,AG1995,4.5,,,0,AG95D,Aargau,0
+1999,AG,sd,AG1999,2.7,,,0,AG99D,Aargau,0
+2003,AG,sd,AG2003,1.4401621,,,0,AG03D,Aargau,0
+2007,AG,sd,AG2007,.69999999,,,0,,Aargau,0
+2011,AG,sd,AG2011,.40000001,,,0,,Aargau,0
+1995,AI,sd,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,sd,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,sd,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,sd,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,sd,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,sd,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,sd,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,sd,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,sd,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,sd,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,sd,BE1995,5.5,,,0,BE95E,Bern,1
+1999,BE,sd,BE1999,3.7,,,0,BE99E,Bern,1
+2003,BE,sd,BE2003,2.6683328,,,1,BE03E,Bern,1
+2007,BE,sd,BE2007,1.5,,,0,BE07E,Bern,0
+2011,BE,sd,BE2011,.60000002,,,0,,Bern,0
+1995,BL,sd,BL1995,11,,,0,BL95D,Basel-Landschaft ,1
+1999,BL,sd,BL1999,10.1,,,-1,BL99C,Basel-Landschaft ,0
+2003,BL,sd,BL2003,2.6943972,,,0,BL03C,Basel-Landschaft ,0
+2007,BL,sd,BL2007,.80000001,,,0,,Basel-Landschaft ,0
+2011,BL,sd,BL2011,.69999999,,,0,,Basel-Landschaft ,0
+1995,BS,sd,BS1995,6.9000001,,,0,BS95C,Basel-Stadt,0
+1999,BS,sd,BS1999,3.8,,,0,,Basel-Stadt,0
+2003,BS,sd,BS2003,1.1061162,,,0,,Basel-Stadt,0
+2007,BS,sd,BS2007,.69999999,,,0,BS07C,Basel-Stadt,0
+2011,BS,sd,BS2011,0,,,0,,Basel-Stadt,0
+1995,FR,sd,FR1995,.89999998,,,0,,Freiburg,0
+1999,FR,sd,FR1999,.30000001,,,0,,Freiburg,0
+2003,FR,sd,FR2003,0,,,0,,Freiburg,0
+2007,FR,sd,FR2007,0,,,0,,Freiburg,0
+2011,FR,sd,FR2011,0,,,0,,Freiburg,0
+1995,GE,sd,GE1995,2.4000001,,,0,,Genf,0
+1999,GE,sd,GE1999,0,,,0,,Genf,0
+2003,GE,sd,GE2003,0,,,0,,Genf,0
+2007,GE,sd,GE2007,0,,,0,,Genf,0
+2011,GE,sd,GE2011,0,,,0,,Genf,0
+1995,GL,sd,GL1995,0,,,0,,Glarus,0
+1999,GL,sd,GL1999,0,,,0,,Glarus,0
+2003,GL,sd,GL2003,0,,,0,,Glarus,0
+2007,GL,sd,GL2007,0,,,0,,Glarus,0
+2011,GL,sd,GL2011,0,,,0,,Glarus,0
+1995,GR,sd,GR1995,0,,,0,,Graubünden,0
+1999,GR,sd,GR1999,0,,,0,,Graubünden,0
+2003,GR,sd,GR2003,0,,,0,,Graubünden,0
+2007,GR,sd,GR2007,0,,,0,,Graubünden,0
+2011,GR,sd,GR2011,0,,,0,,Graubünden,0
+1995,JU,sd,JU1995,0,,,0,,Jura,0
+1999,JU,sd,JU1999,0,,,0,,Jura,0
+2003,JU,sd,JU2003,0,,,0,,Jura,0
+2007,JU,sd,JU2007,0,,,0,,Jura,0
+2011,JU,sd,JU2011,0,,,0,,Jura,0
+1995,LU,sd,LU1995,2.2,,,0,LU95B,Luzern,0
+1999,LU,sd,LU1999,.80000001,,,0,LU99D,Luzern,0
+2003,LU,sd,LU2003,.35191464,,,0,,Luzern,0
+2007,LU,sd,LU2007,0,,,0,,Luzern,0
+2011,LU,sd,LU2011,.2,,,0,,Luzern,0
+1995,NE,sd,NE1995,2.5,,,0,,Neuenburg,0
+1999,NE,sd,NE1999,2.3,,,0,,Neuenburg,0
+2003,NE,sd,NE2003,0,,,0,,Neuenburg,0
+2007,NE,sd,NE2007,0,,,0,,Neuenburg,0
+2011,NE,sd,NE2011,0,,,0,,Neuenburg,0
+1995,NW,sd,NW1995,0,,,0,,Nidwalden,0
+1999,NW,sd,NW1999,8,,,0,,Nidwalden,0
+2003,NW,sd,NW2003,10.234542,,,0,,Nidwalden,0
+2007,NW,sd,NW2007,0,,,0,,Nidwalden,0
+2011,NW,sd,NW2011,0,,,0,,Nidwalden,0
+1995,OW,sd,OW1995,0,,,0,,Obwalden ,0
+1999,OW,sd,OW1999,0,,,0,,Obwalden ,0
+2003,OW,sd,OW2003,0,,,0,,Obwalden ,0
+2007,OW,sd,OW2007,0,,,0,,Obwalden ,0
+2011,OW,sd,OW2011,0,,,0,,Obwalden ,0
+1995,SG,sd,SG1995,2,,,0,SG95D,St. Gallen,0
+1999,SG,sd,SG1999,1.4,,,0,SG99D,St. Gallen,0
+2003,SG,sd,SG2003,.75902027,,,0,,St. Gallen,0
+2007,SG,sd,SG2007,.69999999,,,0,SG07A,St. Gallen,0
+2011,SG,sd,SG2011,0,,,0,,St. Gallen,0
+1995,SH,sd,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,sd,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,sd,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,sd,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,sd,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,sd,SO1995,2.8,,,0,SO95B,Solothurn,0
+1999,SO,sd,SO1999,0,,,0,,Solothurn,0
+2003,SO,sd,SO2003,0,,,0,,Solothurn,0
+2007,SO,sd,SO2007,.40000001,,,0,,Solothurn,0
+2011,SO,sd,SO2011,0,,,0,,Solothurn,0
+1995,SZ,sd,SZ1995,3.0999999,,,0,SZ95A,Schwyz,0
+1999,SZ,sd,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,sd,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,sd,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,sd,SZ2011,0,,,0,,Schwyz,0
+1995,TG,sd,TG1995,4.8000002,,,0,TG95C,Thurgau,0
+1999,TG,sd,TG1999,2.5,,,0,TG99C,Thurgau,0
+2003,TG,sd,TG2003,2.9456666,,,0,TG03D,Thurgau,0
+2007,TG,sd,TG2007,1.9,,,0,,Thurgau,0
+2011,TG,sd,TG2011,0,,,0,,Thurgau,0
+1995,TI,sd,TI1995,0,,,0,,Tessin,0
+1999,TI,sd,TI1999,0,,,0,,Tessin,0
+2003,TI,sd,TI2003,0,,,0,,Tessin,0
+2007,TI,sd,TI2007,0,,,0,,Tessin,0
+2011,TI,sd,TI2011,0,,,0,,Tessin,0
+1995,UR,sd,UR1995,0,,,0,,Uri,0
+1999,UR,sd,UR1999,0,,,0,,Uri,0
+2003,UR,sd,UR2003,0,,,0,,Uri,0
+2007,UR,sd,UR2007,0,,,0,,Uri,0
+2011,UR,sd,UR2011,0,,,0,,Uri,0
+1995,VD,sd,VD1995,1.8,,,0,VD95C,Waadt,0
+1999,VD,sd,VD1999,.89999998,,,0,,Waadt,0
+2003,VD,sd,VD2003,.34703925,,,0,,Waadt,0
+2007,VD,sd,VD2007,.2,,,0,,Waadt,0
+2011,VD,sd,VD2011,.1,,,0,,Waadt,0
+1995,VS,sd,VS1995,0,,,0,,Wallis,0
+1999,VS,sd,VS1999,0,,,0,,Wallis,0
+2003,VS,sd,VS2003,0,,,0,,Wallis,0
+2007,VS,sd,VS2007,0,,,0,,Wallis,0
+2011,VS,sd,VS2011,0,,,0,,Wallis,0
+1995,ZG,sd,ZG1995,0,,,0,,Zug,0
+1999,ZG,sd,ZG1999,0,,,0,,Zug,0
+2003,ZG,sd,ZG2003,0,,,0,,Zug,0
+2007,ZG,sd,ZG2007,0,,,0,,Zug,0
+2011,ZG,sd,ZG2011,0,,,0,,Zug,0
+1995,ZH,sd,ZH1995,3.3,,,0,ZH95E,Zürich,1
+1999,ZH,sd,ZH1999,1.5,,,0,ZH99F,Zürich,0
+2003,ZH,sd,ZH2003,.86952055,,,0,ZH03D,Zürich,0
+2007,ZH,sd,ZH2007,.5,,,0,ZH07D,Zürich,0
+2011,ZH,sd,ZH2011,.30000001,,,0,,Zürich,0
+1995,AG,sol,AG1995,0,,,0,,Aargau,0
+1999,AG,sol,AG1999,0,,,0,,Aargau,0
+2003,AG,sol,AG2003,0,,,0,,Aargau,0
+2007,AG,sol,AG2007,0,,,0,,Aargau,0
+2011,AG,sol,AG2011,0,,,0,,Aargau,0
+1995,AI,sol,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,sol,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,sol,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,sol,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,sol,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,sol,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,sol,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,sol,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,sol,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,sol,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,sol,BE1995,0,,,0,,Bern,0
+1999,BE,sol,BE1999,0,,,0,,Bern,0
+2003,BE,sol,BE2003,0,,,0,,Bern,0
+2007,BE,sol,BE2007,0,,,0,,Bern,0
+2011,BE,sol,BE2011,0,,,0,,Bern,0
+1995,BL,sol,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,sol,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,sol,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,sol,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,sol,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,sol,BS1995,.69999999,,,0,BS95B,Basel-Stadt,0
+1999,BS,sol,BS1999,0,,,0,,Basel-Stadt,0
+2003,BS,sol,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,sol,BS2007,0,,,0,,Basel-Stadt,0
+2011,BS,sol,BS2011,0,,,0,,Basel-Stadt,0
+1995,FR,sol,FR1995,0,,,0,,Freiburg,0
+1999,FR,sol,FR1999,0,,,0,,Freiburg,0
+2003,FR,sol,FR2003,0,,,0,,Freiburg,0
+2007,FR,sol,FR2007,0,,,0,,Freiburg,0
+2011,FR,sol,FR2011,0,,,0,,Freiburg,0
+1995,GE,sol,GE1995,3.8,,,0,GE95B,Genf,0
+1999,GE,sol,GE1999,8,,,0,GE99B,Genf,1
+2003,GE,sol,GE2003,5.4260287,,,1,GE03C,Genf,1
+2007,GE,sol,GE2007,4.9000001,,,0,GE07B,Genf,0
+2011,GE,sol,GE2011,5.1999998,,,0,GE11A,Genf,0
+1995,GL,sol,GL1995,0,,,0,,Glarus,0
+1999,GL,sol,GL1999,0,,,0,,Glarus,0
+2003,GL,sol,GL2003,0,,,0,,Glarus,0
+2007,GL,sol,GL2007,0,,,0,,Glarus,0
+2011,GL,sol,GL2011,0,,,0,,Glarus,0
+1995,GR,sol,GR1995,0,,,0,,Graubünden,0
+1999,GR,sol,GR1999,0,,,0,,Graubünden,0
+2003,GR,sol,GR2003,0,,,0,,Graubünden,0
+2007,GR,sol,GR2007,0,,,0,,Graubünden,0
+2011,GR,sol,GR2011,0,,,0,,Graubünden,0
+1995,JU,sol,JU1995,0,,,0,,Jura,0
+1999,JU,sol,JU1999,0,,,0,,Jura,0
+2003,JU,sol,JU2003,0,,,0,,Jura,0
+2007,JU,sol,JU2007,0,,,0,,Jura,0
+2011,JU,sol,JU2011,0,,,0,,Jura,0
+1995,LU,sol,LU1995,0,,,0,,Luzern,0
+1999,LU,sol,LU1999,0,,,0,,Luzern,0
+2003,LU,sol,LU2003,0,,,0,,Luzern,0
+2007,LU,sol,LU2007,0,,,0,,Luzern,0
+2011,LU,sol,LU2011,0,,,0,,Luzern,0
+1995,NE,sol,NE1995,0,,,0,,Neuenburg,0
+1999,NE,sol,NE1999,2.7,,,0,NE99B,Neuenburg,0
+2003,NE,sol,NE2003,2.2063246,,,0,NE03B,Neuenburg,0
+2007,NE,sol,NE2007,0,,,0,,Neuenburg,0
+2011,NE,sol,NE2011,0,,,0,,Neuenburg,0
+1995,NW,sol,NW1995,0,,,0,,Nidwalden,0
+1999,NW,sol,NW1999,0,,,0,,Nidwalden,0
+2003,NW,sol,NW2003,0,,,0,,Nidwalden,0
+2007,NW,sol,NW2007,0,,,0,,Nidwalden,0
+2011,NW,sol,NW2011,0,,,0,,Nidwalden,0
+1995,OW,sol,OW1995,0,,,0,,Obwalden ,0
+1999,OW,sol,OW1999,0,,,0,,Obwalden ,0
+2003,OW,sol,OW2003,0,,,0,,Obwalden ,0
+2007,OW,sol,OW2007,0,,,0,,Obwalden ,0
+2011,OW,sol,OW2011,0,,,0,,Obwalden ,0
+1995,SG,sol,SG1995,0,,,0,,St. Gallen,0
+1999,SG,sol,SG1999,0,,,0,,St. Gallen,0
+2003,SG,sol,SG2003,0,,,0,,St. Gallen,0
+2007,SG,sol,SG2007,0,,,0,,St. Gallen,0
+2011,SG,sol,SG2011,0,,,0,,St. Gallen,0
+1995,SH,sol,SH1995,0,,,0,,Schaffhausen,0
+1999,SH,sol,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,sol,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,sol,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,sol,SH2011,0,,,0,,Schaffhausen,0
+1995,SO,sol,SO1995,0,,,0,,Solothurn,0
+1999,SO,sol,SO1999,0,,,0,,Solothurn,0
+2003,SO,sol,SO2003,0,,,0,,Solothurn,0
+2007,SO,sol,SO2007,0,,,0,,Solothurn,0
+2011,SO,sol,SO2011,0,,,0,,Solothurn,0
+1995,SZ,sol,SZ1995,0,,,0,,Schwyz,0
+1999,SZ,sol,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,sol,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,sol,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,sol,SZ2011,0,,,0,,Schwyz,0
+1995,TG,sol,TG1995,0,,,0,,Thurgau,0
+1999,TG,sol,TG1999,0,,,0,,Thurgau,0
+2003,TG,sol,TG2003,0,,,0,,Thurgau,0
+2007,TG,sol,TG2007,0,,,0,,Thurgau,0
+2011,TG,sol,TG2011,0,,,0,,Thurgau,0
+1995,TI,sol,TI1995,0,,,0,,Tessin,0
+1999,TI,sol,TI1999,0,,,0,,Tessin,0
+2003,TI,sol,TI2003,0,,,0,,Tessin,0
+2007,TI,sol,TI2007,0,,,0,,Tessin,0
+2011,TI,sol,TI2011,0,,,0,,Tessin,0
+1995,UR,sol,UR1995,0,,,0,,Uri,0
+1999,UR,sol,UR1999,0,,,0,,Uri,0
+2003,UR,sol,UR2003,0,,,0,,Uri,0
+2007,UR,sol,UR2007,0,,,0,,Uri,0
+2011,UR,sol,UR2011,0,,,0,,Uri,0
+1995,VD,sol,VD1995,2.5999999,,,0,VD95B,Waadt,0
+1999,VD,sol,VD1999,2.0999999,,,0,VD99B,Waadt,0
+2003,VD,sol,VD2003,2.6336839,,,0,VD03B,Waadt,0
+2007,VD,sol,VD2007,2.0999999,,,0,VD07C,Waadt,0
+2011,VD,sol,VD2011,1.8,,,0,VD11A,Waadt,0
+1995,VS,sol,VS1995,0,,,0,,Wallis,0
+1999,VS,sol,VS1999,0,,,0,,Wallis,0
+2003,VS,sol,VS2003,0,,,0,,Wallis,0
+2007,VS,sol,VS2007,0,,,0,,Wallis,0
+2011,VS,sol,VS2011,0,,,0,,Wallis,0
+1995,ZG,sol,ZG1995,0,,,0,,Zug,0
+1999,ZG,sol,ZG1999,0,,,0,,Zug,0
+2003,ZG,sol,ZG2003,0,,,0,,Zug,0
+2007,ZG,sol,ZG2007,0,,,0,,Zug,0
+2011,ZG,sol,ZG2011,0,,,0,,Zug,0
+1995,ZH,sol,ZH1995,0,,,0,,Zürich,0
+1999,ZH,sol,ZH1999,0,,,0,,Zürich,0
+2003,ZH,sol,ZH2003,0,,,0,,Zürich,0
+2007,ZH,sol,ZH2007,0,,,0,,Zürich,0
+2011,ZH,sol,ZH2011,0,,,0,,Zürich,0
+1995,AG,sp,AG1995,19.4,,,0,AG95B,Aargau,3
+1999,AG,sp,AG1999,18.700001,,,0,AG99B,Aargau,3
+2003,AG,sp,AG2003,21.236885,,,-1,AG03C,Aargau,3
+2007,AG,sp,AG2007,17.9,,,0,AG07C,Aargau,3
+2011,AG,sp,AG2011,18,,,0,,Aargau,3
+1995,AI,sp,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,sp,AI1999,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,sp,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,sp,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,sp,AI2011,20.299999,,,0,,Appenzell I. Rh. ,0
+1995,AR,sp,AR1995,21.9,,,0,,Appenzell A. Rh.,0
+1999,AR,sp,AR1999,29.6,,,0,,Appenzell A. Rh.,0
+2003,AR,sp,AR2003,19.885321,,,0,,Appenzell A. Rh.,0
+2007,AR,sp,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,sp,AR2011,0,,,0,,Appenzell A. Rh.,0
+1995,BE,sp,BE1995,24.700001,,,0,BE95C,Bern,8
+1999,BE,sp,BE1999,27.6,,,0,BE99C,Bern,8
+2003,BE,sp,BE2003,27.935839,,,-1,BE03C,Bern,8
+2007,BE,sp,BE2007,21.200001,,,0,BE07B,Bern,6
+2011,BE,sp,BE2011,19.299999,,,0,BE11B,Bern,6
+1995,BL,sp,BL1995,25.299999,,,0,BL95C,Basel-Landschaft ,2
+1999,BL,sp,BL1999,23.299999,,,0,BL99B,Basel-Landschaft ,2
+2003,BL,sp,BL2003,24.658531,,,0,BL03B,Basel-Landschaft ,2
+2007,BL,sp,BL2007,25.200001,,,0,BL07B,Basel-Landschaft ,2
+2011,BL,sp,BL2011,24.4,,,0,BL11A,Basel-Landschaft ,2
+1995,BS,sp,BS1995,35.5,,,1,BS95B,Basel-Stadt,4
+1999,BS,sp,BS1999,33.299999,,,0,BS99B,Basel-Stadt,3
+2003,BS,sp,BS2003,40.918484,,,-1,BS03B,Basel-Stadt,3
+2007,BS,sp,BS2007,35.200001,,,-1,BS07B,Basel-Stadt,2
+2011,BS,sp,BS2011,29.1,,,0,BS11C,Basel-Stadt,2
+1995,FR,sp,FR1995,17.299999,,,0,FR95B,Freiburg,1
+1999,FR,sp,FR1999,20.299999,,,1,FR99B,Freiburg,2
+2003,FR,sp,FR2003,21.489887,,,0,FR03B,Freiburg,2
+2007,FR,sp,FR2007,22.700001,,,0,FR07B,Freiburg,2
+2011,FR,sp,FR2011,26.700001,,,1,FR11A,Freiburg,3
+1995,GE,sp,GE1995,30,,,0,GE95B,Genf,4
+1999,GE,sp,GE1999,20,,,0,GE99B,Genf,2
+2003,GE,sp,GE2003,24.754709,,,-1,GE03B,Genf,3
+2007,GE,sp,GE2007,19.1,,,1,GE07B,Genf,3
+2011,GE,sp,GE2011,19.1,,,0,GE11A,Genf,3
+1995,GL,sp,GL1995,83.900002,,,0,,Glarus,1
+1999,GL,sp,GL1999,85.699997,,,0,,Glarus,1
+2003,GL,sp,GL2003,67.118706,,,0,,Glarus,1
+2007,GL,sp,GL2007,55.5,,,0,,Glarus,1
+2011,GL,sp,GL2011,24.6,,,0,,Glarus,0
+1995,GR,sp,GR1995,21.6,,,1,GR95B,Graubünden,2
+1999,GR,sp,GR1999,26.6,,,0,GR99B,Graubünden,1
+2003,GR,sp,GR2003,24.87129,,,0,,Graubünden,1
+2007,GR,sp,GR2007,23.700001,,,0,,Graubünden,1
+2011,GR,sp,GR2011,15.6,,,0,GR11A,Graubünden,1
+1995,JU,sp,JU1995,32.400002,,,0,,Jura,1
+1999,JU,sp,JU1999,34.200001,,,0,,Jura,1
+2003,JU,sp,JU2003,34.207798,,,0,,Jura,1
+2007,JU,sp,JU2007,36.900002,,,0,,Jura,1
+2011,JU,sp,JU2011,30.799999,,,0,JU11A,Jura,1
+1995,LU,sp,LU1995,11.7,,,0,LU95A,Luzern,1
+1999,LU,sp,LU1999,10,,,0,LU99C,Luzern,1
+2003,LU,sp,LU2003,11.103399,,,0,LU03C,Luzern,1
+2007,LU,sp,LU2007,11.4,,,0,LU07A,Luzern,1
+2011,LU,sp,LU2011,11.5,,,0,LU11B,Luzern,1
+1995,NE,sp,NE1995,28.200001,,,0,NE95B,Neuenburg,2
+1999,NE,sp,NE1999,28,,,0,NE99B,Neuenburg,2
+2003,NE,sp,NE2003,29.245081,,,0,NE03B,Neuenburg,2
+2007,NE,sp,NE2007,25.9,,,-1,NE07B,Neuenburg,1
+2011,NE,sp,NE2011,24.700001,,,-1,NE11B,Neuenburg,1
+1995,NW,sp,NW1995,0,,,0,,Nidwalden,0
+1999,NW,sp,NW1999,0,,,0,,Nidwalden,0
+2003,NW,sp,NW2003,0,,,0,,Nidwalden,0
+2007,NW,sp,NW2007,0,,,0,,Nidwalden,0
+2011,NW,sp,NW2011,0,,,0,,Nidwalden,0
+1995,OW,sp,OW1995,0,,,0,,Obwalden ,0
+1999,OW,sp,OW1999,0,,,0,,Obwalden ,0
+2003,OW,sp,OW2003,0,,,0,,Obwalden ,0
+2007,OW,sp,OW2007,11.6,,,0,,Obwalden ,0
+2011,OW,sp,OW2011,0,,,0,,Obwalden ,0
+1995,SG,sp,SG1995,16.200001,,,1,SG95C,St. Gallen,3
+1999,SG,sp,SG1999,17.1,,,0,SG99B,St. Gallen,2
+2003,SG,sp,SG2003,18.38378,,,0,SG03C,St. Gallen,2
+2007,SG,sp,SG2007,14.7,,,0,,St. Gallen,2
+2011,SG,sp,SG2011,16.700001,,,0,SG11C,St. Gallen,2
+1995,SH,sp,SH1995,37.799999,,,0,,Schaffhausen,1
+1999,SH,sp,SH1999,33.599998,,,0,,Schaffhausen,1
+2003,SH,sp,SH2003,39.693069,,,0,,Schaffhausen,1
+2007,SH,sp,SH2007,34.200001,,,0,,Schaffhausen,1
+2011,SH,sp,SH2011,34.599998,,,0,SH11A,Schaffhausen,1
+1995,SO,sp,SO1995,24.200001,,,0,SO95A,Solothurn,2
+1999,SO,sp,SO1999,27.200001,,,0,SO99C,Solothurn,2
+2003,SO,sp,SO2003,25.368183,,,0,SO03C,Solothurn,2
+2007,SO,sp,SO2007,19.5,,,0,SO07A,Solothurn,1
+2011,SO,sp,SO2011,18.299999,,,0,SO11D,Solothurn,2
+1995,SZ,sp,SZ1995,19.9,,,0,,Schwyz,0
+1999,SZ,sp,SZ1999,16.4,,,0,,Schwyz,0
+2003,SZ,sp,SZ2003,17.558338,,,0,,Schwyz,1
+2007,SZ,sp,SZ2007,13.9,,,1,SZ07A,Schwyz,1
+2011,SZ,sp,SZ2011,14,,,0,SZ11A,Schwyz,1
+1995,TG,sp,TG1995,18.1,,,0,TG95B,Thurgau,1
+1999,TG,sp,TG1999,16.1,,,0,TG99B,Thurgau,1
+2003,TG,sp,TG2003,14.099018,,,0,TG03C,Thurgau,1
+2007,TG,sp,TG2007,11.7,,,0,TG07C,Thurgau,1
+2011,TG,sp,TG2011,12.1,,,0,TG11A,Thurgau,1
+1995,TI,sp,TI1995,17.1,,,1,TI95A,Tessin,2
+1999,TI,sp,TI1999,18.799999,,,0,TI99A,Tessin,2
+2003,TI,sp,TI2003,25.826323,,,-1,TI03A,Tessin,2
+2007,TI,sp,TI2007,18.1,,,0,TI07C,Tessin,2
+2011,TI,sp,TI2011,16.6,,,0,TI11B,Tessin,1
+1995,UR,sp,UR1995,0,,,0,,Uri,0
+1999,UR,sp,UR1999,0,,,0,,Uri,0
+2003,UR,sp,UR2003,0,,,0,,Uri,0
+2007,UR,sp,UR2007,0,,,0,,Uri,0
+2011,UR,sp,UR2011,21.5,,,0,,Uri,0
+1995,VD,sp,VD1995,22.700001,,,0,VD95B,Waadt,5
+1999,VD,sp,VD1999,22.4,,,0,VD99B,Waadt,5
+2003,VD,sp,VD2003,21.68404,,,0,VD03B,Waadt,4
+2007,VD,sp,VD2007,22,,,0,VD07C,Waadt,4
+2011,VD,sp,VD2011,25.200001,,,1,VD11A,Waadt,6
+1995,VS,sp,VS1995,16.6,,,0,VS95C,Wallis,1
+1999,VS,sp,VS1999,16.9,,,1,VS99D,Wallis,2
+2003,VS,sp,VS2003,19.085772,,,1,VS03D,Wallis,2
+2007,VS,sp,VS2007,14.7,,,0,VS07C,Wallis,1
+2011,VS,sp,VS2011,14.6,,,1,VS11A,Wallis,2
+1995,ZG,sp,ZG1995,17,,,0,ZG95A,Zug,1
+1999,ZG,sp,ZG1999,23.299999,,,-1,,Zug,0
+2003,ZG,sp,ZG2003,13.438972,,,0,ZG03C,Zug,0
+2007,ZG,sp,ZG2007,9.1000004,,,0,ZG07A,Zug,0
+2011,ZG,sp,ZG2011,5.3000002,,,0,ZG11A,Zug,0
+1995,ZH,sp,ZH1995,23.1,,,0,ZH95C,Zürich,9
+1999,ZH,sp,ZH1999,25.6,,,0,ZH99C,Zürich,10
+2003,ZH,sp,ZH2003,25.655001,,,1,ZH03C,Zürich,10
+2007,ZH,sp,ZH2007,19.799999,,,0,ZH07B,Zürich,7
+2011,ZH,sp,ZH2011,19.299999,,,0,ZH11B,Zürich,7
+1995,AG,svp,AG1995,19.799999,,,-1,AG95A,Aargau,3
+1999,AG,svp,AG1999,31.799999,,,-1,AG99A,Aargau,5
+2003,AG,svp,AG2003,34.560375,,,0,AG03A,Aargau,6
+2007,AG,svp,AG2007,36.200001,,,-1,AG07A,Aargau,6
+2011,AG,svp,AG2011,34.700001,,,0,AG11A,Aargau,6
+1995,AI,svp,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,svp,AI1999,25.700001,,,0,,Appenzell I. Rh. ,0
+2003,AI,svp,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,svp,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,svp,AI2011,0,,,0,,Appenzell I. Rh. ,0
+1995,AR,svp,AR1995,22,,,0,,Appenzell A. Rh.,1
+1999,AR,svp,AR1999,37.5,,,0,,Appenzell A. Rh.,1
+2003,AR,svp,AR2003,38.302753,,,0,,Appenzell A. Rh.,0
+2007,AR,svp,AR2007,0,,,0,,Appenzell A. Rh.,0
+2011,AR,svp,AR2011,30.5,,,0,,Appenzell A. Rh.,0
+1995,BE,svp,BE1995,26,,,0,BE95A,Bern,8
+1999,BE,svp,BE1999,28.6,,,-1,BE99A,Bern,8
+2003,BE,svp,BE2003,29.642437,,,-1,BE03A,Bern,8
+2007,BE,svp,BE2007,33.599998,,,0,BE07A,Bern,10
+2011,BE,svp,BE2011,29,,,-1,BE11A,Bern,8
+1995,BL,svp,BL1995,10.8,,,0,BL95A,Basel-Landschaft ,1
+1999,BL,svp,BL1999,18,,,0,BL99A,Basel-Landschaft ,1
+2003,BL,svp,BL2003,26.490541,,,0,BL03A,Basel-Landschaft ,2
+2007,BL,svp,BL2007,28.5,,,0,BL07A,Basel-Landschaft ,2
+2011,BL,svp,BL2011,26.9,,,-1,,Basel-Landschaft ,2
+1995,BS,svp,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,svp,BS1999,13.6,,,0,,Basel-Stadt,1
+2003,BS,svp,BS2003,18.627274,,,0,,Basel-Stadt,1
+2007,BS,svp,BS2007,18.5,,,0,BS07A,Basel-Stadt,1
+2011,BS,svp,BS2011,16.5,,,0,BS11D,Basel-Stadt,1
+1995,FR,svp,FR1995,8.3000002,,,0,,Freiburg,0
+1999,FR,svp,FR1999,11.4,,,-1,,Freiburg,0
+2003,FR,svp,FR2003,21.396313,,,-1,,Freiburg,1
+2007,FR,svp,FR2007,22,,,-1,FR07C,Freiburg,1
+2011,FR,svp,FR2011,21.4,,,-1,FR11C,Freiburg,1
+1995,GE,svp,GE1995,0,,,0,,Genf,0
+1999,GE,svp,GE1999,7.5,,,-1,,Genf,0
+2003,GE,svp,GE2003,18.30061,,,0,,Genf,2
+2007,GE,svp,GE2007,21.1,,,-1,,Genf,2
+2011,GE,svp,GE2011,16,,,0,,Genf,2
+1995,GL,svp,GL1995,0,,,0,,Glarus,0
+1999,GL,svp,GL1999,0,,,0,,Glarus,0
+2003,GL,svp,GL2003,0,,,0,,Glarus,0
+2007,GL,svp,GL2007,35.099998,,,0,,Glarus,0
+2011,GL,svp,GL2011,0,,,0,,Glarus,0
+1995,GR,svp,GR1995,26.9,,,-1,,Graubünden,1
+1999,GR,svp,GR1999,27,,,0,GR99A,Graubünden,2
+2003,GR,svp,GR2003,33.762772,,,0,,Graubünden,2
+2007,GR,svp,GR2007,34.700001,,,0,,Graubünden,2
+2011,GR,svp,GR2011,24.5,,,-1,GR11B,Graubünden,1
+1995,JU,svp,JU1995,0,,,0,,Jura,0
+1999,JU,svp,JU1999,7.1999998,,,0,JU99A,Jura,0
+2003,JU,svp,JU2003,8.2613554,,,0,,Jura,0
+2007,JU,svp,JU2007,13.7,,,1,JU07A,Jura,1
+2011,JU,svp,JU2011,15.5,,,0,,Jura,0
+1995,LU,svp,LU1995,14.1,,,0,LU95B,Luzern,1
+1999,LU,svp,LU1999,22.799999,,,0,,Luzern,2
+2003,LU,svp,LU2003,22.907768,,,1,LU03D,Luzern,3
+2007,LU,svp,LU2007,27.200001,,,0,,Luzern,3
+2011,LU,svp,LU2011,25.1,,,-1,,Luzern,2
+1995,NE,svp,NE1995,0,,,0,,Neuenburg,0
+1999,NE,svp,NE1999,0,,,0,,Neuenburg,0
+2003,NE,svp,NE2003,22.472172,,,0,,Neuenburg,1
+2007,NE,svp,NE2007,23.200001,,,0,NE07A,Neuenburg,1
+2011,NE,svp,NE2011,21.4,,,0,,Neuenburg,1
+1995,NW,svp,NW1995,0,,,0,,Nidwalden,0
+1999,NW,svp,NW1999,0,,,0,,Nidwalden,0
+2003,NW,svp,NW2003,0,,,0,,Nidwalden,0
+2007,NW,svp,NW2007,0,,,0,,Nidwalden,0
+2011,NW,svp,NW2011,45.200001,,,0,,Nidwalden,1
+1995,OW,svp,OW1995,0,,,0,,Obwalden ,0
+1999,OW,svp,OW1999,0,,,0,,Obwalden ,0
+2003,OW,svp,OW2003,33.582245,,,0,,Obwalden ,0
+2007,OW,svp,OW2007,32.900002,,,0,,Obwalden ,1
+2011,OW,svp,OW2011,43.099998,,,0,,Obwalden ,0
+1995,SG,svp,SG1995,8.3999996,,,0,,St. Gallen,1
+1999,SG,svp,SG1999,27.6,,,-1,SG99C,St. Gallen,3
+2003,SG,svp,SG2003,33.0765,,,0,SG03D,St. Gallen,4
+2007,SG,svp,SG2007,35.799999,,,0,SG07B,St. Gallen,5
+2011,SG,svp,SG2011,31.5,,,-1,SG11B,St. Gallen,4
+1995,SH,svp,SH1995,20.4,,,0,SH95A,Schaffhausen,0
+1999,SH,svp,SH1999,26,,,0,SH99A,Schaffhausen,0
+2003,SH,svp,SH2003,28.51902,,,0,SH03A,Schaffhausen,0
+2007,SH,svp,SH2007,39.099998,,,0,,Schaffhausen,1
+2011,SH,svp,SH2011,39.900002,,,0,SH11C,Schaffhausen,1
+1995,SO,svp,SO1995,6.6999998,,,0,SO95B,Solothurn,0
+1999,SO,svp,SO1999,18.6,,,0,,Solothurn,1
+2003,SO,svp,SO2003,22.455708,,,0,,Solothurn,2
+2007,SO,svp,SO2007,27.1,,,0,,Solothurn,2
+2011,SO,svp,SO2011,24.299999,,,0,SO11A,Solothurn,2
+1995,SZ,svp,SZ1995,21.5,,,0,,Schwyz,1
+1999,SZ,svp,SZ1999,35.900002,,,0,,Schwyz,1
+2003,SZ,svp,SZ2003,43.648415,,,0,,Schwyz,2
+2007,SZ,svp,SZ2007,44.900002,,,0,,Schwyz,2
+2011,SZ,svp,SZ2011,36.900002,,,-1,SZ11B,Schwyz,1
+1995,TG,svp,TG1995,27,,,0,TG95A,Thurgau,2
+1999,TG,svp,TG1999,33.200001,,,0,TG99A,Thurgau,3
+2003,TG,svp,TG2003,41.038952,,,0,TG03A,Thurgau,3
+2007,TG,svp,TG2007,42.400002,,,0,TG07A,Thurgau,3
+2011,TG,svp,TG2011,38.700001,,,0,,Thurgau,3
+1995,TI,svp,TI1995,1.5,,,0,,Tessin,0
+1999,TI,svp,TI1999,5.3000002,,,0,TI99B,Tessin,0
+2003,TI,svp,TI2003,7.5877948,,,0,TI03B,Tessin,0
+2007,TI,svp,TI2007,8.6999998,,,0,,Tessin,0
+2011,TI,svp,TI2011,9.6999998,,,0,TI11A,Tessin,1
+1995,UR,svp,UR1995,0,,,0,,Uri,0
+1999,UR,svp,UR1999,0,,,0,,Uri,0
+2003,UR,svp,UR2003,31.275415,,,0,,Uri,0
+2007,UR,svp,UR2007,0,,,0,,Uri,0
+2011,UR,svp,UR2011,0,,,0,,Uri,0
+1995,VD,svp,VD1995,7.8000002,,,0,VD95A,Waadt,1
+1999,VD,svp,VD1999,10.7,,,0,VD99A,Waadt,2
+2003,VD,svp,VD2003,20.346893,,,0,VD03A,Waadt,4
+2007,VD,svp,VD2007,22.4,,,0,VD07A,Waadt,5
+2011,VD,svp,VD2011,22.9,,,-1,VD11B,Waadt,4
+1995,VS,svp,VS1995,0,,,0,,Wallis,0
+1999,VS,svp,VS1999,9,,,0,,Wallis,0
+2003,VS,svp,VS2003,13.361569,,,0,,Wallis,1
+2007,VS,svp,VS2007,16.6,,,0,,Wallis,1
+2011,VS,svp,VS2011,19.700001,,,0,,Wallis,1
+1995,ZG,svp,ZG1995,15.2,,,0,,Zug,0
+1999,ZG,svp,ZG1999,21.4,,,1,ZG99A,Zug,1
+2003,ZG,svp,ZG2003,27.704399,,,0,,Zug,1
+2007,ZG,svp,ZG2007,29.1,,,0,,Zug,1
+2011,ZG,svp,ZG2011,28.299999,,,0,,Zug,1
+1995,ZH,svp,ZH1995,25.5,,,0,ZH95D,Zürich,9
+1999,ZH,svp,ZH1999,32.5,,,0,ZH99D,Zürich,13
+2003,ZH,svp,ZH2003,33.39426,,,-1,ZH03A,Zürich,12
+2007,ZH,svp,ZH2007,33.900002,,,-1,ZH07A,Zürich,12
+2011,ZH,svp,ZH2011,29.799999,,,0,ZH11A,Zürich,11
+1995,AG,uebrige,AG1995,.30000001,,,0,,Aargau,0
+1995,AG,uebrige,AG1995,.69999999,,,0,AG95D,Aargau,0
+1995,AG,uebrige,AG1995,.1,,,0,AG95D,Aargau,0
+1995,AG,uebrige,AG1995,0,,,0,,Aargau,0
+1999,AG,uebrige,AG1999,0,,,0,,Aargau,0
+1999,AG,uebrige,AG1999,0,,,0,,Aargau,0
+1999,AG,uebrige,AG1999,0,,,0,,Aargau,0
+1999,AG,uebrige,AG1999,.1,,,0,,Aargau,0
+2003,AG,uebrige,AG2003,0,,,0,,Aargau,0
+2003,AG,uebrige,AG2003,.12074143,,,0,,Aargau,0
+2003,AG,uebrige,AG2003,.30000001,,,0,AG03D,Aargau,0
+2003,AG,uebrige,AG2003,0,,,0,,Aargau,0
+2007,AG,uebrige,AG2007,0,,,0,,Aargau,0
+2007,AG,uebrige,AG2007,4.0999999,,,0,AG07B,Aargau,0
+2007,AG,uebrige,AG2007,.60000002,,,0,,Aargau,0
+2007,AG,uebrige,AG2007,0,,,0,,Aargau,0
+2011,AG,uebrige,AG2011,.80000001,,,0,,Aargau,0
+2011,AG,uebrige,AG2011,.5,,SLB - Sozial-Liberale Bewegung,0,AG11B,Aargau,0
+1995,AI,uebrige,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1995,AI,uebrige,AI1995,14.6,,,0,,Appenzell I. Rh. ,0
+1995,AI,uebrige,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1995,AI,uebrige,AI1995,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,uebrige,AI1999,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,uebrige,AI1999,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,uebrige,AI1999,0,,,0,,Appenzell I. Rh. ,0
+1999,AI,uebrige,AI1999,.69999999,,,0,,Appenzell I. Rh. ,0
+2003,AI,uebrige,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,uebrige,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,uebrige,AI2003,0,,,0,,Appenzell I. Rh. ,0
+2003,AI,uebrige,AI2003,30.838324,,,0,,Appenzell I. Rh. ,0
+2007,AI,uebrige,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,uebrige,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2007,AI,uebrige,AI2007,15.4,,,0,,Appenzell I. Rh. ,0
+2007,AI,uebrige,AI2007,0,,,0,,Appenzell I. Rh. ,0
+2011,AI,uebrige,AI2011,3.5999999,,,0,,Appenzell I. Rh. ,0
+1995,AR,uebrige,AR1995,0,,,0,,Appenzell A. Rh.,0
+1995,AR,uebrige,AR1995,0,,,0,,Appenzell A. Rh.,0
+1995,AR,uebrige,AR1995,1.2,,,0,,Appenzell A. Rh.,0
+1995,AR,uebrige,AR1995,0,,,0,,Appenzell A. Rh.,0
+1999,AR,uebrige,AR1999,0,,,0,,Appenzell A. Rh.,0
+1999,AR,uebrige,AR1999,0,,,0,,Appenzell A. Rh.,0
+1999,AR,uebrige,AR1999,0,,,0,,Appenzell A. Rh.,0
+1999,AR,uebrige,AR1999,0,,,0,,Appenzell A. Rh.,0
+2003,AR,uebrige,AR2003,0,,,0,,Appenzell A. Rh.,0
+2003,AR,uebrige,AR2003,0,,,0,,Appenzell A. Rh.,0
+2003,AR,uebrige,AR2003,.75114679,,,0,,Appenzell A. Rh.,0
+2003,AR,uebrige,AR2003,0,,,0,,Appenzell A. Rh.,0
+2007,AR,uebrige,AR2007,0,,,0,,Appenzell A. Rh.,0
+2007,AR,uebrige,AR2007,0,,,0,,Appenzell A. Rh.,0
+2007,AR,uebrige,AR2007,0,,,0,,Appenzell A. Rh.,0
+2007,AR,uebrige,AR2007,32.299999,,,0,,Appenzell A. Rh.,0
+2011,AR,uebrige,AR2011,1,,,0,,Appenzell A. Rh.,0
+1995,BE,uebrige,BE1995,.1,,,0,,Bern,0
+1995,BE,uebrige,BE1995,1.5,,,0,BE95B,Bern,0
+1995,BE,uebrige,BE1995,.30000001,,,0,BE95E,Bern,0
+1995,BE,uebrige,BE1995,.1,,,0,BE95B,Bern,0
+1999,BE,uebrige,BE1999,1.2,,,0,BE99F,Bern,0
+1999,BE,uebrige,BE1999,.30000001,,,0,BE99B,Bern,0
+1999,BE,uebrige,BE1999,.1,,,0,,Bern,0
+1999,BE,uebrige,BE1999,0,,,0,,Bern,0
+2003,BE,uebrige,BE2003,1.9,,,0,BE03B,Bern,0
+2003,BE,uebrige,BE2003,.2378982,,,0,,Bern,0
+2003,BE,uebrige,BE2003,0,,,0,,Bern,0
+2003,BE,uebrige,BE2003,.89999998,,,0,BE03E,Bern,0
+2007,BE,uebrige,BE2007,.83961302,,,0,BE07E,Bern,0
+2007,BE,uebrige,BE2007,.15885554,,,0,,Bern,0
+2007,BE,uebrige,BE2007,.080592707,,,0,BE07E,Bern,0
+2007,BE,uebrige,BE2007,.22093873,,,0,BE07E,Bern,0
+2011,BE,uebrige,BE2011,.5,,Alternative Linke (AL),0,BE11B,Bern,0
+2011,BE,uebrige,BE2011,.69999999,,Piratenpartei (PIRATEN),0,BE11D,Bern,0
+2011,BE,uebrige,BE2011,.2,,Les Rauragues (RAU),0,BE11D,Bern,0
+2011,BE,uebrige,BE2011,.2,,Tierpartei Schweiz (TPS),0,BE11C,Bern,0
+2011,BE,uebrige,BE2011,.40000001,,Alpenparlament (ALP),0,BE11A,Bern,0
+2011,BE,uebrige,BE2011,.5,,,0,,Bern,0
+2011,BE,uebrige,BE2011,.40000001,,Jimy Hofer plus (JHp),0,BE11D,Bern,0
+2011,BE,uebrige,BE2011,.30000001,,Mitte: Die Liberalsozialen (M-LS),0,BE11C,Bern,0
+1995,BL,uebrige,BL1995,6.4000001,,,0,BL95B,Basel-Landschaft ,0
+1995,BL,uebrige,BL1995,0,,,0,,Basel-Landschaft ,0
+1995,BL,uebrige,BL1995,.69999999,,,0,,Basel-Landschaft ,0
+1995,BL,uebrige,BL1995,0,,,0,,Basel-Landschaft ,0
+1999,BL,uebrige,BL1999,0,,,0,,Basel-Landschaft ,0
+1999,BL,uebrige,BL1999,2.3,,,0,BL99B,Basel-Landschaft ,0
+1999,BL,uebrige,BL1999,.2,,,0,,Basel-Landschaft ,0
+1999,BL,uebrige,BL1999,0,,,0,,Basel-Landschaft ,0
+2003,BL,uebrige,BL2003,.79329246,,,0,,Basel-Landschaft ,0
+2003,BL,uebrige,BL2003,0,,,0,,Basel-Landschaft ,0
+2003,BL,uebrige,BL2003,0,,,0,,Basel-Landschaft ,0
+2003,BL,uebrige,BL2003,0,,,0,,Basel-Landschaft ,0
+2007,BL,uebrige,BL2007,0,,,0,,Basel-Landschaft ,0
+2007,BL,uebrige,BL2007,0,,,0,,Basel-Landschaft ,0
+2007,BL,uebrige,BL2007,0,,,0,,Basel-Landschaft ,0
+2007,BL,uebrige,BL2007,0,,,0,,Basel-Landschaft ,0
+2011,BL,uebrige,BL2011,0,,,0,,Basel-Landschaft ,0
+1995,BS,uebrige,BS1995,.69999999,,,0,,Basel-Stadt,0
+1995,BS,uebrige,BS1995,0,,,0,,Basel-Stadt,0
+1995,BS,uebrige,BS1995,0,,,0,,Basel-Stadt,0
+1995,BS,uebrige,BS1995,0,,,0,,Basel-Stadt,0
+1999,BS,uebrige,BS1999,0,,,0,,Basel-Stadt,0
+1999,BS,uebrige,BS1999,0,,,0,,Basel-Stadt,0
+1999,BS,uebrige,BS1999,.89999998,,,0,,Basel-Stadt,0
+1999,BS,uebrige,BS1999,4.5999999,,,0,BS99C,Basel-Stadt,0
+2003,BS,uebrige,BS2003,0,,,0,,Basel-Stadt,0
+2003,BS,uebrige,BS2003,1.5677615,,,0,,Basel-Stadt,0
+2003,BS,uebrige,BS2003,0,,,0,,Basel-Stadt,0
+2003,BS,uebrige,BS2003,0,,,0,,Basel-Stadt,0
+2007,BS,uebrige,BS2007,1.7,,,0,,Basel-Stadt,0
+2007,BS,uebrige,BS2007,0,,,0,,Basel-Stadt,0
+2007,BS,uebrige,BS2007,0,,,0,,Basel-Stadt,0
+2007,BS,uebrige,BS2007,0,,,0,,Basel-Stadt,0
+2011,BS,uebrige,BS2011,4.1999998,,,0,,Basel-Stadt,0
+1995,FR,uebrige,FR1995,3.2,,,0,FR95D,Freiburg,0
+1995,FR,uebrige,FR1995,0,,,0,,Freiburg,0
+1995,FR,uebrige,FR1995,6.5,,,0,,Freiburg,0
+1995,FR,uebrige,FR1995,0,,,0,,Freiburg,0
+1999,FR,uebrige,FR1999,4.5,,,0,FR99B,Freiburg,0
+1999,FR,uebrige,FR1999,1.6,,,0,FR99B,Freiburg,0
+1999,FR,uebrige,FR1999,0,,,0,,Freiburg,0
+1999,FR,uebrige,FR1999,2.5,,,0,,Freiburg,0
+2003,FR,uebrige,FR2003,2.2,,,0,FR03B,Freiburg,0
+2003,FR,uebrige,FR2003,.87343335,,,0,,Freiburg,0
+2003,FR,uebrige,FR2003,0,,,0,,Freiburg,0
+2003,FR,uebrige,FR2003,0,,,0,,Freiburg,0
+2007,FR,uebrige,FR2007,1.0623635,,,0,FR07B,Freiburg,0
+2007,FR,uebrige,FR2007,.28078768,,,0,FR07D,Freiburg,0
+2007,FR,uebrige,FR2007,0,,,0,,Freiburg,0
+2007,FR,uebrige,FR2007,.23837797,,,0,FR07D,Freiburg,0
+2011,FR,uebrige,FR2011,.60000002,,Piratenpartei Freiburg (PPFR),0,FR11B,Freiburg,0
+2011,FR,uebrige,FR2011,.69999999,,,0,,Freiburg,0
+2011,FR,uebrige,FR2011,.2,,UBB - Unabhängige Bürger Bewegung,0,FR11B,Freiburg,0
+1995,GE,uebrige,GE1995,0,,,0,,Genf,0
+1995,GE,uebrige,GE1995,0,,,0,,Genf,0
+1995,GE,uebrige,GE1995,4.1999998,,,0,,Genf,0
+1995,GE,uebrige,GE1995,0,,,0,,Genf,0
+1999,GE,uebrige,GE1999,0,,,0,,Genf,0
+1999,GE,uebrige,GE1999,0,,,0,,Genf,0
+1999,GE,uebrige,GE1999,2.3,,,0,,Genf,0
+1999,GE,uebrige,GE1999,0,,,0,,Genf,0
+2003,GE,uebrige,GE2003,1.6804651,,,0,,Genf,0
+2003,GE,uebrige,GE2003,0,,,0,,Genf,0
+2003,GE,uebrige,GE2003,0,,,0,,Genf,0
+2003,GE,uebrige,GE2003,0,,,0,,Genf,0
+2007,GE,uebrige,GE2007,2.5999999,,,0,,Genf,0
+2007,GE,uebrige,GE2007,.69999999,,,0,GE07B,Genf,0
+2007,GE,uebrige,GE2007,0,,,0,,Genf,0
+2007,GE,uebrige,GE2007,0,,,0,,Genf,0
+2011,GE,uebrige,GE2011,1.9,,,0,,Genf,0
+1995,GL,uebrige,GL1995,0,,,0,,Glarus,0
+1995,GL,uebrige,GL1995,0,,,0,,Glarus,0
+1995,GL,uebrige,GL1995,0,,,0,,Glarus,0
+1995,GL,uebrige,GL1995,16.1,,,0,,Glarus,0
+1999,GL,uebrige,GL1999,0,,,0,,Glarus,0
+1999,GL,uebrige,GL1999,14.3,,,0,,Glarus,0
+1999,GL,uebrige,GL1999,0,,,0,,Glarus,0
+1999,GL,uebrige,GL1999,0,,,0,,Glarus,0
+2003,GL,uebrige,GL2003,0,,,0,,Glarus,0
+2003,GL,uebrige,GL2003,32.881298,,,0,,Glarus,0
+2003,GL,uebrige,GL2003,0,,,0,,Glarus,0
+2003,GL,uebrige,GL2003,0,,,0,,Glarus,0
+2007,GL,uebrige,GL2007,0,,,0,,Glarus,0
+2007,GL,uebrige,GL2007,9.3999996,,,0,,Glarus,0
+2007,GL,uebrige,GL2007,0,,,0,,Glarus,0
+2007,GL,uebrige,GL2007,0,,,0,,Glarus,0
+2011,GL,uebrige,GL2011,13.7,,,0,,Glarus,0
+1995,GR,uebrige,GR1995,0,,,0,,Graubünden,0
+1995,GR,uebrige,GR1995,1.2,,,0,GR95B,Graubünden,0
+1995,GR,uebrige,GR1995,.5,,,0,,Graubünden,0
+1995,GR,uebrige,GR1995,0,,,0,,Graubünden,0
+1999,GR,uebrige,GR1999,1.4,,,0,GR99B,Graubünden,0
+1999,GR,uebrige,GR1999,1.1,,,0,GR99B,Graubünden,0
+1999,GR,uebrige,GR1999,1,,,0,,Graubünden,0
+1999,GR,uebrige,GR1999,2.3,,,0,GR99B,Graubünden,0
+2003,GR,uebrige,GR2003,0,,,0,,Graubünden,0
+2003,GR,uebrige,GR2003,0,,,0,,Graubünden,0
+2003,GR,uebrige,GR2003,0,,,0,,Graubünden,0
+2003,GR,uebrige,GR2003,0,,,0,,Graubünden,0
+2007,GR,uebrige,GR2007,0,,,0,,Graubünden,0
+2007,GR,uebrige,GR2007,.60000002,,,0,,Graubünden,0
+2007,GR,uebrige,GR2007,0,,,0,,Graubünden,0
+2007,GR,uebrige,GR2007,0,,,0,,Graubünden,0
+2011,GR,uebrige,GR2011,0,,,0,,Graubünden,0
+1995,JU,uebrige,JU1995,0,,,0,,Jura,0
+1995,JU,uebrige,JU1995,0,,,0,,Jura,0
+1995,JU,uebrige,JU1995,0,,,0,,Jura,0
+1995,JU,uebrige,JU1995,0,,,0,,Jura,0
+1999,JU,uebrige,JU1999,0,,,0,,Jura,0
+1999,JU,uebrige,JU1999,0,,,0,,Jura,0
+1999,JU,uebrige,JU1999,0,,,0,,Jura,0
+1999,JU,uebrige,JU1999,0,,,0,,Jura,0
+2003,JU,uebrige,JU2003,0,,,0,,Jura,0
+2003,JU,uebrige,JU2003,0,,,0,,Jura,0
+2003,JU,uebrige,JU2003,0,,,0,,Jura,0
+2003,JU,uebrige,JU2003,0,,,0,,Jura,0
+2007,JU,uebrige,JU2007,0,,,0,,Jura,0
+2007,JU,uebrige,JU2007,0,,,0,,Jura,0
+2007,JU,uebrige,JU2007,0,,,0,,Jura,0
+2007,JU,uebrige,JU2007,0,,,0,,Jura,0
+2011,JU,uebrige,JU2011,0,,,0,,Jura,0
+1995,LU,uebrige,LU1995,.40000001,,,0,,Luzern,0
+1995,LU,uebrige,LU1995,0,,,0,,Luzern,0
+1995,LU,uebrige,LU1995,0,,,0,,Luzern,0
+1995,LU,uebrige,LU1995,0,,,0,,Luzern,0
+1999,LU,uebrige,LU1999,0,,,0,,Luzern,0
+1999,LU,uebrige,LU1999,1.1,,,0,,Luzern,0
+1999,LU,uebrige,LU1999,0,,,0,,Luzern,0
+1999,LU,uebrige,LU1999,0,,,0,,Luzern,0
+2003,LU,uebrige,LU2003,0,,,0,,Luzern,0
+2003,LU,uebrige,LU2003,0,,,0,,Luzern,0
+2003,LU,uebrige,LU2003,1,,,0,LU03D,Luzern,0
+2003,LU,uebrige,LU2003,1.5173094,,,0,,Luzern,0
+2007,LU,uebrige,LU2007,0,,,0,,Luzern,0
+2007,LU,uebrige,LU2007,0,,,0,,Luzern,0
+2007,LU,uebrige,LU2007,.89999998,,,0,,Luzern,0
+2007,LU,uebrige,LU2007,0,,,0,,Luzern,0
+2011,LU,uebrige,LU2011,0,,DIE Landoffensive / Landoff,0,LU11A,Luzern,0
+2011,LU,uebrige,LU2011,.5,,,0,,Luzern,0
+1995,NE,uebrige,NE1995,0,,,0,,Neuenburg,0
+1995,NE,uebrige,NE1995,0,,,0,,Neuenburg,0
+1995,NE,uebrige,NE1995,0,,,0,,Neuenburg,0
+1995,NE,uebrige,NE1995,3.2,,,0,,Neuenburg,0
+1999,NE,uebrige,NE1999,0,,,0,,Neuenburg,0
+1999,NE,uebrige,NE1999,0,,,0,,Neuenburg,0
+1999,NE,uebrige,NE1999,0,,,0,,Neuenburg,0
+1999,NE,uebrige,NE1999,1,,,0,,Neuenburg,0
+2003,NE,uebrige,NE2003,0,,,0,,Neuenburg,0
+2003,NE,uebrige,NE2003,0,,,0,,Neuenburg,0
+2003,NE,uebrige,NE2003,0,,,0,,Neuenburg,0
+2003,NE,uebrige,NE2003,0,,,0,,Neuenburg,0
+2007,NE,uebrige,NE2007,0,,,0,,Neuenburg,0
+2007,NE,uebrige,NE2007,0,,,0,,Neuenburg,0
+2007,NE,uebrige,NE2007,.2,,,0,,Neuenburg,0
+2007,NE,uebrige,NE2007,1.6,,,0,NE07A,Neuenburg,0
+2011,NE,uebrige,NE2011,0,,,0,,Neuenburg,0
+1995,NW,uebrige,NW1995,0,,,0,,Nidwalden,0
+1995,NW,uebrige,NW1995,19.799999,,,0,,Nidwalden,0
+1995,NW,uebrige,NW1995,0,,,0,,Nidwalden,0
+1995,NW,uebrige,NW1995,0,,,0,,Nidwalden,0
+1999,NW,uebrige,NW1999,0,,,0,,Nidwalden,0
+1999,NW,uebrige,NW1999,1.6,,,0,,Nidwalden,0
+1999,NW,uebrige,NW1999,0,,,0,,Nidwalden,0
+1999,NW,uebrige,NW1999,0,,,0,,Nidwalden,0
+2003,NW,uebrige,NW2003,0,,,0,,Nidwalden,0
+2003,NW,uebrige,NW2003,1.2456515,,,0,,Nidwalden,0
+2003,NW,uebrige,NW2003,0,,,0,,Nidwalden,0
+2003,NW,uebrige,NW2003,0,,,0,,Nidwalden,0
+2007,NW,uebrige,NW2007,0,,,0,,Nidwalden,0
+2007,NW,uebrige,NW2007,0,,,0,,Nidwalden,0
+2007,NW,uebrige,NW2007,0,,,0,,Nidwalden,0
+2007,NW,uebrige,NW2007,0,,,0,,Nidwalden,0
+2011,NW,uebrige,NW2011,0,,,0,,Nidwalden,0
+1995,OW,uebrige,OW1995,0,,,0,,Obwalden ,0
+1995,OW,uebrige,OW1995,0,,,0,,Obwalden ,0
+1995,OW,uebrige,OW1995,0,,,0,,Obwalden ,0
+1995,OW,uebrige,OW1995,2.0999999,,,0,,Obwalden ,0
+1999,OW,uebrige,OW1999,0,,,0,,Obwalden ,0
+1999,OW,uebrige,OW1999,0,,,0,,Obwalden ,0
+1999,OW,uebrige,OW1999,0,,,0,,Obwalden ,0
+1999,OW,uebrige,OW1999,0,,,0,,Obwalden ,0
+2003,OW,uebrige,OW2003,.020742586,,,0,,Obwalden ,0
+2003,OW,uebrige,OW2003,0,,,0,,Obwalden ,0
+2003,OW,uebrige,OW2003,0,,,0,,Obwalden ,0
+2003,OW,uebrige,OW2003,0,,,0,,Obwalden ,0
+2007,OW,uebrige,OW2007,0,,,0,,Obwalden ,0
+2007,OW,uebrige,OW2007,23,,,0,,Obwalden ,0
+2007,OW,uebrige,OW2007,0,,,0,,Obwalden ,0
+2007,OW,uebrige,OW2007,0,,,0,,Obwalden ,0
+2011,OW,uebrige,OW2011,56.900002,,,0,,Obwalden ,1
+1995,SG,uebrige,SG1995,1,,,0,SG95C,St. Gallen,0
+1995,SG,uebrige,SG1995,1.9,,,0,SG95A,St. Gallen,0
+1995,SG,uebrige,SG1995,.5,,,0,,St. Gallen,0
+1995,SG,uebrige,SG1995,0,,,0,,St. Gallen,0
+1999,SG,uebrige,SG1999,.60000002,,,0,SG99C,St. Gallen,0
+1999,SG,uebrige,SG1999,.69999999,,,0,SG99B,St. Gallen,0
+1999,SG,uebrige,SG1999,.5,,,0,,St. Gallen,0
+1999,SG,uebrige,SG1999,0,,,0,,St. Gallen,0
+2003,SG,uebrige,SG2003,0,,,0,,St. Gallen,0
+2003,SG,uebrige,SG2003,0,,,0,,St. Gallen,0
+2003,SG,uebrige,SG2003,1.2609998,,,0,,St. Gallen,0
+2003,SG,uebrige,SG2003,0,,,0,,St. Gallen,0
+2007,SG,uebrige,SG2007,.028002221,,,0,SG07A,St. Gallen,0
+2007,SG,uebrige,SG2007,0,,,0,,St. Gallen,0
+2007,SG,uebrige,SG2007,.42489269,,,0,SG07C,St. Gallen,0
+2007,SG,uebrige,SG2007,.74710506,,,0,,St. Gallen,0
+2011,SG,uebrige,SG2011,0,,,0,,St. Gallen,0
+1995,SH,uebrige,SH1995,0,,,0,,Schaffhausen,0
+1995,SH,uebrige,SH1995,0,,,0,,Schaffhausen,0
+1995,SH,uebrige,SH1995,0,,,0,,Schaffhausen,0
+1995,SH,uebrige,SH1995,1.4,,,0,,Schaffhausen,0
+1999,SH,uebrige,SH1999,0,,,0,,Schaffhausen,0
+1999,SH,uebrige,SH1999,0,,,0,,Schaffhausen,0
+1999,SH,uebrige,SH1999,0,,,0,,Schaffhausen,0
+1999,SH,uebrige,SH1999,0,,,0,,Schaffhausen,0
+2003,SH,uebrige,SH2003,0,,,0,,Schaffhausen,0
+2003,SH,uebrige,SH2003,0,,,0,,Schaffhausen,0
+2003,SH,uebrige,SH2003,0,,,0,,Schaffhausen,0
+2003,SH,uebrige,SH2003,0,,,0,,Schaffhausen,0
+2007,SH,uebrige,SH2007,0,,,0,,Schaffhausen,0
+2007,SH,uebrige,SH2007,0,,,0,,Schaffhausen,0
+2007,SH,uebrige,SH2007,0,,,0,,Schaffhausen,0
+2007,SH,uebrige,SH2007,0,,,0,,Schaffhausen,0
+2011,SH,uebrige,SH2011,0,,Alternative Liste Schaffhausen,0,SH11A,Schaffhausen,0
+2011,SH,uebrige,SH2011,4.3000002,,,0,,Schaffhausen,0
+1995,SO,uebrige,SO1995,1.3,,,0,,Solothurn,0
+1995,SO,uebrige,SO1995,0,,,0,,Solothurn,0
+1995,SO,uebrige,SO1995,0,,,0,,Solothurn,0
+1995,SO,uebrige,SO1995,0,,,0,,Solothurn,0
+1999,SO,uebrige,SO1999,0,,,0,,Solothurn,0
+1999,SO,uebrige,SO1999,.69999999,,,0,SO99E,Solothurn,0
+1999,SO,uebrige,SO1999,0,,,0,,Solothurn,0
+1999,SO,uebrige,SO1999,.60000002,,,0,,Solothurn,0
+2003,SO,uebrige,SO2003,0,,,0,,Solothurn,0
+2003,SO,uebrige,SO2003,0,,,0,,Solothurn,0
+2003,SO,uebrige,SO2003,0,,,0,,Solothurn,0
+2003,SO,uebrige,SO2003,0,,,0,,Solothurn,0
+2007,SO,uebrige,SO2007,0,,,0,,Solothurn,0
+2007,SO,uebrige,SO2007,0,,,0,,Solothurn,0
+2007,SO,uebrige,SO2007,0,,,0,,Solothurn,0
+2007,SO,uebrige,SO2007,0,,,0,,Solothurn,0
+2011,SO,uebrige,SO2011,2.3,,,0,,Solothurn,0
+1995,SZ,uebrige,SZ1995,0,,,0,,Schwyz,0
+1995,SZ,uebrige,SZ1995,0,,,0,,Schwyz,0
+1995,SZ,uebrige,SZ1995,0,,,0,,Schwyz,0
+1995,SZ,uebrige,SZ1995,1.3,,,0,,Schwyz,0
+1999,SZ,uebrige,SZ1999,0,,,0,,Schwyz,0
+1999,SZ,uebrige,SZ1999,1,,,0,SZ99C,Schwyz,0
+1999,SZ,uebrige,SZ1999,.40000001,,,0,SZ99C,Schwyz,0
+1999,SZ,uebrige,SZ1999,0,,,0,,Schwyz,0
+2003,SZ,uebrige,SZ2003,0,,,0,,Schwyz,0
+2003,SZ,uebrige,SZ2003,0,,,0,,Schwyz,0
+2003,SZ,uebrige,SZ2003,0,,,0,,Schwyz,0
+2003,SZ,uebrige,SZ2003,0,,,0,,Schwyz,0
+2007,SZ,uebrige,SZ2007,0,,,0,,Schwyz,0
+2007,SZ,uebrige,SZ2007,0,,,0,,Schwyz,0
+2007,SZ,uebrige,SZ2007,0,,,0,,Schwyz,0
+2007,SZ,uebrige,SZ2007,0,,,0,,Schwyz,0
+2011,SZ,uebrige,SZ2011,1.9,,,0,,Schwyz,0
+2011,SZ,uebrige,SZ2011,.89999998,,Frischer Wind,0,SZ11A,Schwyz,0
+2011,SZ,uebrige,SZ2011,1.8,,Atomfrei - Ja zu Sonne und Holz,0,SZ11A,Schwyz,0
+2011,SZ,uebrige,SZ2011,1.1,,Aktive Senioren,0,SZ11B,Schwyz,0
+2011,SZ,uebrige,SZ2011,.80000001,,Gewerkschaftsbund,0,SZ11A,Schwyz,0
+2011,SZ,uebrige,SZ2011,1.9,,Schwyzer Unternehmer,0,SZ11C,Schwyz,0
+1995,TG,uebrige,TG1995,0,,,0,,Thurgau,0
+1995,TG,uebrige,TG1995,0,,,0,,Thurgau,0
+1995,TG,uebrige,TG1995,1.4,,,0,TG95C,Thurgau,0
+1995,TG,uebrige,TG1995,.5,,,0,,Thurgau,0
+1999,TG,uebrige,TG1999,3.0999999,,,0,TG99C,Thurgau,0
+1999,TG,uebrige,TG1999,0,,,0,,Thurgau,0
+1999,TG,uebrige,TG1999,.30000001,,,0,,Thurgau,0
+1999,TG,uebrige,TG1999,.89999998,,,0,TG99C,Thurgau,0
+2003,TG,uebrige,TG2003,0,,,0,,Thurgau,0
+2003,TG,uebrige,TG2003,0,,,0,,Thurgau,0
+2003,TG,uebrige,TG2003,0,,,0,,Thurgau,0
+2003,TG,uebrige,TG2003,.69222265,,,0,,Thurgau,0
+2007,TG,uebrige,TG2007,0,,,0,,Thurgau,0
+2007,TG,uebrige,TG2007,0,,,0,,Thurgau,0
+2007,TG,uebrige,TG2007,1.1,,,0,,Thurgau,0
+2007,TG,uebrige,TG2007,0,,,0,,Thurgau,0
+2011,TG,uebrige,TG2011,0,,,0,,Thurgau,0
+1995,TI,uebrige,TI1995,1,,,0,,Tessin,0
+1995,TI,uebrige,TI1995,0,,,0,,Tessin,0
+1995,TI,uebrige,TI1995,0,,,0,,Tessin,0
+1995,TI,uebrige,TI1995,0,,,0,,Tessin,0
+1999,TI,uebrige,TI1999,.5,,,0,TI99A,Tessin,0
+1999,TI,uebrige,TI1999,.40000001,,,0,,Tessin,0
+1999,TI,uebrige,TI1999,0,,,0,,Tessin,0
+1999,TI,uebrige,TI1999,0,,,0,,Tessin,0
+2003,TI,uebrige,TI2003,1.2980827,,,0,,Tessin,0
+2003,TI,uebrige,TI2003,0,,,0,,Tessin,0
+2003,TI,uebrige,TI2003,0,,,0,,Tessin,0
+2003,TI,uebrige,TI2003,0,,,0,,Tessin,0
+2007,TI,uebrige,TI2007,.80000001,,,0,,Tessin,0
+2007,TI,uebrige,TI2007,0,,,0,,Tessin,0
+2007,TI,uebrige,TI2007,0,,,0,,Tessin,0
+2007,TI,uebrige,TI2007,0,,,0,,Tessin,0
+2011,TI,uebrige,TI2011,3.4000001,,,0,,Tessin,0
+1995,UR,uebrige,UR1995,0,,,0,,Uri,0
+1995,UR,uebrige,UR1995,0,,,0,,Uri,0
+1995,UR,uebrige,UR1995,0,,,0,,Uri,0
+1995,UR,uebrige,UR1995,14,,,0,,Uri,0
+1999,UR,uebrige,UR1999,0,,,0,,Uri,0
+1999,UR,uebrige,UR1999,18.299999,,,0,,Uri,0
+1999,UR,uebrige,UR1999,0,,,0,,Uri,0
+1999,UR,uebrige,UR1999,0,,,0,,Uri,0
+2003,UR,uebrige,UR2003,0,,,0,,Uri,0
+2003,UR,uebrige,UR2003,0,,,0,,Uri,0
+2003,UR,uebrige,UR2003,0,,,0,,Uri,0
+2003,UR,uebrige,UR2003,1.4787431,,,0,,Uri,0
+2007,UR,uebrige,UR2007,0,,,0,,Uri,0
+2007,UR,uebrige,UR2007,0,,,0,,Uri,0
+2007,UR,uebrige,UR2007,0,,,0,,Uri,0
+2007,UR,uebrige,UR2007,12.7,,,0,,Uri,0
+2011,UR,uebrige,UR2011,4.3000002,,,0,,Uri,0
+1995,VD,uebrige,VD1995,0,,,0,,Waadt,0
+1995,VD,uebrige,VD1995,.2,,,0,VD95C,Waadt,0
+1995,VD,uebrige,VD1995,0,,,0,,Waadt,0
+1995,VD,uebrige,VD1995,2.9000001,,,0,,Waadt,0
+1999,VD,uebrige,VD1999,0,,,0,,Waadt,0
+1999,VD,uebrige,VD1999,1.7,,,0,,Waadt,0
+1999,VD,uebrige,VD1999,0,,,0,,Waadt,0
+1999,VD,uebrige,VD1999,2.5,,,0,VD99B,Waadt,0
+2003,VD,uebrige,VD2003,0,,,0,,Waadt,0
+2003,VD,uebrige,VD2003,.5063324,,,0,,Waadt,0
+2003,VD,uebrige,VD2003,0,,,0,,Waadt,0
+2003,VD,uebrige,VD2003,0,,,0,,Waadt,0
+2007,VD,uebrige,VD2007,0,,,0,,Waadt,0
+2007,VD,uebrige,VD2007,3.7,,,0,,Waadt,0
+2007,VD,uebrige,VD2007,0,,,0,,Waadt,0
+2007,VD,uebrige,VD2007,0,,,0,,Waadt,0
+2011,VD,uebrige,VD2011,1.1,,,0,,Waadt,0
+1995,VS,uebrige,VS1995,0,,,0,,Wallis,0
+1995,VS,uebrige,VS1995,0,,,0,,Wallis,0
+1995,VS,uebrige,VS1995,0,,,0,,Wallis,0
+1995,VS,uebrige,VS1995,0,,,0,,Wallis,0
+1999,VS,uebrige,VS1999,0,,,0,,Wallis,0
+1999,VS,uebrige,VS1999,0,,,0,,Wallis,0
+1999,VS,uebrige,VS1999,0,,,0,,Wallis,0
+1999,VS,uebrige,VS1999,0,,,0,,Wallis,0
+2003,VS,uebrige,VS2003,0,,,0,,Wallis,0
+2003,VS,uebrige,VS2003,0,,,0,,Wallis,0
+2003,VS,uebrige,VS2003,0,,,0,,Wallis,0
+2003,VS,uebrige,VS2003,0,,,0,,Wallis,0
+2007,VS,uebrige,VS2007,0,,,0,,Wallis,0
+2007,VS,uebrige,VS2007,.30000001,,,0,,Wallis,0
+2007,VS,uebrige,VS2007,.5,,,0,VS07C,Wallis,0
+2007,VS,uebrige,VS2007,1,,,0,VS07A,Wallis,0
+2011,VS,uebrige,VS2011,.60000002,,,0,,Wallis,0
+1995,ZG,uebrige,ZG1995,0,,,0,,Zug,0
+1995,ZG,uebrige,ZG1995,4.9000001,,,0,ZG95A,Zug,0
+1995,ZG,uebrige,ZG1995,0,,,0,,Zug,0
+1995,ZG,uebrige,ZG1995,2.9000001,,,0,,Zug,0
+1999,ZG,uebrige,ZG1999,0,,,0,,Zug,0
+1999,ZG,uebrige,ZG1999,0,,,0,,Zug,0
+1999,ZG,uebrige,ZG1999,3.3,,,0,ZG99A,Zug,0
+1999,ZG,uebrige,ZG1999,0,,,0,,Zug,0
+2003,ZG,uebrige,ZG2003,0,,,0,,Zug,0
+2003,ZG,uebrige,ZG2003,0,,,0,,Zug,0
+2003,ZG,uebrige,ZG2003,0,,,0,,Zug,0
+2003,ZG,uebrige,ZG2003,0,,,0,,Zug,0
+2007,ZG,uebrige,ZG2007,0,,,0,,Zug,0
+2007,ZG,uebrige,ZG2007,0,,,0,,Zug,0
+2007,ZG,uebrige,ZG2007,0,,,0,,Zug,0
+2007,ZG,uebrige,ZG2007,0,,,0,,Zug,0
+2011,ZG,uebrige,ZG2011,.69999999,,,0,,Zug,0
+1995,ZH,uebrige,ZH1995,.1,,,0,ZH95D,Zürich,0
+1995,ZH,uebrige,ZH1995,.30000001,,,0,ZH95B,Zürich,0
+1995,ZH,uebrige,ZH1995,.30000001,,,0,ZH95D,Zürich,0
+1995,ZH,uebrige,ZH1995,.2,,,0,,Zürich,0
+1999,ZH,uebrige,ZH1999,2.2,,,0,ZH99D,Zürich,0
+1999,ZH,uebrige,ZH1999,.2,,,0,ZH99F,Zürich,0
+1999,ZH,uebrige,ZH1999,.2,,,0,ZH99B,Zürich,0
+1999,ZH,uebrige,ZH1999,.30000001,,,0,,Zürich,0
+1999,ZH,uebrige,ZH1999,.30000001,,,0,ZH99A,Zürich,0
+2003,ZH,uebrige,ZH2003,.2,,,0,ZH03D,Zürich,0
+2003,ZH,uebrige,ZH2003,0,,,0,,Zürich,0
+2003,ZH,uebrige,ZH2003,1,,,0,ZH03B,Zürich,0
+2003,ZH,uebrige,ZH2003,1.4,,,0,ZH03C,Zürich,0
+2007,ZH,uebrige,ZH2007,.30000001,,,0,,Zürich,0
+2007,ZH,uebrige,ZH2007,0,,,0,,Zürich,0
+2007,ZH,uebrige,ZH2007,0,,,0,,Zürich,0
+2007,ZH,uebrige,ZH2007,0,,,0,,Zürich,0
+2011,ZH,uebrige,ZH2011,1,,Linke Alternative AL - Alternative Liste,0,ZH11D,Zürich,0
+2011,ZH,uebrige,ZH2011,.5,,,0,,Zürich,0
+2011,ZH,uebrige,ZH2011,.30000001,,Konfessionslose.ch - Liste für die Trennung von Staat und Kirche,0,ZH11D,Zürich,0
+2011,ZH,uebrige,ZH2011,.40000001,,Tierpartei Schweiz (TPS),0,ZH11C,Zürich,0
+2011,ZH,uebrige,ZH2011,.89999998,,Piratenpartei,0,ZH11D,Zürich,0
