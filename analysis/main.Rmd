@@ -57,7 +57,7 @@ Contains party classifications made by SRF Data with the help of political scien
 |  Legend_*  |  String |  Abbreviation, but with slightly more information, used for frontend purposes  |
 |  Name_*  |  String |  Full name  |
 |  Sortorder  |  Integer | Used for frontend purposes solely |
-|  OLD_ID  |  String | "Official" ID as given in `input/parteienstaerke_mod_2.xlsx` (sheet "Parteien"), used for combining party strengths for party groupings  |
+|  OLD_ID  |  String | "Official" ID as given in https://github.com/srfdata/2015-06-elections-partystrengths/blob/master/analysis/input/parteienstaerke_mod_2.xlsx (sheet "Parteien"), used for combining party strengths for party groupings  |
 
 #### `output/lv_2011.csv`
 
