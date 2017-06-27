@@ -3,8 +3,17 @@ title: 'Federal Elections 2015: List Apparentments'
 subtitle: 'Preprocessing and analysis'
 author: "SRF Data, Timo Grossenbacher (timo.grossenbacher@srf.ch)" 
 date: "05/21/2015"
-output: html_document
+output:
+  html_document:
+    code_folding: show
+    fig_height: 10
+    theme: simplex
+    toc: yes
+    toc_float: 
+      collapsed: false
+      smooth_scroll: false
 ---
+
 
 ## Notes
 
@@ -15,6 +24,8 @@ SRF Data attaches great importance to transparent and reproducible data preproce
 ### R-Script & processed data
 
 The preprocessing and analysis of the data was conducted in the [R project for statistical computing](https://www.r-project.org/). The RMarkdown script used to generate this document and all the resulting data can be downloaded [under this link](http://srfdata.github.io/2015-06-elections-list-apparentments/rscript.zip). Through executing `main.Rmd`, the herein described process can be reproduced and this document can be generated. In the course of this, data from the folder `ìnput` will be processed and results will be written to `output`. 
+
+**Attention**: Please set your working directory in the first code chunk!
 
 ### GitHub
 
@@ -51,7 +62,7 @@ The following sections describe the results of the data preprocessing as stored 
 Contains party classifications made by SRF Data with the help of political scientists, used throughout all projects related to elections.
 
 | Attribute | Type | Description | 
-|-------|------|---------|
+|-------|------|---------------------------------------------------------------------|
 | ID | Integer  | Unique identifier  |
 |  Abbr_*  |  String |  Abbreviation in German (D), French (F), English (E), Romansh (R), Italian (I), respectively  |
 |  Legend_*  |  String |  Abbreviation, but with slightly more information, used for frontend purposes  |
@@ -64,7 +75,7 @@ Contains party classifications made by SRF Data with the help of political scien
 Contains effects of list apparentments on the cantonal level, 2011, as derived from `input/lv9511n.csv`, with the help of `input/stimmen_der_wahllisten_nach_parteien_und_kantonen_clean.xls`. 
 
 | Attribute | Type | Description | 
-|-------|------|---------|
+|-------|------|---------------------------------------------------------------------|
 | year | Integer  | Election year   |
 |  canton |  String |   Official cantonal abbreviation  |
 |    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
@@ -80,7 +91,7 @@ Contains effects of list apparentments on the cantonal level, 2011, as derived f
 Contains effects of list apparentments on the national level, 2011, as derived from `input/nrwresultate_sim9511.xls`.
 
 | Attribute | Type | Description | 
-|-------|------|---------|
+|-------|------|---------------------------------------------------------------------|
 | year | Integer  | Election year   |
 |    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
 |    party_id  |    Integer |  Party or party grouping, referencing ID in `output/parties.csv`  |
@@ -94,7 +105,7 @@ Contains effects of list apparentments on the national level, 2011, as derived f
 Contains effects of list apparentments on the cantonal level, 1995 - 2007, as derived from `input/lv9511n.csv`.
 
 | Attribute | Type | Description | 
-|-------|------|---------|
+|-------|------|---------------------------------------------------------------------|
 | year | Integer  | Election year   |
 |  canton |  String |   Official cantonal abbreviation  |
 |    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
@@ -110,7 +121,7 @@ Contains effects of list apparentments on the national level, 1995 - 2007, as de
 
 
 | Attribute | Type | Description | 
-|-------|------|---------|
+|-------|------|---------------------------------------------------------------------|
 | year | Integer  | Election year   |
 |    party  |    String | Contains the party name, but only if it belongs to a group in `output/parties.csv` (e.g. `id == 8`)  |
 |    party_id  |    Integer |  Party or party grouping, referencing ID in `output/parties.csv`  |
@@ -122,39 +133,90 @@ Contains effects of list apparentments on the national level, 1995 - 2007, as de
 
 ## Preparations
 
-### Install packages
 
 ```{r, echo=FALSE}
-if(!require(readxl)) {
-  devtools::install_github("hadley/readxl")
-  require(readxl)
+detachAllPackages <- function() {
+  basic.packages.blank <-  c("stats", "graphics", "grDevices", "utils", "datasets", "methods", "base")
+  basic.packages <- paste("package:", basic.packages.blank, sep = "")
+  
+  package.list <- search()[ifelse(unlist(gregexpr("package:", search())) == 1, TRUE, FALSE)]
+  
+  package.list <- setdiff(package.list, basic.packages)
+  
+  if (length(package.list) > 0)  for (package in package.list) {
+    detach(package, character.only = TRUE, unload = TRUE)
+    print(paste("package ", package, " detached", sep = ""))
+  }
+  
+  #   # unload namespace
+  #   lapply(rev(setdiff(loadedNamespaces(), basic.packages.blank)), function(pkg){
+  #     unloadNamespace(pkg)
+  #     print(paste("namespace ", package, " unloaded", sep = ""))
+  #   })
 }
 
-if(!require(dplyr)) {
-  install.packages("dplyr", repos="http://cran.us.r-project.org")
-  require(dplyr)
-}
-if(!require(tidyr)) {
-  install.packages("tidyr", repos="http://cran.us.r-project.org")
-  require(tidyr)
-}
-if(!require(ggplot2)) {
-  install.packages("ggplot2", repos="http://cran.us.r-project.org")
-  require(ggplot2)
-}
-if(!require(magrittr)) {
-  install.packages("magrittr", repos="http://cran.us.r-project.org")
-  require(magrittr)
+detachAllPackages()
+
+rm(list=ls(all=TRUE)) 
+
+# Adapt working directory! 
+path_to_wd <- switch(EXPR = system2("whoami", stdout = TRUE),
+                     "johndoe" = "~",
+                     NULL)
+if ( is.null(path_to_wd) )
+{
+  print("WARNING: No working directory specified for current user")
+} else
+{
+  setwd(path_to_wd)
 }
 ```
 
+### Define packages
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+# von https://mran.revolutionanalytics.com/web/packages/checkpoint/vignettes/using-checkpoint-with-knitr.html
+cat("library(magrittr)
+library(tidyr)
+library(dplyr)
+library(readxl)
+library(ggplot2)", 
+file = "manifest.R")
+package_date <- "2015-08-27"
+
+```
+
+### Install packages
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+if(!require(checkpoint)) {
+  if(!require(devtools)){
+    install.packages("devtools", repos = "http://cran.us.r-project.org")
+    require(devtools)
+  }
+  devtools::install_github("checkpoint", username = "RevolutionAnalytics", ref = "v0.3.2", repos = "http://cran.us.r-project.org")
+  require(checkpoint)
+}
+if(!dir.exists("~/.checkpoint")){
+  dir.create("~/.checkpoint")
+}
+checkpoint(snapshotDate = package_date, project = path_to_wd, verbose = T, scanForPackages = T, use.knitr = F)
+rm(package_date)
+```
+
+### Load packages
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+source("manifest.R")
+unlink("manifest.R")
+```
 ## Preprocessing
 
 ### Basic data loading
 
 *The following comments are unfortunately in German*
 
-```{r}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 1 Listenverbindungen in den Nationalratswahlen in den Jahren 1995-2011, nach Kantonen und Parteien
 
 listenverbindungen_kantonal <- read.csv2(file = "input/lv9511n.csv", sep = ",", stringsAsFactors = F)
@@ -189,7 +251,7 @@ rundungsfehler <- listenverbindungen_kantonal %>%
 
 ### Copy party data to output
 
-```{r}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 parties <- read.csv("input/parties.csv") # same here
 write.csv(parties, file = "output/parties.csv", row.names = F, na = "")
 ```
@@ -197,7 +259,7 @@ write.csv(parties, file = "output/parties.csv", row.names = F, na = "")
 
 ### 2011: Cantonal
 
-```{r}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 # neuer Approach: Daten aus BFS-Listen-Datensatz
 # Datensatz einlesen
@@ -438,7 +500,7 @@ write.csv(listenverbindungen_bfs_final, file = "output/lv_2011.csv", na = "", ro
 
 ### 2011: National
 
-```{r}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # Wie viele Sitze gehen an die CSP? 
 listenverbindungen_national %>% 
     filter(party == "CSP")
@@ -531,7 +593,7 @@ write.csv(listenverbindungen2011_national,file = "output/lv_2011_national.csv", 
 
 ### Historical: National
 
-```{r}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # Plausibilitätscheck
 listenverbindungen_national %>% 
   group_by(year) %>% 
@@ -621,7 +683,7 @@ write.csv(lv_historisch,file = "output/lv_historical_national.csv", na = "", row
 
 ### Historical: Cantonal
 
-```{r}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 lv_historisch <- listenverbindungen_kantonal %>% 
   filter(year < 2011)
